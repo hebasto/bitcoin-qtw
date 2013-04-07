@@ -1,16 +1,16 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="sk" version="2.0">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ca" version="2.0">
 <defaultcodec>UTF-8</defaultcodec>
 <context>
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About Bitcoin</source>
-        <translation>O Bitcoin</translation>
+        <translation>A prop de Bitcoin</translation>
     </message>
     <message>
         <location line="+39"/>
         <source>&lt;b&gt;Bitcoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Bitcoin&lt;/b&gt; verzia</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+57"/>
@@ -38,52 +38,52 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
         <source>Address Book</source>
-        <translation>Adresár</translation>
+        <translation>Llibreta d&apos;adreçes</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>Double-click to edit address or label</source>
-        <translation>Dvojklikom editovať adresu alebo popis</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+27"/>
         <source>Create a new address</source>
-        <translation>Vytvoriť novú adresu</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+14"/>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Kopírovať práve zvolenú adresu do systémového klipbordu</translation>
+        <translation>Copia la selecció actual al porta-retalls del sistema</translation>
     </message>
     <message>
         <location line="-11"/>
         <source>&amp;New Address</source>
-        <translation>&amp;Nová adresa</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-46"/>
         <source>These are your Bitcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Toto sú Vaše Bitcoin adresy pre prijímanie platieb. Môžete dať každému odosielateľovi inú rôznu adresu a tak udržiavať prehľad o platbách.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+60"/>
         <source>&amp;Copy Address</source>
-        <translation>&amp;Kopírovať adresu</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+11"/>
         <source>Show &amp;QR Code</source>
-        <translation>Zobraz &amp;QR Kód</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+11"/>
         <source>Sign a message to prove you own a Bitcoin address</source>
-        <translation>Podpísať správu a dokázať že vlastníte túto adresu</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
         <source>Sign &amp;Message</source>
-        <translation>Podpísať &amp;správu</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+25"/>
@@ -103,17 +103,17 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+14"/>
         <source>&amp;Delete</source>
-        <translation>&amp;Zmazať</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+66"/>
         <source>Copy &amp;Label</source>
-        <translation>Kopírovať &amp;popis</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>&amp;Edit</source>
-        <translation>&amp;Upraviť</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
@@ -123,22 +123,22 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+263"/>
         <source>Export Address Book Data</source>
-        <translation>Exportovať dáta z adresára</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
-        <translation>Čiarkou oddelený súbor (*.csv)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+13"/>
         <source>Error exporting</source>
-        <translation>Chyba exportu.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+0"/>
         <source>Could not write to file %1.</source>
-        <translation>Nedalo sa zapisovať do súboru %1.</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -146,17 +146,17 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../addresstablemodel.cpp" line="+144"/>
         <source>Label</source>
-        <translation>Popis</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+0"/>
         <source>Address</source>
-        <translation>Adresa</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+36"/>
         <source>(no label)</source>
-        <translation>(bez popisu)</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -169,72 +169,72 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+21"/>
         <source>Enter passphrase</source>
-        <translation>Zadajte heslo</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+14"/>
         <source>New passphrase</source>
-        <translation>Nové heslo</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+14"/>
         <source>Repeat new passphrase</source>
-        <translation>Zopakujte nové heslo</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="+33"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Zadajte nové heslo k peňaženke.&lt;br/&gt;Prosím použite heslo s dĺžkou aspon &lt;b&gt;10 alebo viac náhodných znakov&lt;/b&gt;, alebo &lt;b&gt;8 alebo viac slov&lt;/b&gt;.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Encrypt wallet</source>
-        <translation>Zašifrovať peňaženku</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Táto operácia potrebuje heslo k vašej peňaženke aby ju mohla dešifrovať.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+5"/>
         <source>Unlock wallet</source>
-        <translation>Odomknúť peňaženku</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Táto operácia potrebuje heslo k vašej peňaženke na dešifrovanie peňaženky.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+5"/>
         <source>Decrypt wallet</source>
-        <translation>Dešifrovať peňaženku</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
         <source>Change passphrase</source>
-        <translation>Zmena hesla</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>Zadajte staré a nové heslo k peňaženke.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+46"/>
         <source>Confirm wallet encryption</source>
-        <translation>Potvrďte šifrovanie peňaženky</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Varovanie: Ak zašifrujete peňaženku a stratíte heslo, &lt;b&gt;STRATÍTE VŠETKY VAŠE BITCOINY&lt;/b&gt;!⏎</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+0"/>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Ste si istí, že si želáte zašifrovať peňaženku?</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+15"/>
@@ -245,18 +245,18 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+100"/>
         <location line="+24"/>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>Varovanie: Caps Lock je zapnutý</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-130"/>
         <location line="+58"/>
         <source>Wallet encrypted</source>
-        <translation>Peňaženka zašifrovaná</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-56"/>
         <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin sa teraz ukončí pre dokončenie procesu šifrovania. Pamätaj že šifrovanie peňaženky Ťa nemôže úplne ochrániť pred kráďežou bitcoinov pomocou škodlivého software.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+13"/>
@@ -264,40 +264,40 @@ This product includes software developed by the OpenSSL Project for use in the O
         <location line="+42"/>
         <location line="+6"/>
         <source>Wallet encryption failed</source>
-        <translation>Šifrovanie peňaženky zlyhalo</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-54"/>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Šifrovanie peňaženky zlyhalo kôli internej chybe. Vaša peňaženka nebola zašifrovaná.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+7"/>
         <location line="+48"/>
         <source>The supplied passphrases do not match.</source>
-        <translation>Zadané heslá nesúhlasia.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-37"/>
         <source>Wallet unlock failed</source>
-        <translation>Odomykanie peňaženky zlyhalo</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <location line="+11"/>
         <location line="+19"/>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>Zadané heslo pre dešifrovanie peňaženky bolo nesprávne.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-20"/>
         <source>Wallet decryption failed</source>
-        <translation>Zlyhalo šifrovanie peňaženky.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+14"/>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>Heslo k peňaženke bolo úspešne zmenené.</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -305,87 +305,87 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="../bitcoingui.cpp" line="+231"/>
         <source>Sign &amp;message...</source>
-        <translation>Podpísať &amp;správu...</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+299"/>
         <source>Synchronizing with network...</source>
-        <translation>Synchronizácia so sieťou...</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-367"/>
         <source>&amp;Overview</source>
-        <translation>&amp;Prehľad</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Show general overview of wallet</source>
-        <translation>Zobraziť celkový prehľad o peňaženke</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+20"/>
         <source>&amp;Transactions</source>
-        <translation>&amp;Transakcie</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Browse transaction history</source>
-        <translation>Prechádzať históriu transakcií</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+7"/>
         <source>Edit the list of stored addresses and labels</source>
-        <translation>Editovať zoznam uložených adries a popisov</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-14"/>
         <source>Show the list of addresses for receiving payments</source>
-        <translation>Zobraziť zoznam adries pre prijímanie platieb.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+31"/>
         <source>E&amp;xit</source>
-        <translation>U&amp;končiť</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Quit application</source>
-        <translation>Ukončiť program</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+4"/>
         <source>Show information about Bitcoin</source>
-        <translation>Zobraziť informácie o Bitcoin</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
         <source>About &amp;Qt</source>
-        <translation>O &amp;Qt</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Show information about Qt</source>
-        <translation>Zobrazit informácie o Qt</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
         <source>&amp;Options...</source>
-        <translation>&amp;Možnosti...</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+5"/>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Zašifrovať Peňaženku...</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Backup peňaženku...</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Zmena Hesla...</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+304"/>
@@ -400,32 +400,32 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-300"/>
         <source>&amp;Export...</source>
-        <translation>&amp;Export...</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-65"/>
         <source>Send coins to a Bitcoin address</source>
-        <translation>Poslať bitcoins na adresu</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+49"/>
         <source>Modify configuration options for Bitcoin</source>
-        <translation>Upraviť možnosti nastavenia pre bitcoin</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+17"/>
         <source>Export the data in the current tab to a file</source>
-        <translation>Exportovať tento náhľad do súboru</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-9"/>
         <source>Backup wallet to another location</source>
-        <translation>Zálohovať peňaženku na iné miesto</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Zmeniť heslo použité na šifrovanie peňaženky</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+9"/>
@@ -451,7 +451,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-540"/>
         <source>Wallet</source>
-        <translation>Peňaženka</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+99"/>
@@ -471,7 +471,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+22"/>
         <source>&amp;About Bitcoin</source>
-        <translation>&amp;O Bitcoin</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+9"/>
@@ -501,33 +501,33 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+31"/>
         <source>&amp;File</source>
-        <translation>&amp;Súbor</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+8"/>
         <source>&amp;Settings</source>
-        <translation>&amp;Nastavenia</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Help</source>
-        <translation>&amp;Pomoc</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+9"/>
         <source>Tabs toolbar</source>
-        <translation>Lišta záložiek</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+8"/>
         <source>Actions toolbar</source>
-        <translation>Lišta aktvivít</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+13"/>
         <location line="+10"/>
         <source>[testnet]</source>
-        <translation>[testovacia sieť]</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+47"/>
@@ -537,7 +537,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message numerus="yes">
         <location line="+140"/>
         <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n aktívne spojenie v Bitcoin sieti</numerusform><numerusform>%n aktívne spojenia v Bitcoin sieti</numerusform><numerusform>%n aktívnych spojení v Bitconi sieti</numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
         <location line="+39"/>
@@ -552,17 +552,17 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message numerus="yes">
         <location line="+20"/>
         <source>%n hour(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message numerus="yes">
         <location line="+4"/>
         <source>%n day(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message numerus="yes">
         <location line="+4"/>
         <source>%n week(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
         <location line="+5"/>
@@ -602,12 +602,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-138"/>
         <source>Up to date</source>
-        <translation>Aktualizovaný</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+32"/>
         <source>Catching up...</source>
-        <translation>Sťahujem...</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+110"/>
@@ -617,12 +617,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+8"/>
         <source>Sent transaction</source>
-        <translation>Odoslané transakcie</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+0"/>
         <source>Incoming transaction</source>
-        <translation>Prijaté transakcie</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
@@ -631,10 +631,7 @@ Amount: %2
 Type: %3
 Address: %4
 </source>
-        <translation>Dátum: %1
-Suma: %2
-Typ: %3
-Adresa: %4</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+33"/>
@@ -651,12 +648,12 @@ Adresa: %4</translation>
     <message>
         <location line="+17"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Peňaženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálne &lt;b&gt;odomknutá&lt;/b&gt;</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+8"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Peňaženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálne &lt;b&gt;zamknutá&lt;/b&gt;</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+108"/>
@@ -677,67 +674,67 @@ Adresa: %4</translation>
     <message>
         <location filename="../forms/editaddressdialog.ui" line="+14"/>
         <source>Edit Address</source>
-        <translation>Upraviť adresu</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+11"/>
         <source>&amp;Label</source>
-        <translation>&amp;Popis</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+10"/>
         <source>The label associated with this address book entry</source>
-        <translation>Popis priradený k tomuto záznamu v adresári</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+7"/>
         <source>&amp;Address</source>
-        <translation>&amp;Adresa</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+10"/>
         <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation>Adresa spojená s týmto záznamom v adresári. Možno upravovať len pre odosielajúce adresy.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="+21"/>
         <source>New receiving address</source>
-        <translation>Nová adresa pre prijímanie</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+4"/>
         <source>New sending address</source>
-        <translation>Nová adresa pre odoslanie</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
         <source>Edit receiving address</source>
-        <translation>Upraviť prijímacie adresy</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+4"/>
         <source>Edit sending address</source>
-        <translation>Upraviť odosielaciu adresu</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+76"/>
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
-        <translation>Vložená adresa &quot;%1&quot; sa už nachádza v adresári.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation>Vložená adresa &quot;%1&quot; nieje platnou adresou bitcoin.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+10"/>
         <source>Could not unlock wallet.</source>
-        <translation>Nepodarilo sa odomknúť peňaženku.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+5"/>
         <source>New key generation failed.</source>
-        <translation>Generovanie nového kľúča zlyhalo.</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -751,12 +748,12 @@ Adresa: %4</translation>
     <message>
         <location line="-12"/>
         <source>version</source>
-        <translation>verzia</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
         <source>Usage:</source>
-        <translation>Použitie:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
@@ -766,7 +763,7 @@ Adresa: %4</translation>
     <message>
         <location line="+4"/>
         <source>UI options</source>
-        <translation>UI možnosti</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
@@ -776,7 +773,7 @@ Adresa: %4</translation>
     <message>
         <location line="+1"/>
         <source>Start minimized</source>
-        <translation>Spustiť minimalizované</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
@@ -789,32 +786,32 @@ Adresa: %4</translation>
     <message>
         <location filename="../forms/optionsdialog.ui" line="+14"/>
         <source>Options</source>
-        <translation>Možnosti</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+16"/>
         <source>&amp;Main</source>
-        <translation>&amp;Hlavné</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+6"/>
         <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.01 recommended.</source>
-        <translation>Voliteľný transakčný poplatok za kB ktorý pomôže rýchlemu spracovaniu transakcie. Väčšina transakcií má 1 kB. Poplatok 0.01 je odporúčaný.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+15"/>
         <source>Pay transaction &amp;fee</source>
-        <translation>Zaplatiť transakčné &amp;poplatky</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+31"/>
         <source>Automatically start Bitcoin after logging in to the system.</source>
-        <translation>Automaticky spustiť Bitcoin po zapnutí počítača</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Start Bitcoin on system login</source>
-        <translation>&amp;Spustiť Bitcoin pri spustení systému správy okien</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+35"/>
@@ -834,22 +831,22 @@ Adresa: %4</translation>
     <message>
         <location line="+6"/>
         <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otvorit port pre Bitcoin na routeri. Toto funguje len ak router podporuje UPnP a je táto podpora aktivovaná.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
         <source>Map port using &amp;UPnP</source>
-        <translation>Mapovať port pomocou &amp;UPnP</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+7"/>
         <source>Connect to the Bitcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Pripojiť do siete Bitcoin cez SOCKS proxy (napr. keď sa pripájate cez Tor)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Connect through SOCKS proxy:</source>
-        <translation>&amp;Pripojiť cez SOCKS proxy:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+9"/>
@@ -859,7 +856,7 @@ Adresa: %4</translation>
     <message>
         <location line="+19"/>
         <source>IP address of the proxy (e.g. 127.0.0.1)</source>
-        <translation>IP addresa proxy (napr. 127.0.0.1)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+7"/>
@@ -869,7 +866,7 @@ Adresa: %4</translation>
     <message>
         <location line="+19"/>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation>Port proxy (napr. 9050)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+7"/>
@@ -889,27 +886,27 @@ Adresa: %4</translation>
     <message>
         <location line="+6"/>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>Zobraziť len ikonu na lište po minimalizovaní okna.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>Zobraziť len ikonu na lište po minimalizovaní okna.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+7"/>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Minimalizovat namiesto ukončenia aplikácie keď sa okno zavrie. Keď je zvolená táto možnosť, aplikácia sa zavrie len po zvolení Ukončiť v menu.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
         <source>M&amp;inimize on close</source>
-        <translation>M&amp;inimalizovať pri zavretí</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+21"/>
         <source>&amp;Display</source>
-        <translation>&amp;Displej</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+8"/>
@@ -924,7 +921,7 @@ Adresa: %4</translation>
     <message>
         <location line="+11"/>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>&amp;Zobrazovať hodnoty v jednotkách:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+13"/>
@@ -939,7 +936,7 @@ Adresa: %4</translation>
     <message>
         <location line="+3"/>
         <source>&amp;Display addresses in transaction list</source>
-        <translation>&amp;Zobraziť adresy zo zoznamu transakcií</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+71"/>
@@ -980,7 +977,7 @@ Adresa: %4</translation>
         <location line="+42"/>
         <location line="+9"/>
         <source>Warning</source>
-        <translation>Varovanie</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-9"/>
@@ -999,7 +996,7 @@ Adresa: %4</translation>
     <message>
         <location filename="../forms/overviewpage.ui" line="+14"/>
         <source>Form</source>
-        <translation>Forma</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+50"/>
@@ -1010,17 +1007,17 @@ Adresa: %4</translation>
     <message>
         <location line="-124"/>
         <source>Balance:</source>
-        <translation>Zostatok:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+29"/>
         <source>Unconfirmed:</source>
-        <translation>Nepotvrdené:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-78"/>
         <source>Wallet</source>
-        <translation>Peňaženka</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+107"/>
@@ -1035,17 +1032,17 @@ Adresa: %4</translation>
     <message>
         <location line="+46"/>
         <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Nedávne transakcie&lt;/b&gt;</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-101"/>
         <source>Your current balance</source>
-        <translation>Váš súčasný zostatok</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+29"/>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation>Suma transakcií ktoré ešte neboli potvrdené a nezapočítavaju sa do celkového zostatku.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../overviewpage.cpp" line="+115"/>
@@ -1072,27 +1069,27 @@ Adresa: %4</translation>
     <message>
         <location line="+59"/>
         <source>Request Payment</source>
-        <translation>Vyžiadať platbu</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+56"/>
         <source>Amount:</source>
-        <translation>Suma:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-44"/>
         <source>Label:</source>
-        <translation>Popis:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+19"/>
         <source>Message:</source>
-        <translation>Správa:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+71"/>
         <source>&amp;Save As...</source>
-        <translation>&amp;Uložiť ako...</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../qrcodedialog.cpp" line="+62"/>
@@ -1279,92 +1276,92 @@ Adresa: %4</translation>
         <location line="+5"/>
         <location line="+5"/>
         <source>Send Coins</source>
-        <translation>Poslať Bitcoins</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+50"/>
         <source>Send to multiple recipients at once</source>
-        <translation>Poslať viacerým príjemcom naraz</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
         <source>Add &amp;Recipient</source>
-        <translation>&amp;Pridať príjemcu</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+20"/>
         <source>Remove all transaction fields</source>
-        <translation>Odobrať všetky políčka transakcie</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
         <source>Clear &amp;All</source>
-        <translation>Zmazať &amp;všetko</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+22"/>
         <source>Balance:</source>
-        <translation>Zostatok:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+10"/>
         <source>123.456 BTC</source>
-        <translation>123.456 BTC</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+31"/>
         <source>Confirm the send action</source>
-        <translation>Potvrďte odoslanie</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
         <source>S&amp;end</source>
-        <translation>&amp;Odoslať</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-59"/>
         <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
-        <translation>&lt;b&gt;%1&lt;/b&gt; do %2 (%3)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+5"/>
         <source>Confirm send coins</source>
-        <translation>Potvrdiť odoslanie bitcoins</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Are you sure you want to send %1?</source>
-        <translation>Ste si istí, že chcete odoslať %1?</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+0"/>
         <source> and </source>
-        <translation> a</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+23"/>
         <source>The recipient address is not valid, please recheck.</source>
-        <translation>Adresa príjemcu je neplatná, prosím, overte ju.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+5"/>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>Suma na úhradu musí byť väčšia ako 0.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+5"/>
         <source>The amount exceeds your balance.</source>
-        <translation>Suma je vyššia ako Váš zostatok.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+5"/>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>Suma celkom prevyšuje Váš zostatok ak sú započítané %1 transakčné poplatky.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+6"/>
         <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation>Duplikát adresy objavený, je možné poslať na každú adresu len raz v jednej odchádzajúcej transakcii.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+5"/>
@@ -1374,7 +1371,7 @@ Adresa: %4</translation>
     <message>
         <location line="+5"/>
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Chyba: Transakcia bola odmietnutá. Toto sa môže stať ak niektoré z mincí vo vašej peňaženke boli už utratené, napríklad ak používaš kópiu wallet.dat a mince označené v druhej kópií neboli označené ako utratené v tejto.</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -1382,17 +1379,17 @@ Adresa: %4</translation>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="+14"/>
         <source>Form</source>
-        <translation>Forma</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+15"/>
         <source>A&amp;mount:</source>
-        <translation>Su&amp;ma:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+13"/>
         <source>Pay &amp;To:</source>
-        <translation>Zapla&amp;tiť:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+34"/>
@@ -1403,42 +1400,42 @@ Adresa: %4</translation>
         <location line="+60"/>
         <location filename="../sendcoinsentry.cpp" line="+26"/>
         <source>Enter a label for this address to add it to your address book</source>
-        <translation>Vložte popis pre túto adresu aby sa pridala do adresára</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-78"/>
         <source>&amp;Label:</source>
-        <translation>&amp;Popis:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+28"/>
         <source>Choose address from address book</source>
-        <translation>Zvoľte adresu z adresára</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+10"/>
         <source>Alt+A</source>
-        <translation>Alt+A</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+7"/>
         <source>Paste address from clipboard</source>
-        <translation>Vložiť adresu z klipbordu</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+10"/>
         <source>Alt+P</source>
-        <translation>Alt+P</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+7"/>
         <source>Remove this recipient</source>
-        <translation>Odstrániť tohto príjemcu</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
         <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Zadajte Bitcoin adresu (napr. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -1451,44 +1448,44 @@ Adresa: %4</translation>
     <message>
         <location line="+13"/>
         <source>&amp;Sign Message</source>
-        <translation>&amp;Podpísať Správu</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+6"/>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Môžete podpísať správy svojou adresou a dokázať, že ju vlastníte. Buďte opatrní a podpíšte len prehlásenia s ktorými plne súhlasíte, nakoľko útoky typu &quot;phishing&quot; Vás môžu lákať k ich podpísaniu.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+18"/>
         <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Zadajte Bitcoin adresu (napr. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+10"/>
         <location line="+213"/>
         <source>Choose an address from the address book</source>
-        <translation>Zvoľte adresu z adresára</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-203"/>
         <location line="+213"/>
         <source>Alt+A</source>
-        <translation>Alt+A</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-203"/>
         <source>Paste address from clipboard</source>
-        <translation>Vložte adresu z klipbordu</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+10"/>
         <source>Alt+P</source>
-        <translation>Alt+P</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+12"/>
         <source>Enter the message you want to sign here</source>
-        <translation>Sem vložte správu ktorú chcete podpísať</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+7"/>
@@ -1503,7 +1500,7 @@ Adresa: %4</translation>
     <message>
         <location line="+21"/>
         <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Podpíšte správu aby ste dokázali že vlastníte túto adresu</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
@@ -1519,7 +1516,7 @@ Adresa: %4</translation>
         <location line="+3"/>
         <location line="+146"/>
         <source>Clear &amp;All</source>
-        <translation>Zmazať &amp;všetko</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-87"/>
@@ -1534,7 +1531,7 @@ Adresa: %4</translation>
     <message>
         <location line="+21"/>
         <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Zadajte Bitcoin adresu (napr. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+40"/>
@@ -1555,12 +1552,12 @@ Adresa: %4</translation>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
         <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Zadajte Bitcoin adresu (napr. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-2"/>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
-        <translation>Kliknite &quot;Podpísať Správu&quot; na získanie podpisu</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
@@ -1639,7 +1636,7 @@ Adresa: %4</translation>
     <message>
         <location filename="../transactiondesc.cpp" line="+20"/>
         <source>Open until %1</source>
-        <translation>Otvorené do %1</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+6"/>
@@ -1649,27 +1646,27 @@ Adresa: %4</translation>
     <message>
         <location line="+2"/>
         <source>%1/unconfirmed</source>
-        <translation>%1/nepotvrdené</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
         <source>%1 confirmations</source>
-        <translation>%1 potvrdení</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+18"/>
         <source>Status</source>
-        <translation>Stav</translation>
+        <translation type="unfinished"/>
     </message>
     <message numerus="yes">
         <location line="+7"/>
         <source>, broadcast through %n node(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Date</source>
-        <translation>Dátum</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+7"/>
@@ -1685,7 +1682,7 @@ Adresa: %4</translation>
         <location line="+5"/>
         <location line="+17"/>
         <source>From</source>
-        <translation>od</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
@@ -1703,7 +1700,7 @@ Adresa: %4</translation>
     <message>
         <location line="-2"/>
         <source>label</source>
-        <translation>popis</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+37"/>
@@ -1712,17 +1709,17 @@ Adresa: %4</translation>
         <location line="+17"/>
         <location line="+30"/>
         <source>Credit</source>
-        <translation>Kredit</translation>
+        <translation type="unfinished"/>
     </message>
     <message numerus="yes">
         <location line="-102"/>
         <source>matures in %n more block(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>not accepted</source>
-        <translation>neprijaté</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+44"/>
@@ -1730,32 +1727,32 @@ Adresa: %4</translation>
         <location line="+15"/>
         <location line="+30"/>
         <source>Debit</source>
-        <translation>Debet</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-39"/>
         <source>Transaction fee</source>
-        <translation>Transakčný poplatok</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+16"/>
         <source>Net amount</source>
-        <translation>Suma netto</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+6"/>
         <source>Message</source>
-        <translation>Správa</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
         <source>Comment</source>
-        <translation>Komentár</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
         <source>Transaction ID</source>
-        <translation>ID transakcie</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
@@ -1770,7 +1767,7 @@ Adresa: %4</translation>
     <message>
         <location line="+8"/>
         <source>Transaction</source>
-        <translation>Transakcie</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
@@ -1780,7 +1777,7 @@ Adresa: %4</translation>
     <message>
         <location line="+23"/>
         <source>Amount</source>
-        <translation>Suma</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
@@ -1795,17 +1792,17 @@ Adresa: %4</translation>
     <message>
         <location line="-209"/>
         <source>, has not been successfully broadcast yet</source>
-        <translation>, ešte nebola úspešne odoslaná</translation>
+        <translation type="unfinished"/>
     </message>
     <message numerus="yes">
         <location line="-35"/>
         <source>Open for %n more block(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
         <location line="+70"/>
         <source>unknown</source>
-        <translation>neznámy</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -1813,12 +1810,12 @@ Adresa: %4</translation>
     <message>
         <location filename="../forms/transactiondescdialog.ui" line="+14"/>
         <source>Transaction details</source>
-        <translation>Detaily transakcie</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+6"/>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>Táto časť obrazovky zobrazuje detailný popis transakcie</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -1826,117 +1823,117 @@ Adresa: %4</translation>
     <message>
         <location filename="../transactiontablemodel.cpp" line="+225"/>
         <source>Date</source>
-        <translation>Dátum</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+0"/>
         <source>Type</source>
-        <translation>Typ</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+0"/>
         <source>Address</source>
-        <translation>Adresa</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+0"/>
         <source>Amount</source>
-        <translation>Hodnota</translation>
+        <translation type="unfinished"/>
     </message>
     <message numerus="yes">
         <location line="+57"/>
         <source>Open for %n more block(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Open until %1</source>
-        <translation>Otvorené do %1</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
         <source>Offline (%1 confirmations)</source>
-        <translation>Offline (%1 potvrdení)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
         <source>Unconfirmed (%1 of %2 confirmations)</source>
-        <translation>Nepotvrdené (%1 z %2 potvrdení)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
         <source>Confirmed (%1 confirmations)</source>
-        <translation>Potvrdené (%1 potvrdení)</translation>
+        <translation type="unfinished"/>
     </message>
     <message numerus="yes">
         <location line="+8"/>
         <source>Mined balance will be available when it matures in %n more block(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
         <location line="+5"/>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Ten blok nebol prijatý žiadnou inou nódou a pravdepodobne nebude akceptovaný!</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
         <source>Generated but not accepted</source>
-        <translation>Vypočítané ale neakceptované</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+43"/>
         <source>Received with</source>
-        <translation>Prijaté s</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
         <source>Received from</source>
-        <translation>Prijaté od:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
         <source>Sent to</source>
-        <translation>Odoslané na</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
         <source>Payment to yourself</source>
-        <translation>Platba sebe samému</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
         <source>Mined</source>
-        <translation>Vyfárané</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+38"/>
         <source>(n/a)</source>
-        <translation>(n/a)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+199"/>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>Status transakcie. Pohybujte myšou nad týmto poľom a zjaví sa počet potvrdení.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
         <source>Date and time that the transaction was received.</source>
-        <translation>Dátum a čas prijatia transakcie.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
         <source>Type of transaction.</source>
-        <translation>Typ transakcie.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
         <source>Destination address of transaction.</source>
-        <translation>Cieľová adresa transakcie.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
         <source>Amount removed from or added to balance.</source>
-        <translation>Suma pridaná alebo odobraná k zostatku.</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -1945,87 +1942,87 @@ Adresa: %4</translation>
         <location filename="../transactionview.cpp" line="+52"/>
         <location line="+16"/>
         <source>All</source>
-        <translation>Všetko</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-15"/>
         <source>Today</source>
-        <translation>Dnes</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>This week</source>
-        <translation>Tento týždeň</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>This month</source>
-        <translation>Tento mesiac</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Last month</source>
-        <translation>Minulý mesiac</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>This year</source>
-        <translation>Tento rok</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Range...</source>
-        <translation>Rozsah...</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+11"/>
         <source>Received with</source>
-        <translation>Prijaté s</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
         <source>Sent to</source>
-        <translation>Odoslané na</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
         <source>To yourself</source>
-        <translation>Samému sebe</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Mined</source>
-        <translation>Vyfárané</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Other</source>
-        <translation>Iné</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+7"/>
         <source>Enter address or label to search</source>
-        <translation>Vložte adresu alebo popis pre vyhľadávanie</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+7"/>
         <source>Min amount</source>
-        <translation>Min množstvo</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+34"/>
         <source>Copy address</source>
-        <translation>Kopírovať adresu</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy label</source>
-        <translation>Kopírovať popis</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy amount</source>
-        <translation>Kopírovať sumu</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
@@ -2035,7 +2032,7 @@ Adresa: %4</translation>
     <message>
         <location line="+1"/>
         <source>Edit label</source>
-        <translation>Editovať popis</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
@@ -2045,67 +2042,67 @@ Adresa: %4</translation>
     <message>
         <location line="+139"/>
         <source>Export Transaction Data</source>
-        <translation>Exportovať transakčné dáta</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
-        <translation>Čiarkou oddelovaný súbor (*.csv)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+8"/>
         <source>Confirmed</source>
-        <translation>Potvrdené</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Date</source>
-        <translation>Dátum</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Type</source>
-        <translation>Typ</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Label</source>
-        <translation>Popis</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Address</source>
-        <translation>Adresa</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Amount</source>
-        <translation>Suma</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>ID</source>
-        <translation>ID</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+4"/>
         <source>Error exporting</source>
-        <translation>Chyba exportu</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+0"/>
         <source>Could not write to file %1.</source>
-        <translation>Nedalo sa zapisovať do súboru %1.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+100"/>
         <source>Range:</source>
-        <translation>Rozsah:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+8"/>
         <source>to</source>
-        <translation>do</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -2256,57 +2253,57 @@ Adresa: %4</translation>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+96"/>
         <source>Bitcoin version</source>
-        <translation>Bitcoin verzia</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+98"/>
         <source>Usage:</source>
-        <translation>Použitie:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-24"/>
         <source>Send command to -server or bitcoind</source>
-        <translation>Odoslať príkaz -server alebo bitcoind</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-22"/>
         <source>List commands</source>
-        <translation>Zoznam príkazov</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-10"/>
         <source>Get help for a command</source>
-        <translation>Dostať pomoc pre príkaz</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+21"/>
         <source>Options:</source>
-        <translation>Možnosti:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+22"/>
         <source>Specify configuration file (default: bitcoin.conf)</source>
-        <translation>Určiť súbor s nastaveniami (predvolené: bitcoin.conf)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
         <source>Specify pid file (default: bitcoind.pid)</source>
-        <translation>Určiť súbor pid (predvolené: bitcoind.pid)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-47"/>
         <source>Generate coins</source>
-        <translation>Počítaj bitcoins</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-28"/>
         <source>Don&apos;t generate coins</source>
-        <translation>Nepočítaj bitcoins</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+74"/>
         <source>Specify data directory</source>
-        <translation>Určiť priečinok s dátami</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-7"/>
@@ -2316,12 +2313,12 @@ Adresa: %4</translation>
     <message>
         <location line="-27"/>
         <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation>Načúvať spojeniam na &lt;port&gt; (prednastavené: 8333 alebo testovacia sieť: 18333)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+5"/>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>Udržiavať maximálne &lt;n&gt; spojení (predvolené: 125)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-49"/>
@@ -2351,22 +2348,22 @@ Adresa: %4</translation>
     <message>
         <location line="+30"/>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Počúvať JSON-RPC spojeniam na &lt;port&gt; (predvolené: 8332 or testnet: 18332)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+36"/>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation>Prijímať príkazy z príkazového riadku a JSON-RPC</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+77"/>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>Bežať na pozadí ako démon a prijímať príkazy</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+32"/>
         <source>Use the test network</source>
-        <translation>Použiť testovaciu sieť</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-108"/>
@@ -2446,7 +2443,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+5"/>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>Varovanie: -paytxfee je nastavené veľmi vysoko. Toto sú transakčné poplatky ktoré zaplatíte ak odošlete transakciu.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
@@ -2481,7 +2478,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+6"/>
         <source>Connect only to the specified node(s)</source>
-        <translation>Pripojiť sa len k určenej nóde</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
@@ -2636,7 +2633,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+3"/>
         <source>Invalid -tor address: &apos;%s&apos;</source>
-        <translation>Neplatná adresa tor: &apos;%s&apos;</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+8"/>
@@ -2666,7 +2663,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+2"/>
         <source>Output extra debugging information. Implies all other -debug* options</source>
-        <translation>Produkovať extra ladiace informácie. Implies all other -debug* options</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
@@ -2676,12 +2673,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+2"/>
         <source>Prepend debug output with timestamp</source>
-        <translation>Pridať na začiatok ladiaceho výstupu časový údaj</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+5"/>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>SSL možnosť: (pozrite Bitcoin Wiki pre návod na nastavenie SSL)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
@@ -2691,12 +2688,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+3"/>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Odoslať trace/debug informácie na konzolu namiesto debug.info žurnálu</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Send trace/debug info to debugger</source>
-        <translation>Odoslať trace/debug informácie do ladiaceho programu</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+5"/>
@@ -2716,7 +2713,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+2"/>
         <source>Specify connection timeout in milliseconds (default: 5000)</source>
-        <translation>Určiť aut spojenia v milisekundách (predvolené: 5000)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+4"/>
@@ -2726,12 +2723,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+10"/>
         <source>Use UPnP to map the listening port (default: 0)</source>
-        <translation>Skúsiť použiť UPnP pre mapovanie počúvajúceho portu (default: 0)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation>Skúsiť použiť UPnP pre mapovanie počúvajúceho portu (default: 1 when listening)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
@@ -2741,7 +2738,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+2"/>
         <source>Username for JSON-RPC connections</source>
-        <translation>Užívateľské meno pre JSON-RPC spojenia</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+4"/>
@@ -2766,17 +2763,17 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="-45"/>
         <source>Password for JSON-RPC connections</source>
-        <translation>Heslo pre JSON-rPC spojenia</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-68"/>
         <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>Povoliť JSON-RPC spojenia z určenej IP adresy.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+77"/>
         <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>Poslať príkaz nóde bežiacej na &lt;ip&gt; (predvolené: 127.0.0.1)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-120"/>
@@ -2791,37 +2788,37 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="-16"/>
         <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>Nastaviť zásobu adries na &lt;n&gt; (predvolené: 100)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-12"/>
         <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Znovu skenovať reťaz blokov pre chýbajúce transakcie</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+30"/>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>Použiť OpenSSL (https) pre JSON-RPC spojenia</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-21"/>
         <source>Server certificate file (default: server.cert)</source>
-        <translation>Súbor s certifikátom servra (predvolené: server.cert)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Server private key (default: server.pem)</source>
-        <translation>Súkromný kľúč servra (predvolené: server.pem)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-154"/>
         <source>Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
-        <translation>Prijateľné šifry (predvolené: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+166"/>
         <source>This help message</source>
-        <translation>Táto pomocná správa</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
@@ -2831,42 +2828,42 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="-86"/>
         <source>Connect through socks proxy</source>
-        <translation>Pripojenie cez socks proxy</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-11"/>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>Povoliť vyhľadávanie DNS pre pridanie nódy a spojenie</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+57"/>
         <source>Loading addresses...</source>
-        <translation>Načítavanie adries...</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-35"/>
         <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Chyba načítania wallet.dat: Peňaženka je poškodená</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
         <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation>Chyba načítania wallet.dat: Peňaženka vyžaduje novšiu verziu Bitcoin</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+87"/>
         <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation>Bolo potrebné prepísať peňaženku: dokončite reštartovaním Bitcoin</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-89"/>
         <source>Error loading wallet.dat</source>
-        <translation>Chyba načítania wallet.dat</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+30"/>
         <source>Invalid -proxy address: &apos;%s&apos;</source>
-        <translation>Neplatná adresa proxy: &apos;%s&apos;</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+48"/>
@@ -2891,7 +2888,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+45"/>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>Neplatná suma pre -paytxfee=&lt;amount&gt;: &apos;%s&apos;</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-24"/>
@@ -2901,7 +2898,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+25"/>
         <source>Invalid amount</source>
-        <translation>Neplatná suma</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-4"/>
@@ -2911,12 +2908,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+8"/>
         <source>Loading block index...</source>
-        <translation>Načítavanie zoznamu blokov...</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-59"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Pridať nódu a pripojiť sa and attempt to keep the connection open</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-25"/>
@@ -2926,12 +2923,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="+68"/>
         <source>Fee per KB to add to transactions you send</source>
-        <translation>Poplatok za kB ktorý treba pridať k odoslanej transakcii</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+17"/>
         <source>Loading wallet...</source>
-        <translation>Načítavam peňaženku...</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-54"/>
@@ -2956,7 +2953,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="-56"/>
         <source>Done loading</source>
-        <translation>Dokončené načítavanie</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="+79"/>
@@ -2966,7 +2963,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.
     <message>
         <location line="-71"/>
         <source>Error</source>
-        <translation>Chyba</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location line="-33"/>
