@@ -1,15 +1,15 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="nb" version="2.0">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="gl" version="2.0">
 <context>
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
         <source>About Bitcoin</source>
-        <translation>Om Bitcoin</translation>
+        <translation>Sobre Bitcoin</translation>
     </message>
     <message>
         <location line="+39"/>
         <source>&lt;b&gt;Bitcoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Bitcoin&lt;/b&gt; versjon</translation>
+        <translation>Versión &lt;b&gt;Bitcoin&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -20,21 +20,21 @@ Distributed under the MIT/X11 software license, see the accompanying file COPYIN
 
 This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
         <translation>
-Dette er eksperimentell programvare.
+Isto é software experimental.
 
-Distribuert under MIT/X11 programvarelisensen, se medfølgende fil COPYING eller http://www.opensource.org/licenses/mit-license.php.
+Distribuído baixo a licencia de software MIT/X11, véxase o arquivo que acompaña COPYING ou http://www.opensource.org/licenses/mit-license.php.
 
-Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i OpenSSL Toolkit (http://www.openssl.org/) og kryptografisk programvare skrevet av Eric Young (eay@cryptsoft.com) og UPnP programvare skrevet av Thomas Bernard.</translation>
+Este produto inclúe software desenvolvido polo OpenSSL Project para o uso no OpenSSL Toolkit (http://www.openssl.org/) e software criptográfico escrito por Eric Young (eay@cryptsoft.com) e software UPnP escrito por Thomas Bernard.</translation>
     </message>
     <message>
         <location filename="../aboutdialog.cpp" line="+14"/>
         <source>Copyright</source>
-        <translation type="unfinished"/>
+        <translation>Copyright</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>The Bitcoin developers</source>
-        <translation>Bitcoin utviklerne</translation>
+        <translation>Os desenvolvedores de Bitcoin.</translation>
     </message>
 </context>
 <context>
@@ -42,122 +42,122 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     <message>
         <location filename="../forms/addressbookpage.ui" line="+30"/>
         <source>Double-click to edit address or label</source>
-        <translation>Dobbeltklikk for å redigere adresse eller merkelapp</translation>
+        <translation>Doble click para editar a dirección ou a etiqueta</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>Create a new address</source>
-        <translation>Lag en ny adresse</translation>
+        <translation>Crear unha nova dirección</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;New</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Novo</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Kopier den valgte adressen til systemets utklippstavle</translation>
+        <translation>Copiar a dirección seleccionada ao cartafol</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Copy</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Copiar</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>C&amp;lose</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Pechar</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+72"/>
         <source>&amp;Copy Address</source>
-        <translation>&amp;Kopier Adresse</translation>
+        <translation>&amp;Copiar Dirección</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="-41"/>
         <source>Delete the currently selected address from the list</source>
-        <translation>Slett den valgte adressen fra listen.</translation>
+        <translation>Borrar a dirección actualmente seleccionada da listaxe</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>Export the data in the current tab to a file</source>
-        <translation>Eksporter data fra nåværende fane til fil</translation>
+        <translation>Exportar os datos da pestaña actual a un arquivo.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Export</source>
-        <translation>&amp;Eksporter...</translation>
+        <translation>&amp;Exportar</translation>
     </message>
     <message>
         <location line="-27"/>
         <source>&amp;Delete</source>
-        <translation>&amp;Slett</translation>
+        <translation>&amp;Borrar</translation>
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-30"/>
         <source>Choose the address to send coins to</source>
-        <translation type="unfinished"/>
+        <translation>Escolle a dirección á que enviar moedas</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Choose the address to receive coins with</source>
-        <translation type="unfinished"/>
+        <translation>Escolle a dirección da que recibir moedas</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>C&amp;hoose</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Escoller</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Sending addresses</source>
-        <translation type="unfinished"/>
+        <translation>Direccións para enviar</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Receiving addresses</source>
-        <translation type="unfinished"/>
+        <translation>Direccións para recibir</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished"/>
+        <translation>Estas son as túas direccións Bitcoin para enviar pagos. Revisa sempre a cantidade e a dirección receptora antes de enviar moedas.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation type="unfinished"/>
+        <translation>Estas son as túas direccións Bitcoin para recibir pagos. Recoméndase empregar unha nova dirección de recepción por cada transacción.</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Copy &amp;Label</source>
-        <translation>Kopier &amp;Merkelapp</translation>
+        <translation>Copiar &amp;Etiqueta</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>&amp;Edit</source>
-        <translation>&amp;Rediger</translation>
+        <translation>&amp;Modificar</translation>
     </message>
     <message>
         <location line="+197"/>
         <source>Export Address List</source>
-        <translation type="unfinished"/>
+        <translation>Exportar Lista de Direccións</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
-        <translation>Kommaseparert fil (*.csv)</translation>
+        <translation>Arquivo separado por comas (*.csv)</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Error exporting</source>
-        <translation>Feil ved eksportering</translation>
+        <translation>Error na exportación</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Could not write to file %1.</source>
-        <translation>Kunne ikke skrive til filen %1.</translation>
+        <translation>Non se puido escribir ao arquivo %1.</translation>
     </message>
 </context>
 <context>
@@ -165,17 +165,17 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     <message>
         <location filename="../addresstablemodel.cpp" line="+164"/>
         <source>Label</source>
-        <translation>Merkelapp</translation>
+        <translation>Etiqueta</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Address</source>
-        <translation>Adresse</translation>
+        <translation>Dirección</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>(no label)</source>
-        <translation>(ingen merkelapp)</translation>
+        <translation>(sen etiqueta)</translation>
     </message>
 </context>
 <context>
@@ -183,99 +183,99 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     <message>
         <location filename="../forms/askpassphrasedialog.ui" line="+26"/>
         <source>Passphrase Dialog</source>
-        <translation>Dialog for Adgangsfrase</translation>
+        <translation>Diálogo de Contrasinal</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>Enter passphrase</source>
-        <translation>Angi adgangsfrase</translation>
+        <translation>Introduce contrasinal</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>New passphrase</source>
-        <translation>Ny adgangsfrase</translation>
+        <translation>Novo contrasinal</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Repeat new passphrase</source>
-        <translation>Gjenta ny adgangsfrase</translation>
+        <translation>Repite novo contrasinal</translation>
     </message>
     <message>
         <location filename="../askpassphrasedialog.cpp" line="+34"/>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Skriv inn den nye adgangsfrasen for lommeboken.&lt;br/&gt;Vennligst bruk en adgangsfrase med &lt;b&gt;10 eller flere tilfeldige tegn&lt;/b&gt;, eller &lt;b&gt;åtte eller flere ord&lt;/b&gt;.</translation>
+        <translation>Introduce o novo contrasinal ao moedeiro.&lt;br/&gt;Por favor empregue un contrasinal de &lt;b&gt;10 ou máis caracteres aleatorios&lt;/b&gt;, ou &lt;b&gt;oito ou máis palabras&lt;/b&gt;.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Encrypt wallet</source>
-        <translation>Krypter lommebok</translation>
+        <translation>Encriptar moedeiro</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Denne operasjonen krever adgangsfrasen til lommeboken for å låse den opp.</translation>
+        <translation>Esta operación precisa o contrasinal do teu moedeiro para desbloquear o moedeiro.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Unlock wallet</source>
-        <translation>Lås opp lommebok</translation>
+        <translation>Desbloquear moedeiro</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Denne operasjonen krever adgangsfrasen til lommeboken for å dekryptere den.</translation>
+        <translation>Esta operación precisa o contrasinal do teu moedeiro para desencriptar o moedeiro.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Decrypt wallet</source>
-        <translation>Dekrypter lommebok</translation>
+        <translation>Desencriptar moedeiro</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Change passphrase</source>
-        <translation>Endre adgangsfrase</translation>
+        <translation>Cambiar contrasinal</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>Skriv inn gammel og ny adgangsfrase for lommeboken.</translation>
+        <translation>Introduce o vello e novo contrasinais no moedeiro.</translation>
     </message>
     <message>
         <location line="+46"/>
         <source>Confirm wallet encryption</source>
-        <translation>Bekreft kryptering av lommebok</translation>
+        <translation>Confirmar encriptación de moedeiro</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Advarsel: Hvis du krypterer lommeboken og mister adgangsfrasen, så vil du &lt;b&gt;MISTE ALLE DINE BITCOINS&lt;/b&gt;!</translation>
+        <translation>Precaución: Se encriptas o teu moedeiro e perdes o teu contrasinal, ti &lt;b&gt;PERDERÁS TÓDOLOS TEUS BITCOINS&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Er du sikker på at du vil kryptere lommeboken?</translation>
+        <translation>Estás seguro de que desexas encriptar o teu moedeiro?</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>VIKTIG: Tidligere sikkerhetskopier av din lommebok-fil, bør erstattes med den nylig genererte, krypterte filen, da de blir ugyldiggjort av sikkerhetshensyn så snart du begynner å bruke den nye krypterte lommeboken.</translation>
+        <translation>IMPORTANTE: Calquera copia de seguridade previa que fixeses do teu arquivo de moedeiro debería ser substituída polo recén xerado arquivo encriptado de moedeiro. Por razóns de seguridade, as copias de seguridade previas de un arquivo de moedeiro desencriptado tornaránse inútiles no momento no que comeces a emprega-lo novo, encriptado, moedeiro.</translation>
     </message>
     <message>
         <location line="+100"/>
         <location line="+24"/>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>Advarsel: Caps Lock er på !</translation>
+        <translation>Precaución: A tecla de Bloqueo de Maiúsculas está activada!</translation>
     </message>
     <message>
         <location line="-130"/>
         <location line="+58"/>
         <source>Wallet encrypted</source>
-        <translation>Lommebok kryptert</translation>
+        <translation>Moedeiro encriptado</translation>
     </message>
     <message>
         <location line="-56"/>
         <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin vil nå lukkes for å fullføre krypteringsprosessen. Husk at kryptering av lommeboken ikke fullt ut kan beskytte dine bitcoins fra å bli stjålet om skadevare infiserer datamaskinen.</translation>
+        <translation>Bitcoin se pechará agora para rematar o proceso de encriptación. Lembra que encriptar o teu moedeiro non protexe totalmente os teus bitcoins de ser robados por malware que infecte o teu ordenador.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -283,40 +283,40 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
         <location line="+42"/>
         <location line="+6"/>
         <source>Wallet encryption failed</source>
-        <translation>Kryptering av lommebok feilet</translation>
+        <translation>Encriptación de moedeiro fallida</translation>
     </message>
     <message>
         <location line="-54"/>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Kryptering av lommebok feilet på grunn av en intern feil. Din lommebok ble ikke kryptert.</translation>
+        <translation>A encriptación do moedeiro fallou por mor dun erro interno. O teu moedeiro non foi encriptado.</translation>
     </message>
     <message>
         <location line="+7"/>
         <location line="+48"/>
         <source>The supplied passphrases do not match.</source>
-        <translation>De angitte adgangsfrasene er ulike.</translation>
+        <translation>Os contrasinais suministrados non coinciden.</translation>
     </message>
     <message>
         <location line="-37"/>
         <source>Wallet unlock failed</source>
-        <translation>Opplåsing av lommebok feilet</translation>
+        <translation>Desbloqueo de moedeiro fallido</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+11"/>
         <location line="+19"/>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>Adgangsfrasen angitt for dekryptering av lommeboken var feil.</translation>
+        <translation>O contrasinal introducido para a desencriptación do moedeiro foi incorrecto.</translation>
     </message>
     <message>
         <location line="-20"/>
         <source>Wallet decryption failed</source>
-        <translation>Dekryptering av lommebok feilet</translation>
+        <translation>Desencriptación de moedeiro fallida</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>Adgangsfrase for lommebok endret.</translation>
+        <translation>Cambiouse con éxito o contrasinal do moedeiro.</translation>
     </message>
 </context>
 <context>
@@ -324,123 +324,123 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
     <message>
         <location filename="../bitcoingui.cpp" line="+250"/>
         <source>Sign &amp;message...</source>
-        <translation>Signer &amp;melding...</translation>
+        <translation>&amp;Asinar mensaxe...</translation>
     </message>
     <message>
         <location line="+254"/>
         <source>Synchronizing with network...</source>
-        <translation>Synkroniserer med nettverk...</translation>
+        <translation>Sincronizando coa rede...</translation>
     </message>
     <message>
         <location line="-324"/>
         <source>&amp;Overview</source>
-        <translation>&amp;Oversikt</translation>
+        <translation>&amp;Vista xeral</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show general overview of wallet</source>
-        <translation>Vis generell oversikt over lommeboken</translation>
+        <translation>Amosar vista xeral do moedeiro</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>&amp;Transactions</source>
-        <translation>&amp;Transaksjoner</translation>
+        <translation>&amp;Transacciones</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Browse transaction history</source>
-        <translation>Vis transaksjonshistorikk</translation>
+        <translation>Navegar historial de transaccións</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>E&amp;xit</source>
-        <translation>&amp;Avslutt</translation>
+        <translation>&amp;Saír</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Quit application</source>
-        <translation>Avslutt applikasjonen</translation>
+        <translation>Saír da aplicación</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Show information about Bitcoin</source>
-        <translation>Vis informasjon om Bitcoin</translation>
+        <translation>Amosar información sobre Bitcoin</translation>
     </message>
     <message>
         <location line="+3"/>
         <location line="+2"/>
         <source>About &amp;Qt</source>
-        <translation>Om &amp;Qt</translation>
+        <translation>Acerca de &amp;Qt</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Show information about Qt</source>
-        <translation>Vis informasjon om Qt</translation>
+        <translation>Amosar información acerca de Qt</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&amp;Options...</source>
-        <translation>&amp;Innstillinger...</translation>
+        <translation>&amp;Opcións...</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Krypter Lommebok...</translation>
+        <translation>&amp;Encriptar Moedeiro...</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Backup Wallet...</source>
-        <translation>Lag &amp;Sikkerhetskopi av Lommebok...</translation>
+        <translation>Copia de &amp;Seguridade do Moedeiro...</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Endre Adgangsfrase...</translation>
+        <translation>&amp;Cambiar contrasinal...</translation>
     </message>
     <message>
         <location line="+259"/>
         <source>Importing blocks from disk...</source>
-        <translation>Importere blokker...</translation>
+        <translation>Importando bloques de disco...</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Reindexing blocks on disk...</source>
-        <translation>Re-indekserer blokker på disk...</translation>
+        <translation>Reindexando bloques no disco...</translation>
     </message>
     <message>
         <location line="-322"/>
         <source>Send coins to a Bitcoin address</source>
-        <translation>Send til en Bitcoin-adresse</translation>
+        <translation>Enviar moedas a unha dirección Bitcoin</translation>
     </message>
     <message>
         <location line="+47"/>
         <source>Modify configuration options for Bitcoin</source>
-        <translation>Endre oppsett for Bitcoin</translation>
+        <translation>Modificar opcións de configuración para Bitcoin</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Backup wallet to another location</source>
-        <translation>Sikkerhetskopiér lommebok til annet sted</translation>
+        <translation>Facer copia de seguridade do moedeiro noutra localización</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Endre adgangsfrasen brukt for kryptering av lommebok</translation>
+        <translation>Cambiar o contrasinal empregado para a encriptación do moedeiro</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Debug window</source>
-        <translation>&amp;Feilsøkingsvindu</translation>
+        <translation>Ventana de &amp;Depuración</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Open debugging and diagnostic console</source>
-        <translation>Åpne konsoll for feilsøk og diagnostikk</translation>
+        <translation>Abrir consola de depuración e diagnóstico</translation>
     </message>
     <message>
         <location line="-4"/>
         <source>&amp;Verify message...</source>
-        <translation>&amp;Verifiser melding...</translation>
+        <translation>&amp;Verificar mensaxe...</translation>
     </message>
     <message>
         <location line="-180"/>
@@ -453,201 +453,201 @@ Dette produktet inneholder programvare utviklet av OpenSSL prosjektet for bruk i
         <location line="-519"/>
         <location line="+6"/>
         <source>Wallet</source>
-        <translation>Lommebok</translation>
+        <translation>Moedeiro</translation>
     </message>
     <message>
         <location line="+109"/>
         <source>&amp;Send</source>
-        <translation>&amp;Send</translation>
+        <translation>&amp;Enviar</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>&amp;Receive</source>
-        <translation>&amp;Motta</translation>
+        <translation>&amp;Recibir</translation>
     </message>
     <message>
         <location line="+28"/>
         <location line="+2"/>
         <source>&amp;About Bitcoin</source>
-        <translation>&amp;Om Bitcoin</translation>
+        <translation>&amp;Acerca de Bitcoin</translation>
     </message>
     <message>
         <location line="+14"/>
         <location line="+2"/>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;Gjem / vis</translation>
+        <translation>&amp;Amosar/Agachar</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show or hide the main Window</source>
-        <translation>Vis eller skjul hovedvinduet</translation>
+        <translation>Amosar ou agachar a ventana principal</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Krypter de private nøklene som tilhører lommeboken din</translation>
+        <translation>Encriptar as claves privadas que pertencen ao teu moedeiro</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Signér en melding for å bevise at du eier denne adressen</translation>
+        <translation>Asina mensaxes coas túas direccións Bitcoin para probar que te pertencen</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Bekreft meldinger for å være sikker på at de ble signert av en angitt Bitcoin-adresse</translation>
+        <translation>Verificar mensaxes para asegurar que foron asinados con direccións Bitcoin dadas.</translation>
     </message>
     <message>
         <location line="+35"/>
         <source>&amp;File</source>
-        <translation>&amp;Fil</translation>
+        <translation>&amp;Arquivo</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>&amp;Settings</source>
-        <translation>&amp;Innstillinger</translation>
+        <translation>Axus&amp;tes</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>&amp;Help</source>
-        <translation>&amp;Hjelp</translation>
+        <translation>A&amp;xuda</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Tabs toolbar</source>
-        <translation>Verktøylinje for faner</translation>
+        <translation>Barra de ferramentas</translation>
     </message>
     <message>
         <location line="-235"/>
         <location line="+294"/>
         <source>[testnet]</source>
-        <translation>[testnett]</translation>
+        <translation>[testnet]</translation>
     </message>
     <message>
         <location line="-177"/>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation type="unfinished"/>
+        <translation>Solicitar pagos (xenera códigos QR e bitcoin: URIs)</translation>
     </message>
     <message>
         <location line="+63"/>
         <source>&amp;Used sending addresses...</source>
-        <translation type="unfinished"/>
+        <translation>Direccións para enviar &amp;empregadas</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show the list of used sending addresses and labels</source>
-        <translation type="unfinished"/>
+        <translation>Amosar a listaxe de direccións e etiquetas para enviar empregadas</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Used &amp;receiving addresses...</source>
-        <translation type="unfinished"/>
+        <translation>Direccións para &amp;recibir empregadas</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation type="unfinished"/>
+        <translation>Amosar a listaxe de etiquetas e direccións para recibir empregadas</translation>
     </message>
     <message>
         <location line="+106"/>
         <location line="+5"/>
         <source>Bitcoin client</source>
-        <translation>Bitcoinklient</translation>
+        <translation>Cliente Bitcoin</translation>
     </message>
     <message numerus="yes">
         <location line="+120"/>
         <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n aktiv forbindelse til Bitcoin-nettverket</numerusform><numerusform>%n aktive forbindelser til Bitcoin-nettverket</numerusform></translation>
+        <translation><numerusform>%n conexión activa coa rede Bitcoin</numerusform><numerusform>%n conexións activas coa rede Bitcoin</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
         <source>No block source available...</source>
-        <translation>Ingen blokk-kilde tilgjengelig...</translation>
+        <translation>Non hai orixe de bloques dispoñible...</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Processed %1 of %2 (estimated) blocks of transaction history.</source>
-        <translation type="unfinished"/>
+        <translation>Procesados %1 de %2 bloques (estimados) del historial de transacciones.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Processed %1 blocks of transaction history.</source>
-        <translation>Lastet %1 blokker med transaksjonshistorikk.</translation>
+        <translation>Procesados %1 bloques do historial de transacccións.</translation>
     </message>
     <message numerus="yes">
         <location line="+20"/>
         <source>%n hour(s)</source>
-        <translation><numerusform>%n time</numerusform><numerusform>%n timer</numerusform></translation>
+        <translation><numerusform>%n hora</numerusform><numerusform>%n horas</numerusform></translation>
     </message>
     <message numerus="yes">
         <location line="+4"/>
         <source>%n day(s)</source>
-        <translation><numerusform>%n dag</numerusform><numerusform>%n dager</numerusform></translation>
+        <translation><numerusform>%n día</numerusform><numerusform>%n días</numerusform></translation>
     </message>
     <message numerus="yes">
         <location line="+4"/>
         <source>%n week(s)</source>
-        <translation><numerusform>%n uke</numerusform><numerusform>%n uker</numerusform></translation>
+        <translation><numerusform>%n semana</numerusform><numerusform>%n semanas</numerusform></translation>
     </message>
     <message>
         <location line="+4"/>
         <source>%1 behind</source>
-        <translation type="unfinished"/>
+        <translation>%1 detrás</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Last received block was generated %1 ago.</source>
-        <translation>Siste mottatte blokk ble generert for %1 siden.</translation>
+        <translation>O último bloque recibido foi xerado fai %1.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Transaksjoner etter dette vil ikke være synlige enda.</translation>
+        <translation>As transaccións despois desta non serán todavía visibles.</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>Error</source>
-        <translation>Feil</translation>
+        <translation>Erro</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Warning</source>
-        <translation>Advarsel</translation>
+        <translation>Precaución</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Information</source>
-        <translation>Informasjon</translation>
+        <translation>Información</translation>
     </message>
     <message>
         <location line="+77"/>
         <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation>Denne transaksjonen overstiger størrelsesbegrensningen.  Du kan likevel sende den med et gebyr på %1, som går til nodene som prosesserer transaksjonen din og støtter nettverket.  Vil du betale gebyret?</translation>
+        <translation>Esta transacción está sobre o límite de tamaño. Aínda así podes enviala por unha tarifa de %1, que vai aos nodos que procesan a túa transacción e axuda a soporta-la rede. Queres paga-la tarifa?</translation>
     </message>
     <message>
         <location line="-152"/>
         <source>Up to date</source>
-        <translation>Ajour</translation>
+        <translation>Actualizado</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>Catching up...</source>
-        <translation>Kommer ajour...</translation>
+        <translation>Poñendo ao día...</translation>
     </message>
     <message>
         <location line="+124"/>
         <source>Confirm transaction fee</source>
-        <translation>Bekreft transaksjonsgebyr</translation>
+        <translation>Confirmar tarifa de transacción</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Sent transaction</source>
-        <translation>Sendt transaksjon</translation>
+        <translation>Transacción enviada</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Incoming transaction</source>
-        <translation>Innkommende transaksjon</translation>
+        <translation>Transacción entrante</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -656,36 +656,36 @@ Amount: %2
 Type: %3
 Address: %4
 </source>
-        <translation>Dato: %1
-Beløp: %2
-Type: %3
-Adresse: %4
+        <translation>Data: %1
+Cantidade: %2
+Tipo: %3
+Dirección: %4
 </translation>
     </message>
     <message>
         <location line="+34"/>
         <source>URI handling</source>
-        <translation>URI håndtering</translation>
+        <translation>Manexo de URI</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>URI can not be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>URI kunne ikke tolkes! Dette kan forårsakes av en ugyldig Bitcoin-adresse eller feil i URI-parametere.</translation>
+        <translation>Non se pode parsear a URI! Esto pode ser causado por unha dirección Bitcoin inválida ou parámetros da URI malformados.</translation>
     </message>
     <message>
         <location line="+45"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Lommeboken er &lt;b&gt;kryptert&lt;/b&gt; og for tiden &lt;b&gt;ulåst&lt;/b&gt;</translation>
+        <translation>O moedeiro está &lt;b&gt;encriptado&lt;/b&gt; e actualmente &lt;b&gt;desbloqueado&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Lommeboken er &lt;b&gt;kryptert&lt;/b&gt; og for tiden &lt;b&gt;låst&lt;/b&gt;</translation>
+        <translation>O moedeiro está &lt;b&gt;encriptado&lt;/b&gt; e actualmente &lt;b&gt;bloqueado&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+110"/>
         <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>En fatal feil har inntruffet. Det er ikke trygt å fortsette og Bitcoin må derfor avslutte.</translation>
+        <translation>Ocorriu un erro fatal. Bitcoin non pode continuar en condicións de seguridade e pecharáse.</translation>
     </message>
 </context>
 <context>
@@ -693,7 +693,7 @@ Adresse: %4
     <message>
         <location filename="../clientmodel.cpp" line="+115"/>
         <source>Network Alert</source>
-        <translation>Nettverksvarsel</translation>
+        <translation>Alerta de Rede</translation>
     </message>
 </context>
 <context>
@@ -701,67 +701,67 @@ Adresse: %4
     <message>
         <location filename="../forms/editaddressdialog.ui" line="+14"/>
         <source>Edit Address</source>
-        <translation>Rediger adresse</translation>
+        <translation>Modificar Dirección</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>&amp;Label</source>
-        <translation>&amp;Merkelapp</translation>
+        <translation>&amp;Etiqueta</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>The label associated with this address list entry</source>
-        <translation type="unfinished"/>
+        <translation>A etiqueta asociada con esta entrada da listaxe de direccións</translation>
     </message>
     <message>
         <location line="+17"/>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation type="unfinished"/>
+        <translation>A dirección asociada con esta entrada na listaxe de dirección. Esta so pode ser modificada por direccións para enviar.</translation>
     </message>
     <message>
         <location line="-10"/>
         <source>&amp;Address</source>
-        <translation>&amp;Adresse</translation>
+        <translation>&amp;Dirección</translation>
     </message>
     <message>
         <location filename="../editaddressdialog.cpp" line="+21"/>
         <source>New receiving address</source>
-        <translation>Ny mottaksadresse</translation>
+        <translation>Nova dirección para recibir</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>New sending address</source>
-        <translation>Ny utsendingsadresse</translation>
+        <translation>Nova dirección para enviar</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Edit receiving address</source>
-        <translation>Rediger mottaksadresse</translation>
+        <translation>Modificar dirección para recibir</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Edit sending address</source>
-        <translation>Rediger utsendingsadresse</translation>
+        <translation>Modificar dirección para enviar</translation>
     </message>
     <message>
         <location line="+76"/>
         <source>The entered address &quot;%1&quot; is already in the address book.</source>
-        <translation>Den oppgitte adressen &quot;%1&quot; er allerede i adresseboken.</translation>
+        <translation>A dirección introducida &quot;%1&quot; xa está no libro de direccións.</translation>
     </message>
     <message>
         <location line="-5"/>
         <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
-        <translation>Den angitte adressed &quot;%1&quot; er ikke en gyldig Bitcoin-adresse.</translation>
+        <translation>A dirección introducida &apos;%1&apos; non é unha dirección Bitcoin válida.</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Could not unlock wallet.</source>
-        <translation>Kunne ikke låse opp lommeboken.</translation>
+        <translation>Non se puido desbloquear o moedeiro.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>New key generation failed.</source>
-        <translation>Generering av ny nøkkel feilet.</translation>
+        <translation>A xeración de nova clave fallou.</translation>
     </message>
 </context>
 <context>
@@ -769,27 +769,27 @@ Adresse: %4
     <message>
         <location filename="../intro.cpp" line="+61"/>
         <source>A new data directory will be created.</source>
-        <translation type="unfinished"/>
+        <translation>Crearáse un novo directorio de datos.</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>name</source>
-        <translation>navn</translation>
+        <translation>nome</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation type="unfinished"/>
+        <translation>O directorio xa existe. Engade %1 se queres crear un novo directorio aquí.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Path already exists, and is not a directory.</source>
-        <translation type="unfinished"/>
+        <translation>A ruta xa existe e non é un directorio.</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Cannot create data directory here.</source>
-        <translation type="unfinished"/>
+        <translation>Non se pode crear directorio de datos aquí</translation>
     </message>
 </context>
 <context>
@@ -803,43 +803,42 @@ Adresse: %4
     <message>
         <location line="-13"/>
         <source>version</source>
-        <translation>versjon</translation>
+        <translation>versión</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Usage:</source>
-        <translation>Bruk:</translation>
+        <translation>Emprego:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>command-line options</source>
-        <translation>kommandolinjevalg</translation>
+        <translation>opcións da liña de comandos</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>UI options</source>
-        <translation>valg i brukergrensesnitt</translation>
+        <translation>opcións de UI</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
-        <translation>Sett språk, for eksempel &quot;nb_NO&quot; (standardverdi: fra operativsystem)</translation>
+        <translation>Fixar idioma, por exemplo &quot;de_DE&quot; (por defecto: locale del sistema)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Start minimized</source>
-        <translation>Start minimert
-</translation>
+        <translation>Comezar minimizado</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show splash screen on startup (default: 1)</source>
-        <translation>Vis splashskjerm ved oppstart (standardverdi: 1)</translation>
+        <translation>Amosar pantalla splash no arranque (por defecto: 1)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Choose data directory on startup (default: 0)</source>
-        <translation type="unfinished"/>
+        <translation>Escolle directorio de datos ao arrancar (por defecto: 0)</translation>
     </message>
 </context>
 <context>
@@ -847,47 +846,47 @@ Adresse: %4
     <message>
         <location filename="../forms/intro.ui" line="+14"/>
         <source>Welcome</source>
-        <translation>Velkommen</translation>
+        <translation>Benvido</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Welcome to Bitcoin-Qt.</source>
-        <translation>Velkommen til Bitcoin-Qt.</translation>
+        <translation>Benvido a Bitcoin-Qt</translation>
     </message>
     <message>
         <location line="+26"/>
         <source>As this is the first time the program is launched, you can choose where Bitcoin-Qt will store its data.</source>
-        <translation type="unfinished"/>
+        <translation>Como é a primeira vez que se lanza este programa, podes escroller onde almacenará Bitcoin os seus datos.</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Bitcoin-Qt will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation type="unfinished"/>
+        <translation>Bitcoin-Qt descargará e almacenará unha copia da cadea de bloque. Alomenos %1 GB de datos van ser almacenados neste directorio, e crecerá co tempo. O moedeiro tamén se almacenará neste directorio.</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Use the default data directory</source>
-        <translation type="unfinished"/>
+        <translation>Empregar o directorio de datos por defecto</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Use a custom data directory:</source>
-        <translation type="unfinished"/>
+        <translation>Empregar un directorio de datos personalizado</translation>
     </message>
     <message>
         <location filename="../intro.cpp" line="+105"/>
         <source>Error</source>
-        <translation>Feil</translation>
+        <translation>Erro</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>GB of free space available</source>
-        <translation type="unfinished"/>
+        <translation>GB de espacio libre dispoñible</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>(of %1GB needed)</source>
-        <translation type="unfinished"/>
+        <translation>(de %1 GB precisados)</translation>
     </message>
 </context>
 <context>
@@ -895,157 +894,157 @@ Adresse: %4
     <message>
         <location filename="../forms/optionsdialog.ui" line="+14"/>
         <source>Options</source>
-        <translation>Innstillinger</translation>
+        <translation>Opcións</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>&amp;Main</source>
-        <translation>&amp;Hoved</translation>
+        <translation>&amp;Principal</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
-        <translation type="unfinished"/>
+        <translation>Tarifa por kB de transacción opcional que axuda a asegurar que as túas transaccións son procesadas rapidamente. A maioría das transaccións son 1 kB.</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>Pay transaction &amp;fee</source>
-        <translation>Betal transaksjons&amp;gebyr</translation>
+        <translation>Pagar &amp;tarifa da transacción</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>Automatically start Bitcoin after logging in to the system.</source>
-        <translation>Start Bitcoin automatisk etter innlogging.</translation>
+        <translation>Comezar Bitcoin automáticamente despois de loguearse no sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Start Bitcoin on system login</source>
-        <translation>&amp;Start Bitcoin ved systeminnlogging</translation>
+        <translation>&amp;Comezar Bitcoin ao facer login no sistema</translation>
     </message>
     <message>
         <location line="+35"/>
         <source>Reset all client options to default.</source>
-        <translation type="unfinished"/>
+        <translation>Restaurar todas as opcións de cliente ás por defecto</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Reset Options</source>
-        <translation type="unfinished"/>
+        <translation>Opcións de &amp;Restaurar</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>&amp;Network</source>
-        <translation>&amp;Nettverk</translation>
+        <translation>&amp;Rede</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Åpne automatisk Bitcoin klientporten på ruteren. Dette virker kun om din ruter støtter UPnP og dette er påslått.</translation>
+        <translation>Abrir automáticamente o porto do cliente Bitcoin no router. Esto so funciona se o teu router soporta UPnP e está habilitado.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Map port using &amp;UPnP</source>
-        <translation>Sett opp port vha. &amp;UPnP</translation>
+        <translation>Mapear porto empregando &amp;UPnP</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Connect to the Bitcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Koble til Bitcoin-nettverket gjennom en SOCKS proxy (f.eks. ved tilkobling gjennom Tor).</translation>
+        <translation>Conectar coa rede Bitcoin a través dun proxy SOCKS (exemplo: ao conectar a través de Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Connect through SOCKS proxy:</source>
-        <translation>&amp;Koble til gjenom SOCKS proxy:</translation>
+        <translation>&amp;Connectar a través do proxy SOCKS:</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Proxy &amp;IP:</source>
-        <translation>Proxy &amp;IP:</translation>
+        <translation>&amp;IP do Proxy:</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>IP address of the proxy (e.g. 127.0.0.1)</source>
-        <translation>IP-adresse for mellomtjener (f.eks. 127.0.0.1)</translation>
+        <translation>Dirección IP do proxy (exemplo: 127.0.0.1)</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>&amp;Port:</source>
-        <translation>&amp;Port:</translation>
+        <translation>&amp;Porto:</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation>Proxyens port (f.eks. 9050)</translation>
+        <translation>Porto do proxy (exemplo: 9050)</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>SOCKS &amp;Version:</source>
-        <translation>SOCKS &amp;Versjon:</translation>
+        <translation>&amp;Version de SOCKS:</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>SOCKS version of the proxy (e.g. 5)</source>
-        <translation>Proxyens SOCKS versjon (f.eks. 5)</translation>
+        <translation>Versión SOCKS del proxy (exemplo: 5)</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>&amp;Window</source>
-        <translation>&amp;Vindu</translation>
+        <translation>&amp;Xanela</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>Vis kun ikon i systemkurv etter minimering av vinduet.</translation>
+        <translation>Amosar so un icono na bandexa tras minimiza-la xanela.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>&amp;Minimer til systemkurv istedenfor oppgavelinjen</translation>
+        <translation>&amp;Minimizar á bandexa en lugar de á barra de tarefas.</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Minimerer vinduet istedenfor å avslutte applikasjonen når vinduet lukkes. Når dette er slått på avsluttes applikasjonen kun ved å velge avslutt i menyen.</translation>
+        <translation>Minimizar en lugar de saír da aplicación cando se pecha a xanela. Cando se habilita esta opción, a aplicación so se pechará tras seleccionar Saír no menú.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>M&amp;inimize on close</source>
-        <translation>M&amp;inimer ved lukking</translation>
+        <translation>M&amp;inimizar ao pechar</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>&amp;Display</source>
-        <translation>&amp;Visning</translation>
+        <translation>&amp;Visualización</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>User Interface &amp;language:</source>
-        <translation>&amp;Språk for brukergrensesnitt</translation>
+        <translation>&amp;Linguaxe de interface de usuario:</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin.</source>
-        <translation>Språket for brukergrensesnittet kan settes her. Innstillingen trer i kraft ved omstart av Bitcoin.</translation>
+        <translation>A linguaxe de interface de usuario pode fixarse aquí. Esta configuración terá efecto tras reiniciar Bitcoin.</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>&amp;Enhet for visning av beløper:</translation>
+        <translation>&amp;Unidade na que amosar as cantidades:</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Velg standard delt enhet for visning i grensesnittet og for sending av bitcoins.</translation>
+        <translation>Escolle a unidade de subdivisión por defecto para amosar na interface e ao enviar moedas.</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Whether to show Bitcoin addresses in the transaction list or not.</source>
-        <translation>Om Bitcoin-adresser skal vises i transaksjonslisten eller ikke.</translation>
+        <translation>Se se amosan ou non as direccións Bitcoin na listaxe de transaccións.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Display addresses in transaction list</source>
-        <translation>&amp;Vis adresser i transaksjonslisten</translation>
+        <translation>&amp;Visualizar direccións na listaxe de transaccións</translation>
     </message>
     <message>
         <location line="+71"/>
@@ -1055,49 +1054,49 @@ Adresse: %4
     <message>
         <location line="+7"/>
         <source>&amp;Cancel</source>
-        <translation>&amp;Avbryt</translation>
+        <translation>&amp;Cancelar</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>&amp;Apply</source>
-        <translation>&amp;Bruk</translation>
+        <translation>&amp;Aplicar</translation>
     </message>
     <message>
         <location filename="../optionsdialog.cpp" line="+58"/>
         <source>default</source>
-        <translation>standardverdi</translation>
+        <translation>por defecto</translation>
     </message>
     <message>
         <location line="+130"/>
         <source>Confirm options reset</source>
-        <translation type="unfinished"/>
+        <translation>Confirmar opcións de restaurar</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Some settings may require a client restart to take effect.</source>
-        <translation type="unfinished"/>
+        <translation>Algúns axustes poden precisar un reinicio do cliente para ter efecto.</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Do you want to proceed?</source>
-        <translation>Vil du fortsette?</translation>
+        <translation>Queres proceder?</translation>
     </message>
     <message>
         <location line="+42"/>
         <location line="+9"/>
         <source>Warning</source>
-        <translation>Advarsel</translation>
+        <translation>Precaución</translation>
     </message>
     <message>
         <location line="-9"/>
         <location line="+9"/>
         <source>This setting will take effect after restarting Bitcoin.</source>
-        <translation>Denne innstillingen trer i kraft etter omstart av Bitcoin.</translation>
+        <translation>Esta configuración terá efecto tras reiniciar Bitcoin</translation>
     </message>
     <message>
         <location line="+29"/>
         <source>The supplied proxy address is invalid.</source>
-        <translation>Angitt proxyadresse er ugyldig.</translation>
+        <translation>A dirección de proxy suministrada é inválida.</translation>
     </message>
 </context>
 <context>
@@ -1105,69 +1104,69 @@ Adresse: %4
     <message>
         <location filename="../forms/overviewpage.ui" line="+14"/>
         <source>Form</source>
-        <translation>Skjema</translation>
+        <translation>Formulario</translation>
     </message>
     <message>
         <location line="+50"/>
         <location line="+202"/>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Informasjonen som vises kan være foreldet. Din lommebok synkroniseres automatisk med Bitcoin-nettverket etter at tilkobling er opprettet, men denne prosessen er ikke ferdig enda.</translation>
+        <translation>A información amosada por estar desactualizada. O teu moedeiro sincronízase automáticamente coa rede Bitcoin despois de que se estableza unha conexión, pero este proceso non está todavía rematado.</translation>
     </message>
     <message>
         <location line="-131"/>
         <source>Unconfirmed:</source>
-        <translation>Ubekreftet</translation>
+        <translation>Sen confirmar:</translation>
     </message>
     <message>
         <location line="-78"/>
         <source>Wallet</source>
-        <translation>Lommebok</translation>
+        <translation>Moedeiro</translation>
     </message>
     <message>
         <location line="+49"/>
         <source>Confirmed:</source>
-        <translation>Bekreftet:</translation>
+        <translation>Confirmado:</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Your current spendable balance</source>
-        <translation type="unfinished"/>
+        <translation>O teu balance actualmente dispoñible</translation>
     </message>
     <message>
         <location line="+29"/>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
-        <translation type="unfinished"/>
+        <translation>Total de transaccións que aínda teñen que ser confirmadas, e non contan todavía dentro do balance gastable</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Immature:</source>
-        <translation>Umoden:</translation>
+        <translation>Inmaduro:</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Mined balance that has not yet matured</source>
-        <translation>Minet saldo har ikke modnet enda</translation>
+        <translation>O balance minado todavía non madurou</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Total:</source>
-        <translation>Totalt:</translation>
+        <translation>Total:</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Your current total balance</source>
-        <translation>Din nåværende saldo</translation>
+        <translation>O teu balance actual total</translation>
     </message>
     <message>
         <location line="+53"/>
         <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Siste transaksjoner&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Transaccións recentes&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../overviewpage.cpp" line="+116"/>
         <location line="+1"/>
         <source>out of sync</source>
-        <translation>ute av synk</translation>
+        <translation>non sincronizado</translation>
     </message>
 </context>
 <context>
@@ -1175,55 +1174,55 @@ Adresse: %4
     <message>
         <location filename="../paymentserver.cpp" line="+392"/>
         <source>URI handling</source>
-        <translation>URI håndtering</translation>
+        <translation>Manexo de URI</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>URI can not be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>URI kunne ikke tolkes! Dette kan forårsakes av en ugyldig Bitcoin-adresse eller feil i URI-parametere.</translation>
+        <translation>Non se pode parsear a URI! Esto pode ser causado por unha dirección Bitcoin inválida ou parámetros da URI malformados.</translation>
     </message>
     <message>
         <location line="+69"/>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
-        <translation type="unfinished"/>
+        <translation>A cantidade de %1 na solicitude de pado é moi pequena (considerada po).</translation>
     </message>
     <message>
         <location line="+4"/>
         <location line="+37"/>
         <source>Payment request error</source>
-        <translation type="unfinished"/>
+        <translation>Erro na petición de pago</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Insecure requests to custom payment scripts unsupported</source>
-        <translation type="unfinished"/>
+        <translation>Non se soportan as peticións inseguras a scrips de pagos propios</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>Refund from %1</source>
-        <translation type="unfinished"/>
+        <translation>Devolución dende %1</translation>
     </message>
     <message>
         <location line="+42"/>
         <source>Error communicating with %1: %2</source>
-        <translation type="unfinished"/>
+        <translation>Erro comunicando con %1: %2</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>Bad response from server %1</source>
-        <translation type="unfinished"/>
+        <translation>Responsa errónea do servidor %1</translation>
     </message>
     <message>
         <location line="+32"/>
         <source>Payment acknowledged</source>
-        <translation type="unfinished"/>
+        <translation>Pago admitido</translation>
     </message>
     <message>
         <location line="-58"/>
         <location line="+30"/>
         <location line="+17"/>
         <source>Network request error</source>
-        <translation type="unfinished"/>
+        <translation>Erro de solicitude de rede</translation>
     </message>
 </context>
 <context>
@@ -1238,17 +1237,17 @@ Adresse: %4
     <message>
         <location line="-4"/>
         <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
-        <translation type="unfinished"/>
+        <translation>Erro: O directorio de datos especificado &quot;%1&quot; non existe.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Error: Invalid combination of -regtest and -testnet.</source>
-        <translation type="unfinished"/>
+        <translation>Erro: combinación inválida de -regtest e -testnet.</translation>
     </message>
     <message>
         <location filename="../intro.cpp" line="+1"/>
         <source>Error: Specified data directory &quot;%1&quot; can not be created.</source>
-        <translation type="unfinished"/>
+        <translation>Erro: O directorio de datos especificado &quot;%1&quot; non pode ser creado.</translation>
     </message>
 </context>
 <context>
@@ -1256,22 +1255,22 @@ Adresse: %4
     <message>
         <location filename="../receiverequestdialog.cpp" line="+32"/>
         <source>&amp;Save Image...</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Gardar Imaxe...</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Copy Image</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Copiar Imaxe</translation>
     </message>
     <message>
         <location line="+28"/>
         <source>Save QR Code</source>
-        <translation>Lagre QR Kode</translation>
+        <translation>Gardar Código QR</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>PNG Images (*.png)</source>
-        <translation>PNG bilder (*.png)</translation>
+        <translation>Imaxes PNG (*.png)</translation>
     </message>
 </context>
 <context>
@@ -1279,7 +1278,7 @@ Adresse: %4
     <message>
         <location filename="../forms/rpcconsole.ui" line="+46"/>
         <source>Client name</source>
-        <translation>Klientnavn</translation>
+        <translation>Nome do cliente</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1293,192 +1292,192 @@ Adresse: %4
         <location line="+23"/>
         <location filename="../rpcconsole.cpp" line="+352"/>
         <source>N/A</source>
-        <translation>-</translation>
+        <translation>N/A</translation>
     </message>
     <message>
         <location line="-217"/>
         <source>Client version</source>
-        <translation>Klientversjon</translation>
+        <translation>Versión do cliente</translation>
     </message>
     <message>
         <location line="-45"/>
         <source>&amp;Information</source>
-        <translation>&amp;Informasjon</translation>
+        <translation>&amp;Información</translation>
     </message>
     <message>
         <location line="+68"/>
         <source>Using OpenSSL version</source>
-        <translation>Bruker OpenSSL versjon</translation>
+        <translation>Usar versión OpenSSL</translation>
     </message>
     <message>
         <location line="+49"/>
         <source>Startup time</source>
-        <translation>Oppstartstidspunkt</translation>
+        <translation>Tempo de arranque</translation>
     </message>
     <message>
         <location line="+29"/>
         <source>Network</source>
-        <translation>Nettverk</translation>
+        <translation>Rede</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Number of connections</source>
-        <translation>Antall tilkoblinger</translation>
+        <translation>Número de conexións</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>On testnet</source>
-        <translation>På testnett</translation>
+        <translation>Na testnet</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Block chain</source>
-        <translation>Blokkjeden</translation>
+        <translation>Cadea de bloques</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Current number of blocks</source>
-        <translation>Nåværende antall blokker</translation>
+        <translation>Número actual de bloques</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Estimated total blocks</source>
-        <translation>Estimert totalt antall blokker</translation>
+        <translation>Bloques totais estimados</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Last block time</source>
-        <translation>Tidspunkt for siste blokk</translation>
+        <translation>Hora do último bloque</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>&amp;Open</source>
-        <translation>&amp;Åpne</translation>
+        <translation>&amp;Abrir</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Command-line options</source>
-        <translation>Kommandolinjevalg</translation>
+        <translation>Opcións da liña de comandos</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Show the Bitcoin-Qt help message to get a list with possible Bitcoin command-line options.</source>
-        <translation>Vis Bitcoin-Qt hjelpemelding for å få en liste med mulige kommandolinjevalg.</translation>
+        <translation>Amosar a mensaxe de axuda de Bitcoin-Qt para obter unha lista coas posibles opcións da liña de comandos de Bitcoin.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>&amp;Show</source>
-        <translation>&amp;Vis</translation>
+        <translation>&amp;Amosar</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>&amp;Console</source>
-        <translation>&amp;Konsoll</translation>
+        <translation>&amp;Consola</translation>
     </message>
     <message>
         <location line="+72"/>
         <source>&amp;Network Traffic</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Tráfico de Rede</translation>
     </message>
     <message>
         <location line="+52"/>
         <source>&amp;Clear</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Limpar</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Totals</source>
-        <translation type="unfinished"/>
+        <translation>Totais</translation>
     </message>
     <message>
         <location line="+64"/>
         <source>In:</source>
-        <translation>Inn:</translation>
+        <translation>Dentro:</translation>
     </message>
     <message>
         <location line="+80"/>
         <source>Out:</source>
-        <translation>Ut:</translation>
+        <translation>Fóra:</translation>
     </message>
     <message>
         <location line="-541"/>
         <source>Build date</source>
-        <translation>Byggedato</translation>
+        <translation>Data de construción</translation>
     </message>
     <message>
         <location line="-104"/>
         <source>Bitcoin - Debug window</source>
-        <translation>Bitcoin - vindu for feilsøk</translation>
+        <translation>Bitcoin - Ventana de depuración</translation>
     </message>
     <message>
         <location line="+25"/>
         <source>Bitcoin Core</source>
-        <translation>Bitcoin Kjerne</translation>
+        <translation>Core de Bitcoin</translation>
     </message>
     <message>
         <location line="+279"/>
         <source>Debug log file</source>
-        <translation>Loggfil for feilsøk</translation>
+        <translation>Arquivo de log de depuración</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Open the Bitcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Åpne Bitcoin loggfil for feilsøk fra datamappen. Dette kan ta noen sekunder for store loggfiler.</translation>
+        <translation>Abrir o arquivo de log de depuración de Bitcoin dende o directorio actual de datos. Esto pode levar uns cantos segundos para grandes arquivos de log.</translation>
     </message>
     <message>
         <location line="+102"/>
         <source>Clear console</source>
-        <translation>Tøm konsoll</translation>
+        <translation>Limpar consola</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
         <source>Welcome to the Bitcoin RPC console.</source>
-        <translation>Velkommen til Bitcoin RPC konsoll.</translation>
+        <translation>Benvido á consola RPC de Bitcoin</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>Bruk opp og ned pil for å navigere historikken, og &lt;b&gt;Ctrl-L&lt;/b&gt; for å tømme skjermen.</translation>
+        <translation>Emprega as flechas arriba e abaixo para navegar polo historial, e &lt;b&gt;Ctrl-L&lt;/b&gt; para limpar a pantalla.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Skriv &lt;b&gt;help&lt;/b&gt; for en oversikt over kommandoer.</translation>
+        <translation>Escribe &lt;b&gt;axuda&lt;/b&gt; para unha vista xeral dos comandos dispoñibles.</translation>
     </message>
     <message>
         <location line="+128"/>
         <source>%1 B</source>
-        <translation type="unfinished"/>
+        <translation>%1 B</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>%1 KB</source>
-        <translation type="unfinished"/>
+        <translation>%1 KB</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>%1 MB</source>
-        <translation type="unfinished"/>
+        <translation>%1 MB</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>%1 GB</source>
-        <translation type="unfinished"/>
+        <translation>%1 GB</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>%1 m</source>
-        <translation type="unfinished"/>
+        <translation>%1 m</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>%1 h</source>
-        <translation type="unfinished"/>
+        <translation>%1 h</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>%1 h %2 m</source>
-        <translation type="unfinished"/>
+        <translation>%1 h %2 m</translation>
     </message>
 </context>
 <context>
@@ -1486,62 +1485,62 @@ Adresse: %4
     <message>
         <location filename="../forms/receivecoinsdialog.ui" line="+22"/>
         <source>&amp;Amount:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Cantidade:</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>The amount to request</source>
-        <translation type="unfinished"/>
+        <translation>A cantidade a solicitar</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>&amp;Label:</source>
-        <translation>&amp;Merkelapp:</translation>
+        <translation>&amp;Etiqueta:</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>The label to associate with the receiving address</source>
-        <translation type="unfinished"/>
+        <translation>A etiqueta asociada coa dirección para recibir</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>&amp;Message:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Mensaxe:</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>The message to attach to payment request</source>
-        <translation type="unfinished"/>
+        <translation>A mensaxe para incluír na solicitude de pago</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
-        <translation type="unfinished"/>
+        <translation>Reutilizar unha das direccións para recibir previas. Reutilizar direccións ten problemas de seguridade e privacidade. Non empregues esto agás que antes se fixese unha solicitude de rexeneración dun pago.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>R&amp;euse an existing receiving address (not recommended)</source>
-        <translation type="unfinished"/>
+        <translation>R&amp;eutilizar unha dirección para recibir existente (non recomendado)</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Use this form to request payments. All fields are optional.</source>
-        <translation type="unfinished"/>
+        <translation>Emprega este formulario para solicitar pagos. Tódolos campos son opcionais.</translation>
     </message>
     <message>
         <location line="+17"/>
         <source>Clear all fields of the form.</source>
-        <translation type="unfinished"/>
+        <translation>Limpar todos os campos do formulario</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Clear</source>
-        <translation type="unfinished"/>
+        <translation>Limpar</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>&amp;Request payment</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Solicitar pago</translation>
     </message>
 </context>
 <context>
@@ -1549,72 +1548,72 @@ Adresse: %4
     <message>
         <location filename="../forms/receiverequestdialog.ui" line="+29"/>
         <source>QR Code</source>
-        <translation>QR Kode</translation>
+        <translation>Código QR</translation>
     </message>
     <message>
         <location line="+46"/>
         <source>Copy &amp;URI</source>
-        <translation type="unfinished"/>
+        <translation>Copiar &amp;URI</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Copy &amp;Address</source>
-        <translation type="unfinished"/>
+        <translation>Copiar &amp;Dirección</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>&amp;Copy Image</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Copiar Imaxe</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>&amp;Save Image...</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Gardar Imaxe...</translation>
     </message>
     <message>
         <location filename="../receiverequestdialog.cpp" line="+58"/>
         <source>Request payment to %1</source>
-        <translation type="unfinished"/>
+        <translation>Solicitar pago a %1</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Payment information</source>
-        <translation type="unfinished"/>
+        <translation>Información de Pago</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>URI</source>
-        <translation type="unfinished"/>
+        <translation>URI</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Address</source>
-        <translation>Adresse</translation>
+        <translation>Dirección</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Amount</source>
-        <translation>Beløp</translation>
+        <translation>Cantidade</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Label</source>
-        <translation>Merkelapp</translation>
+        <translation>Etiqueta</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Message</source>
-        <translation>Melding</translation>
+        <translation>Mensaxe</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation>Resulterende URI for lang, prøv å redusere teksten for merkelapp / melding.</translation>
+        <translation>A URI resultante é demasiado larga, tenta reducir o texto para a etiqueta / mensaxe.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Error encoding URI into QR Code.</source>
-        <translation>Feil ved koding av URI i QR kode.</translation>
+        <translation>Erro codificando URI nun Código QR.</translation>
     </message>
 </context>
 <context>
@@ -1624,32 +1623,32 @@ Adresse: %4
         <location filename="../sendcoinsdialog.cpp" line="+140"/>
         <location line="+213"/>
         <source>Send Coins</source>
-        <translation>Send Bitcoins</translation>
+        <translation>Moedas Enviadas</translation>
     </message>
     <message>
         <location line="+50"/>
         <source>Send to multiple recipients at once</source>
-        <translation>Send til flere enn én mottaker</translation>
+        <translation>Enviar a múltiples receptores á vez</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Add &amp;Recipient</source>
-        <translation>&amp;Legg til Mottaker</translation>
+        <translation>Engadir &amp;Receptor</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Clear all fields of the form.</source>
-        <translation type="unfinished"/>
+        <translation>Limpar tódolos campos do formulario</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Clear &amp;All</source>
-        <translation>Fjern &amp;Alt</translation>
+        <translation>Limpar &amp;Todo</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>Balance:</source>
-        <translation>Saldo:</translation>
+        <translation>Balance:</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1659,84 +1658,84 @@ Adresse: %4
     <message>
         <location line="+31"/>
         <source>Confirm the send action</source>
-        <translation>Bekreft sending</translation>
+        <translation>Confirmar a acción de envío</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>S&amp;end</source>
-        <translation>S&amp;end</translation>
+        <translation>&amp;Enviar</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-154"/>
         <source>Confirm send coins</source>
-        <translation>Bekreft sending av bitcoins</translation>
+        <translation>Confirmar envío de moedas</translation>
     </message>
     <message>
         <location line="-90"/>
         <location line="+5"/>
         <location line="+5"/>
         <source>%1 to %2</source>
-        <translation type="unfinished"/>
+        <translation>%1 a %2</translation>
     </message>
     <message>
         <location line="+26"/>
         <source>The recipient address is not valid, please recheck.</source>
-        <translation>Adresse for mottaker er ugyldig.</translation>
+        <translation>A dirección de recepción non é válida, por favor compróbea.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>Beløpen som skal betales må være over 0.</translation>
+        <translation>A cantidade a pagar debe ser maior que 0.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>The amount exceeds your balance.</source>
-        <translation>Beløpet overstiger saldo.</translation>
+        <translation>A cantidade sobrepasa o teu balance.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>Totalbeløpet overstiger saldo etter at %1 transaksjonsgebyr er lagt til.</translation>
+        <translation>O total sobrepasa o teu balance cando se inclúe a tarifa de transacción %1.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation>Duplikate adresser funnet. Kan bare sende én gang til hver adresse per operasjon.</translation>
+        <translation>Atopouse dirección duplicada, so se pode enviar a cada dirección unha vez por operación.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Error: Transaction creation failed!</source>
-        <translation>Feil: Opprettelse av transaksjon feilet  </translation>
+        <translation>Erro: Fallou a creación da transacción!</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>Are you sure you want to send?</source>
-        <translation type="unfinished"/>
+        <translation>Seguro que queres enviar?</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>added as transaction fee</source>
-        <translation type="unfinished"/>
+        <translation>engadido como tarifa de transacción</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Total Amount %1</source>
-        <translation type="unfinished"/>
+        <translation>Cantidade Total %1</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Feil: Transaksjonen ble avvist. Dette kan skje om noe av beløpet allerede var brukt, f.eks. hvis du kopierte wallet.dat og noen bitcoins ble brukt i kopien men ikke ble markert som brukt her.</translation>
+        <translation>Erro: a transacción foi rexeitada. Esto pode ocorrer se algunha das moedas no teu moedeiro xa foi gastada, como por exemplo se tés unha copia de wallet.dat e gastas algunhas moedas na copia pero todavía non están marcadas como gastadas aquí.</translation>
     </message>
     <message>
         <location line="+144"/>
         <source>Payment request expired</source>
-        <translation type="unfinished"/>
+        <translation>A petición de pago expirou</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Invalid payment address %1</source>
-        <translation type="unfinished"/>
+        <translation>Dirección de pago %1 inválida</translation>
     </message>
 </context>
 <context>
@@ -1745,33 +1744,33 @@ Adresse: %4
         <location filename="../forms/sendcoinsentry.ui" line="+33"/>
         <location line="+585"/>
         <source>A&amp;mount:</source>
-        <translation>&amp;Beløp:</translation>
+        <translation>&amp;Cantidade:</translation>
     </message>
     <message>
         <location line="-572"/>
         <location line="+585"/>
         <source>Pay &amp;To:</source>
-        <translation>Betal &amp;Til:</translation>
+        <translation>Pagar &amp;A:</translation>
     </message>
     <message>
         <location line="-551"/>
         <source>The address to send the payment to (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Adressen betalingen skal sendes til  (f.eks. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>A dirección á que enviar o pago (exemplo: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+28"/>
         <source>Enter a label for this address to add it to your address book</source>
-        <translation>Skriv inn en merkelapp for denne adressen for å legge den til i din adressebok</translation>
+        <translation>Introduce unha etiqueta para esta dirección para engadila ao teu libro de direccións</translation>
     </message>
     <message>
         <location filename="../forms/sendcoinsentry.ui" line="-18"/>
         <source>&amp;Label:</source>
-        <translation>&amp;Merkelapp:</translation>
+        <translation>&amp;Etiqueta:</translation>
     </message>
     <message>
         <location line="+28"/>
         <source>Choose previously used address</source>
-        <translation type="unfinished"/>
+        <translation>Escoller dirección previamente empregada</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1781,7 +1780,7 @@ Adresse: %4
     <message>
         <location line="+7"/>
         <source>Paste address from clipboard</source>
-        <translation>Lim inn adresse fra utklippstavlen</translation>
+        <translation>Pegar dirección dende portapapeis</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1791,22 +1790,22 @@ Adresse: %4
     <message>
         <location line="+7"/>
         <source>Remove this recipient</source>
-        <translation>Fjern denne mottakeren</translation>
+        <translation>Eliminar este receptor</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Enter a label for this address to add it to the list of used addresses</source>
-        <translation type="unfinished"/>
+        <translation>Introduce unha etiqueta para esta dirección para engadila á listaxe de direccións empregadas</translation>
     </message>
     <message>
         <location line="+465"/>
         <source>Memo:</source>
-        <translation type="unfinished"/>
+        <translation>Memo:</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
         <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Skriv inn en Bitcoin adresse (f.eks. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>Introduce unha dirección Bitcoin (exemplo: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
 </context>
 <context>
@@ -1814,28 +1813,28 @@ Adresse: %4
     <message>
         <location filename="../forms/signverifymessagedialog.ui" line="+14"/>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation>Signaturer - Signer / Verifiser en melding</translation>
+        <translation>Sinaturas - Asinar / Verificar unha Mensaxe</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>&amp;Sign Message</source>
-        <translation>&amp;Signér Melding</translation>
+        <translation>&amp;Asinar Mensaxe</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Du kan signere meldinger med dine adresser for å bevise at du eier dem. Ikke signér vage meldinger da phishing-angrep kan prøve å lure deg til å signere din identitet over til andre. Signér kun fullt detaljerte utsagn som du er enig i.</translation>
+        <translation>Podes asinar mensaxes coas túas direccións para probar que ti as posees. Ten conta de non asinar nada vago, xa que hai ataques de phishing que tentarán que asines coa túa identidade por riba deles. Asina únicamente declaracións totalmente detalladas coas que esteas de acordo.</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Adressen for signering av meldingen (f.eks. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>A dirección coa que asinar a mensaxe (exemplo: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+10"/>
         <location line="+213"/>
         <source>Choose previously used address</source>
-        <translation type="unfinished"/>
+        <translation>Escoller dirección previamente empregada</translation>
     </message>
     <message>
         <location line="-203"/>
@@ -1846,7 +1845,7 @@ Adresse: %4
     <message>
         <location line="-203"/>
         <source>Paste address from clipboard</source>
-        <translation>Lim inn adresse fra utklippstavlen</translation>
+        <translation>Pegar dirección dende portapapeis</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1856,90 +1855,90 @@ Adresse: %4
     <message>
         <location line="+12"/>
         <source>Enter the message you want to sign here</source>
-        <translation>Skriv inn meldingen du vil signere her</translation>
+        <translation>Introduce a mensaxe que queres asinar aquí</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Signature</source>
-        <translation>Signatur</translation>
+        <translation>Sinatura</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>Copy the current signature to the system clipboard</source>
-        <translation>Kopier valgt signatur til utklippstavle</translation>
+        <translation>Copiar a sinatura actual ao portapapeis do sistema</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Signer meldingen for å bevise at du eier denne Bitcoin-adressen</translation>
+        <translation>Asina a mensaxe para probar que posees esta dirección Bitcoin</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Sign &amp;Message</source>
-        <translation>Signér &amp;Melding</translation>
+        <translation>Asinar &amp;Mensaxe</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Reset all sign message fields</source>
-        <translation>Tilbakestill alle felter for meldingssignering</translation>
+        <translation>Restaurar todos os campos de sinatura de mensaxe</translation>
     </message>
     <message>
         <location line="+3"/>
         <location line="+146"/>
         <source>Clear &amp;All</source>
-        <translation>Fjern &amp;Alt</translation>
+        <translation>Limpar &amp;Todo</translation>
     </message>
     <message>
         <location line="-87"/>
         <source>&amp;Verify Message</source>
-        <translation>&amp;Verifiser Melding</translation>
+        <translation>&amp;Verificar Mensaxe</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
-        <translation>Angi adresse for signering, melding (vær sikker på at du kopierer linjeskift, mellomrom, tab, etc. helt nøyaktig) og signatur under for å verifisere meldingen. Vær forsiktig med at du ikke gir signaturen mer betydning enn det som faktisk står i meldingen, for å unngå å bli lurt av såkalte &quot;man-in-the-middle&quot; angrep.</translation>
+        <translation>Introduce a dirección coa que asinar, a mensaxe (asegúrate de copiar exactamente os saltos de liña, espacios, tabulacións, etc.) e a sinatura debaixo para verificar a mensaxe. Ten coidado de non ler máis na sinatura do que hai no mensaxe asinado mesmo, a fin de evitar ser cazado nun ataque de home no medio.</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Adressen meldingen var signert med (f.eks. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>A dirección coa que foi firmada a mensaxe (exemplo: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="+40"/>
         <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Verifiser meldingen for å være sikker på at den ble signert av den angitte Bitcoin-adressen</translation>
+        <translation>Verificar a mensaxe para asegurar que foi asinada coa dirección Bitcoin especificada</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Verify &amp;Message</source>
-        <translation>&amp;Verifiser Melding</translation>
+        <translation>Verificar &amp;Mensaxe</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Reset all verify message fields</source>
-        <translation>Tilbakestill alle felter for meldingsverifikasjon</translation>
+        <translation>Restaurar todos os campos de verificación de mensaxe</translation>
     </message>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
         <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
-        <translation>Skriv inn en Bitcoin adresse (f.eks. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+        <translation>Introduza unha dirección Bitcoin (exemplo: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <location line="-2"/>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
-        <translation>Klikk &quot;Signer Melding&quot; for å generere signatur</translation>
+        <translation>Click en &quot;Asinar Mensaxe&quot; para xerar sinatura</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Enter Bitcoin signature</source>
-        <translation>Angi Bitcoin signatur</translation>
+        <translation>Introduce sinatura Bitcoin</translation>
     </message>
     <message>
         <location line="+85"/>
         <location line="+81"/>
         <source>The entered address is invalid.</source>
-        <translation>Angitt adresse er ugyldig.</translation>
+        <translation>A dirección introducida é inválida.</translation>
     </message>
     <message>
         <location line="-81"/>
@@ -1947,59 +1946,59 @@ Adresse: %4
         <location line="+73"/>
         <location line="+8"/>
         <source>Please check the address and try again.</source>
-        <translation>Vennligst sjekk adressen og prøv igjen.</translation>
+        <translation>Por favor comproba a dirección e proba de novo.</translation>
     </message>
     <message>
         <location line="-81"/>
         <location line="+81"/>
         <source>The entered address does not refer to a key.</source>
-        <translation>Angitt adresse refererer ikke til en nøkkel.</translation>
+        <translation>A dirección introducida non se refire a ninguna clave.</translation>
     </message>
     <message>
         <location line="-73"/>
         <source>Wallet unlock was cancelled.</source>
-        <translation>Opplåsing av lommebok ble avbrutt.</translation>
+        <translation>Cancelouse o desbloqueo do moedeiro.</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Private key for the entered address is not available.</source>
-        <translation>Privat nøkkel for den angitte adressen er ikke tilgjengelig.</translation>
+        <translation>A clave privada da dirección introducida non está dispoñible.</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Message signing failed.</source>
-        <translation>Signering av melding feilet.</translation>
+        <translation>Fallou a sinatura da mensaxe.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Message signed.</source>
-        <translation>Melding signert.</translation>
+        <translation>Mensaxe asinada.</translation>
     </message>
     <message>
         <location line="+59"/>
         <source>The signature could not be decoded.</source>
-        <translation>Signaturen kunne ikke dekodes.</translation>
+        <translation>A sinatura non puido ser decodificada.</translation>
     </message>
     <message>
         <location line="+0"/>
         <location line="+13"/>
         <source>Please check the signature and try again.</source>
-        <translation>Vennligst sjekk signaturen og prøv igjen.</translation>
+        <translation>Por favor revise a sinatura e probe de novo.</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>The signature did not match the message digest.</source>
-        <translation>Signaturen passer ikke til meldingen.</translation>
+        <translation>A sinatura non coincide co resumo da mensaxe.</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Message verification failed.</source>
-        <translation>Verifikasjon av melding feilet.</translation>
+        <translation>A verificación da mensaxe fallou.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Message verified.</source>
-        <translation>Melding verifisert.</translation>
+        <translation>Mensaxe verificada.</translation>
     </message>
 </context>
 <context>
@@ -2007,12 +2006,12 @@ Adresse: %4
     <message>
         <location filename="../splashscreen.cpp" line="+23"/>
         <source>The Bitcoin developers</source>
-        <translation>Bitcoin utviklerne</translation>
+        <translation>Os desenvolvedores de Bitcoin.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>[testnet]</source>
-        <translation>[testnett]</translation>
+        <translation>[testnet]</translation>
     </message>
 </context>
 <context>
@@ -2020,7 +2019,7 @@ Adresse: %4
     <message>
         <location filename="../trafficgraphwidget.cpp" line="+75"/>
         <source>KB/s</source>
-        <translation type="unfinished"/>
+        <translation>KB/s</translation>
     </message>
 </context>
 <context>
@@ -2028,71 +2027,71 @@ Adresse: %4
     <message>
         <location filename="../transactiondesc.cpp" line="+22"/>
         <source>Open until %1</source>
-        <translation>Åpen til %1</translation>
+        <translation>Aberto ata %1</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>%1/offline</source>
-        <translation>%1/frakoblet</translation>
+        <translation>%1/fóra de liña</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>%1/unconfirmed</source>
-        <translation>%1/ubekreftet</translation>
+        <translation>%1/sen confirmar</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>%1 confirmations</source>
-        <translation>%1 bekreftelser</translation>
+        <translation>%1 confirmacións</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>Status</source>
-        <translation>Status</translation>
+        <translation>Estado</translation>
     </message>
     <message numerus="yes">
         <location line="+7"/>
         <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, kringkast gjennom %n node</numerusform><numerusform>, kringkast gjennom %n noder</numerusform></translation>
+        <translation><numerusform>, propagado a % nodo</numerusform><numerusform>, propagado a % nodos</numerusform></translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Date</source>
-        <translation>Dato</translation>
+        <translation>Data</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Source</source>
-        <translation>Kilde</translation>
+        <translation>Orixe</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Generated</source>
-        <translation>Generert</translation>
+        <translation>Xerado</translation>
     </message>
     <message>
         <location line="+5"/>
         <location line="+17"/>
         <source>From</source>
-        <translation>Fra</translation>
+        <translation>Dende</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+22"/>
         <location line="+58"/>
         <source>To</source>
-        <translation>Til</translation>
+        <translation>A</translation>
     </message>
     <message>
         <location line="-77"/>
         <location line="+2"/>
         <source>own address</source>
-        <translation>egen adresse</translation>
+        <translation>dirección propia</translation>
     </message>
     <message>
         <location line="-2"/>
         <source>label</source>
-        <translation>merkelapp</translation>
+        <translation>etiqueta</translation>
     </message>
     <message>
         <location line="+37"/>
@@ -2101,17 +2100,17 @@ Adresse: %4
         <location line="+17"/>
         <location line="+48"/>
         <source>Credit</source>
-        <translation>Kredit</translation>
+        <translation>Crédito</translation>
     </message>
     <message numerus="yes">
         <location line="-120"/>
         <source>matures in %n more block(s)</source>
-        <translation><numerusform>blir moden om %n blokk</numerusform><numerusform>blir moden om %n blokker</numerusform></translation>
+        <translation><numerusform>madura nun bloque máis</numerusform><numerusform>madura en %n bloques máis</numerusform></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>not accepted</source>
-        <translation>ikke akseptert</translation>
+        <translation>non aceptado</translation>
     </message>
     <message>
         <location line="+44"/>
@@ -2119,87 +2118,87 @@ Adresse: %4
         <location line="+15"/>
         <location line="+48"/>
         <source>Debit</source>
-        <translation>Debet</translation>
+        <translation>Débito</translation>
     </message>
     <message>
         <location line="-57"/>
         <source>Transaction fee</source>
-        <translation>Transaksjonsgebyr</translation>
+        <translation>Tarifa de transacción</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Net amount</source>
-        <translation>Nettobeløp</translation>
+        <translation>Cantidade neta</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Message</source>
-        <translation>Melding</translation>
+        <translation>Mensaxe</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Comment</source>
-        <translation>Kommentar</translation>
+        <translation>Comentario</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Transaction ID</source>
-        <translation>Transaksjons-ID</translation>
+        <translation>ID de Transacción</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Merchant</source>
-        <translation type="unfinished"/>
+        <translation>Comerciante</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation type="unfinished"/>
+        <translation>As moedas xeradas deben madurar %1 bloques antes de que poidan ser gastadas. Cando xeraste este bloque, foi propagado á rede para ser engadido á cadeas de bloques. Se falla ao tentar meterse na cadea, o seu estado cambiará a &quot;non aceptado&quot; e non poderá ser gastado. Esto pode ocorrir ocasionalmente se outro nodo xera un bloque en poucos segundos de diferencia co teu.</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Debug information</source>
-        <translation>Informasjon for feilsøk</translation>
+        <translation>Información de depuración</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Transaction</source>
-        <translation>Transaksjon</translation>
+        <translation>Transacción</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Inputs</source>
-        <translation>Inndata</translation>
+        <translation>Entradas</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Amount</source>
-        <translation>Beløp</translation>
+        <translation>Cantidade</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>true</source>
-        <translation>sann</translation>
+        <translation>verdadeiro</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>false</source>
-        <translation>usann</translation>
+        <translation>falso</translation>
     </message>
     <message>
         <location line="-227"/>
         <source>, has not been successfully broadcast yet</source>
-        <translation>, har ikke blitt kringkastet uten problemer enda.</translation>
+        <translation>, non foi propagado con éxito todavía</translation>
     </message>
     <message numerus="yes">
         <location line="-35"/>
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Åpen for %n blokk til</numerusform><numerusform>Åpen for %n blokker til</numerusform></translation>
+        <translation><numerusform>Abrir para %s bloque máis</numerusform><numerusform>Abrir para %n bloques máis</numerusform></translation>
     </message>
     <message>
         <location line="+70"/>
         <source>unknown</source>
-        <translation>ukjent</translation>
+        <translation>descoñecido</translation>
     </message>
 </context>
 <context>
@@ -2207,12 +2206,12 @@ Adresse: %4
     <message>
         <location filename="../forms/transactiondescdialog.ui" line="+14"/>
         <source>Transaction details</source>
-        <translation>Transaksjonsdetaljer</translation>
+        <translation>Detalles de transacción</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>Her vises en detaljert beskrivelse av transaksjonen</translation>
+        <translation>Este panel amosa unha descripción detallada da transacción</translation>
     </message>
 </context>
 <context>
@@ -2220,117 +2219,117 @@ Adresse: %4
     <message>
         <location filename="../transactiontablemodel.cpp" line="+227"/>
         <source>Date</source>
-        <translation>Dato</translation>
+        <translation>Data</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Type</source>
-        <translation>Type</translation>
+        <translation>Tipo</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Address</source>
-        <translation>Adresse</translation>
+        <translation>Dirección</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Amount</source>
-        <translation>Beløp</translation>
+        <translation>Cantidade</translation>
     </message>
     <message numerus="yes">
         <location line="+57"/>
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Åpen for %n blokk til</numerusform><numerusform>Åpen for %n blokker til</numerusform></translation>
+        <translation><numerusform>Abrir para %n bloque máis</numerusform><numerusform>Abrir para %n bloques máis</numerusform></translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Open until %1</source>
-        <translation>Åpen til %1</translation>
+        <translation>Aberto ata %1</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Offline (%1 confirmations)</source>
-        <translation>Frakoblet (%1 bekreftelser)</translation>
+        <translation>Sen liña (%1 confirmacións)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Unconfirmed (%1 of %2 confirmations)</source>
-        <translation>Ubekreftet (%1 av %2 bekreftelser)</translation>
+        <translation>Sen confirmar (%1 de %2 confirmacións)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Confirmed (%1 confirmations)</source>
-        <translation>Bekreftet (%1 bekreftelser)</translation>
+        <translation>Confirmado (%1 confirmacións)</translation>
     </message>
     <message numerus="yes">
         <location line="+8"/>
         <source>Mined balance will be available when it matures in %n more block(s)</source>
-        <translation><numerusform>Minet saldo blir tilgjengelig når den modner om %n blokk</numerusform><numerusform>Minet saldo blir tilgjengelig når den modner om %n blokker</numerusform></translation>
+        <translation><numerusform>O balance minado estará dispoñible cando madure nun bloque máis</numerusform><numerusform>O balance minado estará dispoñible cando madure en %n bloques máis</numerusform></translation>
     </message>
     <message>
         <location line="+5"/>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Denne blokken har ikke blitt mottatt av noen andre noder og vil sannsynligvis ikke bli akseptert!</translation>
+        <translation>Este bloque non foi recibido por ningún outro nodo e probablemente non será aceptado!</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Generated but not accepted</source>
-        <translation>Generert men ikke akseptert</translation>
+        <translation>Xerado pero non aceptado</translation>
     </message>
     <message>
         <location line="+43"/>
         <source>Received with</source>
-        <translation>Mottatt med</translation>
+        <translation>Recibido con</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Received from</source>
-        <translation>Mottatt fra</translation>
+        <translation>Recibido de</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Sent to</source>
-        <translation>Sendt til</translation>
+        <translation>Enviado a</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Payment to yourself</source>
-        <translation>Betaling til deg selv</translation>
+        <translation>Pago a ti mesmo</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Mined</source>
-        <translation>Utvunnet</translation>
+        <translation>Minado</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>(n/a)</source>
-        <translation>-</translation>
+        <translation>(n/a)</translation>
     </message>
     <message>
         <location line="+199"/>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>Transaksjonsstatus. Hold muspekeren over dette feltet for å se antall bekreftelser.</translation>
+        <translation>Estado da transacción. Pasa por riba deste campo para amosar o número de confirmacións.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Date and time that the transaction was received.</source>
-        <translation>Dato og tid for da transaksjonen ble mottat.</translation>
+        <translation>Data e hora na que foi recibida a transacción.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Type of transaction.</source>
-        <translation>Type transaksjon.</translation>
+        <translation>Tipo de transacción.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Destination address of transaction.</source>
-        <translation>Mottaksadresse for transaksjonen</translation>
+        <translation>Dirección de destino da transacción.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Amount removed from or added to balance.</source>
-        <translation>Beløp fjernet eller lagt til saldo.</translation>
+        <translation>Cantidade borrada ou engadida no balance.</translation>
     </message>
 </context>
 <context>
@@ -2339,142 +2338,142 @@ Adresse: %4
         <location filename="../transactionview.cpp" line="+52"/>
         <location line="+16"/>
         <source>All</source>
-        <translation>Alle</translation>
+        <translation>Todo</translation>
     </message>
     <message>
         <location line="-15"/>
         <source>Today</source>
-        <translation>I dag</translation>
+        <translation>Hoxe</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>This week</source>
-        <translation>Denne uken</translation>
+        <translation>Esta semana</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>This month</source>
-        <translation>Denne måneden</translation>
+        <translation>Este mes</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Last month</source>
-        <translation>Forrige måned</translation>
+        <translation>O último mes</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>This year</source>
-        <translation>Dette året</translation>
+        <translation>Este ano</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Range...</source>
-        <translation>Intervall...</translation>
+        <translation>Periodo...</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Received with</source>
-        <translation>Mottatt med</translation>
+        <translation>Recibido con</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Sent to</source>
-        <translation>Sendt til</translation>
+        <translation>Enviado a</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>To yourself</source>
-        <translation>Til deg selv</translation>
+        <translation>A ti mesmo</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Mined</source>
-        <translation>Utvunnet</translation>
+        <translation>Minado</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Other</source>
-        <translation>Andre</translation>
+        <translation>Outro</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Enter address or label to search</source>
-        <translation>Skriv inn adresse eller merkelapp for søk</translation>
+        <translation>Introduce dirección ou etiqueta para buscar</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Min amount</source>
-        <translation>Minimumsbeløp</translation>
+        <translation>Cantidade mínima</translation>
     </message>
     <message>
         <location line="+34"/>
         <source>Copy address</source>
-        <translation>Kopier adresse</translation>
+        <translation>Copiar dirección</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy label</source>
-        <translation>Kopier merkelapp</translation>
+        <translation>Copiar etiqueta</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy amount</source>
-        <translation>Kopiér beløp</translation>
+        <translation>Copiar cantidade</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Copy transaction ID</source>
-        <translation>Kopier transaksjons-ID</translation>
+        <translation>Copiar ID de transacción</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Edit label</source>
-        <translation>Rediger merkelapp</translation>
+        <translation>Modificar etiqueta</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show transaction details</source>
-        <translation>Vis transaksjonsdetaljer</translation>
+        <translation>Amosar detalles da transacción</translation>
     </message>
     <message>
         <location line="+143"/>
         <source>Export Transaction Data</source>
-        <translation>Eksporter transaksjonsdata</translation>
+        <translation>Exportar Datos de Transacción</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
-        <translation>Kommaseparert fil (*.csv)</translation>
+        <translation>Arquivo separado por comas (*.csv)</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Confirmed</source>
-        <translation>Bekreftet</translation>
+        <translation>Confirmado</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Date</source>
-        <translation>Dato</translation>
+        <translation>Data</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Type</source>
-        <translation>Type</translation>
+        <translation>Tipo</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Label</source>
-        <translation>Merkelapp</translation>
+        <translation>Etiqueta</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Address</source>
-        <translation>Adresse</translation>
+        <translation>Dirección</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Amount</source>
-        <translation>Beløp</translation>
+        <translation>Cantidade</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2484,22 +2483,22 @@ Adresse: %4
     <message>
         <location line="+4"/>
         <source>Error exporting</source>
-        <translation>Feil ved eksport</translation>
+        <translation>Error na exportación</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Could not write to file %1.</source>
-        <translation>Kunne ikke skrive til filen %1.</translation>
+        <translation>Non se pudo escribir ao arquivo %1.</translation>
     </message>
     <message>
         <location line="+100"/>
         <source>Range:</source>
-        <translation>Intervall:</translation>
+        <translation>Periodo:</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>to</source>
-        <translation>til</translation>
+        <translation>a</translation>
     </message>
 </context>
 <context>
@@ -2507,7 +2506,7 @@ Adresse: %4
     <message>
         <location filename="../walletmodel.cpp" line="+218"/>
         <source>Send Coins</source>
-        <translation>Send Bitcoins</translation>
+        <translation>Moedas Enviadas</translation>
     </message>
 </context>
 <context>
@@ -2515,42 +2514,42 @@ Adresse: %4
     <message>
         <location filename="../walletview.cpp" line="+46"/>
         <source>&amp;Export</source>
-        <translation>&amp;Eksporter...</translation>
+        <translation>&amp;Exportar</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Export the data in the current tab to a file</source>
-        <translation>Eksporter data fra nåværende fane til fil</translation>
+        <translation>Exportar os datos da pestaña actual a un arquivo.</translation>
     </message>
     <message>
         <location line="+183"/>
         <source>Backup Wallet</source>
-        <translation>Sikkerhetskopier lommebok</translation>
+        <translation>Copia de Seguridade de Moedeiro</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Wallet Data (*.dat)</source>
-        <translation>Lommebokdata (*.dat)</translation>
+        <translation>Datos de Moedeiro (*.dat)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Backup Failed</source>
-        <translation>Sikkerhetskopiering feilet</translation>
+        <translation>Copia de Seguridade Fallida</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>There was an error trying to save the wallet data to the new location.</source>
-        <translation>En feil oppstod under lagringen av lommeboken til den nye plasseringen.</translation>
+        <translation>Houbo un erro ao tentar gardar os datos do moedeiro á nova localización.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Backup Successful</source>
-        <translation>Sikkerhetskopiering fullført</translation>
+        <translation>Copia de Seguridade Correcta</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>The wallet data was successfully saved to the new location.</source>
-        <translation>Lommebokdata ble lagret til den nye plasseringen. </translation>
+        <translation>Os datos do moedeiro foron gardados con éxito na nova localización.</translation>
     </message>
 </context>
 <context>
@@ -2558,107 +2557,107 @@ Adresse: %4
     <message>
         <location filename="../bitcoinstrings.cpp" line="+102"/>
         <source>Bitcoin version</source>
-        <translation>Bitcoin versjon</translation>
+        <translation>Versión de Bitcoin</translation>
     </message>
     <message>
         <location line="+107"/>
         <source>Usage:</source>
-        <translation>Bruk:</translation>
+        <translation>Emprego:</translation>
     </message>
     <message>
         <location line="-55"/>
         <source>List commands</source>
-        <translation>List opp kommandoer</translation>
+        <translation>Listar comandos</translation>
     </message>
     <message>
         <location line="-13"/>
         <source>Get help for a command</source>
-        <translation>Vis hjelpetekst for en kommando</translation>
+        <translation>Obter axuda para un comando</translation>
     </message>
     <message>
         <location line="+25"/>
         <source>Options:</source>
-        <translation>Innstillinger:</translation>
+        <translation>Opcións:</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>Specify configuration file (default: bitcoin.conf)</source>
-        <translation>Angi konfigurasjonsfil (standardverdi: bitcoin.conf)</translation>
+        <translation>Especificar arquivo de configuración (por defecto: bitcoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Specify pid file (default: bitcoind.pid)</source>
-        <translation>Angi pid-fil (standardverdi: bitcoind.pid)</translation>
+        <translation>Especificar arquivo de pid (por defecto: bitcoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
         <source>Specify data directory</source>
-        <translation>Angi mappe for datafiler</translation>
+        <translation>Especificar directorio de datos</translation>
     </message>
     <message>
         <location line="-9"/>
         <source>Set database cache size in megabytes (default: 25)</source>
-        <translation>Sett størrelse på mellomlager for database i megabytes (standardverdi: 25)</translation>
+        <translation>Fixar tamaño da caché da base de datos en megabytes (por defecto: 25)</translation>
     </message>
     <message>
         <location line="-28"/>
         <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
-        <translation>Lytt etter tilkoblinger på &lt;port&gt; (standardverdi: 8333 eller testnet: 18333)</translation>
+        <translation>Escoitar conexións no &lt;porto&gt; (por defecto: 8333 ou testnet: 18333)</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation>Hold maks &lt;n&gt; koblinger åpne til andre noder (standardverdi: 125)</translation>
+        <translation>Manter como moito &lt;n&gt; conexións con pares (por defecto: 125)</translation>
     </message>
     <message>
         <location line="-49"/>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Koble til node for å hente adresser til andre noder, koble så fra igjen</translation>
+        <translation>Conectar a nodo para recuperar direccións de pares, e desconectar</translation>
     </message>
     <message>
         <location line="+84"/>
         <source>Specify your own public address</source>
-        <translation>Angi din egen offentlige adresse</translation>
+        <translation>Especificar a túa propia dirección pública</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation>Grenseverdi for å koble fra noder med dårlig oppførsel (standardverdi: 100)</translation>
+        <translation>Umbral para desconectar pares con mal comportamento (por defecto: 100)</translation>
     </message>
     <message>
         <location line="-142"/>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation>Antall sekunder noder med dårlig oppførsel hindres fra å koble til på nytt (standardverdi: 86400)</translation>
+        <translation>Número de segundos para manter sen reconectar aos pares con mal comportamento (por defecto: 86400)</translation>
     </message>
     <message>
         <location line="-33"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
-        <translation>En feil oppstod ved opprettelse av RPC port %u for lytting: %s</translation>
+        <translation>Ocorreu un erro mentres se establecía o porto RPC %u para escoitar sobre IPv4: %s</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation>Lytt etter JSON-RPC tilkoblinger på &lt;port&gt; (standardverdi: 8332 or testnet: 18332)</translation>
+        <translation>Escoitar conexións JSON-RPC no &lt;porto&gt; (por defecto: 8332 ou testnet: 18332)</translation>
     </message>
     <message>
         <location line="+40"/>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation>Ta imot kommandolinje- og JSON-RPC-kommandoer</translation>
+        <translation>Aceptar liña de comandos e comandos JSON-RPC</translation>
     </message>
     <message>
         <location line="+79"/>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>Kjør i bakgrunnen som daemon og ta imot kommandoer</translation>
+        <translation>Executar no fondo como un demo e aceptar comandos</translation>
     </message>
     <message>
         <location line="+40"/>
         <source>Use the test network</source>
-        <translation>Bruk testnettverket</translation>
+        <translation>Empregar a rede de proba</translation>
     </message>
     <message>
         <location line="-118"/>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Ta imot tilkoblinger fra utsiden (standardverdi: 1 hvis uten -proxy eller -connect)</translation>
+        <translation>Aceptar conexións de fóra (por defecto: 1 se non -proxy ou -connect)</translation>
     </message>
     <message>
         <location line="-87"/>
@@ -2673,680 +2672,681 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
 </source>
-        <translation>%s, du må angi rpcpassord i konfigurasjonsfilen.
+        <translation>%s, debes fixar unha rpcpassword no arquivo de configuración:
 %s
-Det anbefales at du bruker det følgende tilfeldige passordet:
-rpcbruker=bitcoinrpc
-rpcpassord=%s
-(du behøver ikke å huske passordet)
-Brukernavnet og passordet MÅ IKKE være like.
-Om filen ikke eksisterer, opprett den nå med eier-kun-les filrettigheter.
-Det er også anbefalt at å sette varselsmelding slik du får melding om problemer.
-For eksempel: varselmelding=echo %%s | mail -s &quot;Bitcoin varsel&quot; admin@foo.com</translation>
+Reoméndase usar o seguinte contrasinal aleatorio:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(non precisas lembrar este contrasinal)
+O nome do usuario e o contrasinal DEBEN NON ser o mesmo.
+Se o arquivo non existe, debes crealo con permisos de so lectura para o propietario.
+Tamén é recomendable fixar alertnotify de modo que recibas notificación dos problemas;
+por exemplo: alertnotify=echo %%s | mail -s &quot;Bitcoin Alert&quot; admin@foo.com
+</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Acceptable ciphers (default: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!3DES:@STRENGTH)</source>
-        <translation type="unfinished"/>
+        <translation>Cifradores aceptables (por defecto: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!3DES:@STRENGTH)</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
-        <translation>En feil oppstod under oppsettet av RPC port %u for IPv6, tilbakestilles til IPv4: %s</translation>
+        <translation>Ocorreu un erro mentres se establecía o porto RPC %u para escoitar sobre IPv6, voltando a IPv4: %s</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation>Bind til angitt adresse. Bruk [vertsmaskin]:port notasjon for IPv6</translation>
+        <translation>Enlazar a unha dirección dada e escoitar sempre nela. Emprega a notación [host]:post para IPv6</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Cannot obtain a lock on data directory %s. Bitcoin is probably already running.</source>
-        <translation>Kan ikke skaffe lås på denne datamappen %s. Bitcoin kjører sansynlig alerede.</translation>
+        <translation>Non se pode obter un bloqueo sobre o directorio de datos %s. Bitcoin está probablemente xa executándose.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly. This is intended for regression testing tools and app development.</source>
-        <translation type="unfinished"/>
+        <translation>Entra en modo de test de regresión, que emprega unha cadea especial na que os bloques poden ser resoltos instantáneamente. Esto está pensado para ferramentes de testing de regresión e desenvolvemento de aplicacións.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Feil: Transaksjonen ble avvist! Dette kan skje hvis noen av myntene i lommeboken alerede er blit brukt, som om du brukte en kopi av wallet.dat og myntene ble brukt i kopien, men ikke markert som brukt her.</translation>
+        <translation>Erro: A transacción foi rexeitada! Esto podería suceder se unha das moedas do teu moedeiro xa foi gastada, como se usas unha copia de wallet.dat e hai moedas que se gastaron na copia pero non foron marcadas como gastadas aquí.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation>Feil: Denne transaksjonen trenger en gebyr på minst %s på grunn av beløpet, kompleksiteten, eller bruk av allerede mottatte penger.</translation>
+        <translation>Erro: Esta transacción require unha tarifa de transacción de alomenos %s debido á súa cantidade, complexidade ou emprego de fondos recentemente recibidos!</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Kjør kommando når en lommeboktransaksjon endres (%s i cmd er erstattet med TxID)</translation>
+        <translation>Executar comando cando unha transacción do moedeiro cambia (%s no comando é substituído por TxID)</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
-        <translation>Sett maks størrelse for transaksjoner med høy prioritet / lavt gebyr, i bytes (standardverdi: 27000)</translation>
+        <translation>Fixar tamaño máximo das transaccións de alta-prioridade/baixa-tarifa en bytes (por defecto: 27000)</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>Dette er en forhånds-sluppet test versjon - bruk på egen risiko - ikke for bruk av &quot;Mining&quot; (utvinning) eller markedsføring applikasjoner.</translation>
+        <translation>Esta é unha build de test pre-lanzamento - emprégaa baixo o teu propio risco - non empregar para minado ou aplicacións de comerciantes</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>Advarsel: -paytxfee er satt veldig høyt! Dette er transaksjonsgebyret du betaler når du sender transaksjoner.</translation>
+        <translation>Precaución: -paytxfee está posto moi algo! Esta é a tarifa de transacción que ti pagarás se envías unha transacción.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
-        <translation>Advarsel: Vennligst undersøk at din datamaskin har riktig dato og klokkeslett! Hvis klokken er stilt feil vil ikke Bitcoin fungere riktig.</translation>
+        <translation>Precaución; Por favor revisa que a data e hora do teu ordenador son correctas! Se o teu reloxo está equivocato Bitcoin non funcionará adecuadamente.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
-        <translation type="unfinished"/>
+        <translation>Precaución: A rede non parece estar totalmente de acordo! Algúns mineitos parecen estar experimentando problemas.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation type="unfinished"/>
+        <translation>Precaución: Non parece que esteamos totalmente de acordo cos nosos pares! Pode que precises actualizar, ou outros nodos poden precisar actualizarse.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>Advarsel: Feil ved lesing av wallet.dat! Alle taster lest riktig, men transaksjon dataene eller adresse innlegg er kanskje manglende eller feil.</translation>
+        <translation>Precaución: erro lendo wallet.dat! Tódalas claves lidas correctamente, pero os datos de transacción ou as entradas do libro de direccións podrían estar ausentes ou incorrectos.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation type="unfinished"/>
+        <translation>Precaución: wallet.dat corrupto, datos salvagardados! O wallet.dat orixinal foi gardado como wallet.{timestamp}.bak en %s; se o teu balance ou transaccións son incorrectas deberías restauralas dende unha copia de seguridade.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
-        <translation type="unfinished"/>
+        <translation>Tentar recuperar claves privadas dende un wallet.dat corrupto</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Bitcoin RPC client version</source>
-        <translation type="unfinished"/>
+        <translation>Versión de cliente RPC de Bitcoin</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Block creation options:</source>
-        <translation>Valg for opprettelse av blokker:</translation>
+        <translation>Opcións de creación de bloque:</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Connect only to the specified node(s)</source>
-        <translation>Koble kun til angitt(e) node(r)</translation>
+        <translation>Conectar so ao(s) nodo(s) especificado(s)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Connect to JSON-RPC on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
-        <translation type="unfinished"/>
+        <translation>Conectar a JSON-RPC no &lt;porto&gt; (por defecto: 8332 ou testnet: 18332)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Corrupted block database detected</source>
-        <translation>Oppdaget korrupt blokkdatabase</translation>
+        <translation>Detectada base de datos de bloques corrupta.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
-        <translation>Oppdag egen IP-adresse (standardverdi: 1 ved lytting og uten -externalip)</translation>
+        <translation>Descobrir dirección IP propia (por defecto: 1 se á escoita e non -externalip)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Do you want to rebuild the block database now?</source>
-        <translation>Ønsker du å gjenopprette blokkdatabasen nå?</translation>
+        <translation>Queres reconstruír a base de datos de bloques agora?</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Error initializing block database</source>
-        <translation>Feil under initialisering av blokkdatabase</translation>
+        <translation>Erro inicializando a base de datos de bloques</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Error initializing wallet database environment %s!</source>
-        <translation>Feil under oppstart av lommebokdatabasemiljø %s!</translation>
+        <translation>Erro inicializando entorno de base de datos de moedeiro %s!</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Error loading block database</source>
-        <translation>Feil ved lasting av blokkdatabase</translation>
+        <translation>Erro cargando base de datos do bloque</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Error opening block database</source>
-        <translation>Feil under åpning av blokkdatabase</translation>
+        <translation>Erro abrindo base de datos de bloques</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Error: Disk space is low!</source>
-        <translation>Feil: lite ledig lagringsplass!</translation>
+        <translation>Erro: Espacio en disco escaso!</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Error: Wallet locked, unable to create transaction!</source>
-        <translation type="unfinished"/>
+        <translation>Erro: Moedeiro bloqueado, imposible crear transacción!</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Error: system error: </source>
-        <translation>Feil: systemfeil:</translation>
+        <translation>Erro: erro do sistema:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>Kunne ikke lytte på noen port. Bruk -listen=0 hvis det er dette du vil.</translation>
+        <translation>Fallou escoitar en calquera porto. Emprega -listen=0 se queres esto.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Failed to read block info</source>
-        <translation>Feil ved lesing av blokkinfo</translation>
+        <translation>Fallou a lectura da información do bloque</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Failed to read block</source>
-        <translation>Feil ved lesing av blokk</translation>
+        <translation>Fallou a lectura do bloque</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Failed to sync block index</source>
-        <translation>Feil ved synkronisering av blokkindeks</translation>
+        <translation>Fallou a sincronización do índice do bloque</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Failed to write block index</source>
-        <translation>Ved feil skriving av blokkindeks</translation>
+        <translation>Fallou a escritura do índice do bloque</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Failed to write block info</source>
-        <translation>Feil ved skriving av blokkinfo</translation>
+        <translation>Fallou a escritura da información do bloque</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Failed to write block</source>
-        <translation>Feil ved skriving av blokk</translation>
+        <translation>Fallou a escritura do bloque</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Failed to write file info</source>
-        <translation>Feil ved skriving av filinfo</translation>
+        <translation>Fallou a escritura da información do arquivo</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Failed to write to coin database</source>
-        <translation>Feil ved skriving av bitcoin database</translation>
+        <translation>Fallou a escritura na base de datos de moedas</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Failed to write transaction index</source>
-        <translation>Feil ved skriving av transaksjonsindeks</translation>
+        <translation>Fallou a escritura do índice de transaccións</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Failed to write undo data</source>
-        <translation>Feil ved skriving av angre-data</translation>
+        <translation>Fallou a escritura dos datos para desfacer</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Find peers using DNS lookup (default: 1 unless -connect)</source>
-        <translation>Finn andre noder gjennom DNS-oppslag (standardverdi: 1 med mindre -connect er oppgit)</translation>
+        <translation>Atopar pares usando lookup DNS (por defecto: 1 agás -connect)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Generate coins (default: 0)</source>
-        <translation>Generér bitcoins (standardverdi: 0)</translation>
+        <translation>Xerar moedas (por defecto: 0)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>How many blocks to check at startup (default: 288, 0 = all)</source>
-        <translation>Hvor mange blokker skal sjekkes ved oppstart (standardverdi: 288, 0 = alle)</translation>
+        <translation>Cantos bloques para chequear ao arrancar (por defecto: 288, 0 = todos)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>How thorough the block verification is (0-4, default: 3)</source>
-        <translation type="unfinished"/>
+        <translation>Como de exhaustiva é a verificación de bloques (0-4, pro defecto: 3)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
-        <translation type="unfinished"/>
+        <translation>Bloque genesis incorrecto o no existente. Datadir erróneo para a rede?</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Invalid -onion address: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
+        <translation>Dirección -onion inválida: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>Not enough file descriptors available.</source>
-        <translation type="unfinished"/>
+        <translation>Non hai suficientes descritores de arquivo dispoñibles.</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Rebuild block chain index from current blk000??.dat files</source>
-        <translation>Gjenopprett blokkjedeindex fra blk000??.dat filer</translation>
+        <translation>Reconstruír índice de cadea de bloque dende os ficheiros actuais blk000??.dat</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Send command to Bitcoin server</source>
-        <translation type="unfinished"/>
+        <translation>Enviar comando a servidor Bitcoin</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Set the number of threads to service RPC calls (default: 4)</source>
-        <translation type="unfinished"/>
+        <translation>Fixar o número de fíos para as chamadas aos servicios RPC (por defecto: 4)</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Specify wallet file (within data directory)</source>
-        <translation type="unfinished"/>
+        <translation>Especificar arquivo do moedeiro (dentro do directorio de datos)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Start Bitcoin server</source>
-        <translation type="unfinished"/>
+        <translation>Comezar servidor Bitcoin</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Usage (deprecated, use bitcoin-cli):</source>
-        <translation type="unfinished"/>
+        <translation>Emprego (desaconsellado, usar bitcoin-cli)</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Verifying blocks...</source>
-        <translation>Verifiserer blokker...</translation>
+        <translation>Verificando bloques...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Verifying wallet...</source>
-        <translation>Verifiserer lommebok...</translation>
+        <translation>Verificando moedeiro...</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Wallet %s resides outside data directory %s</source>
-        <translation type="unfinished"/>
+        <translation>O moedeiro %s reside fóra do directorio de datos %s</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>You need to rebuild the database using -reindex to change -txindex</source>
-        <translation type="unfinished"/>
+        <translation>Precisas reconstruír a base de datos empregando -reindex para cambiar -txindex</translation>
     </message>
     <message>
         <location line="-78"/>
         <source>Imports blocks from external blk000??.dat file</source>
-        <translation>Importerer blokker fra ekstern blk000?.dat fil</translation>
+        <translation>Importa bloques dende arquivos blk000??.dat externos</translation>
     </message>
     <message>
         <location line="-98"/>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
-        <translation type="unfinished"/>
+        <translation>Executar comando cando se recibe unha alerta relevante ou vemos un fork realmente longo (%s no cmd é substituído pola mensaxe)</translation>
     </message>
     <message>
         <location line="+17"/>
         <source>Set the number of script verification threads (up to 16, 0 = auto, &lt;0 = leave that many cores free, default: 0)</source>
-        <translation type="unfinished"/>
+        <translation>Fixar o número de fíos para sripts de verificación (ata 16, 0 = auto, &lt;0 = deixa tantos cores libres, por defecto: 0)</translation>
     </message>
     <message>
         <location line="+83"/>
         <source>Information</source>
-        <translation>Informasjon</translation>
+        <translation>Información</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
+        <translation>Cantidade inválida para -minrelaytxfee=&lt;cantidade&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Invalid amount for -mintxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
+        <translation>Cantidade inválida para -mintxfee=&lt;cantidade&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Maintain a full transaction index (default: 0)</source>
-        <translation type="unfinished"/>
+        <translation>Manter un índice completo de transaccións (por defecto: 0)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
-        <translation>Maks mottaksbuffer per forbindelse, &lt;n&gt;*1000 bytes (standardverdi: 5000)</translation>
+        <translation>Máximo buffer por-conexión para recibir, &lt;n&gt;*1000 bytes (por defecto: 5000)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
-        <translation>Maks sendebuffer per forbindelse, &lt;n&gt;*1000 bytes (standardverdi: 1000)</translation>
+        <translation>Máximo buffer por-conexión para enviar, &lt;n&gt;*1000 bytes (por defecto: 1000)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Only accept block chain matching built-in checkpoints (default: 1)</source>
-        <translation type="unfinished"/>
+        <translation>Aceptar so cadeas de bloques coincidentes con check-points incorporados (por defecto: 1)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
-        <translation>Koble kun til noder i nettverket &lt;nett&gt; (IPv4, IPv6 eller Tor)</translation>
+        <translation>Conectar so a nodos na rede &lt;net&gt; (IPv4, IPv6 ou Tor)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Output extra debugging information. Implies all other -debug* options</source>
-        <translation>Skriv ekstra informasjon for feilsøk. Medfører at alle -debug* valg tas med</translation>
+        <translation>Emitir información extra de depuración. Implica todas as demáis opcións -debug*.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Output extra network debugging information</source>
-        <translation>Skriv ekstra informasjon for feilsøk av nettverk</translation>
+        <translation>Emitir información extra de depuración de rede</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Prepend debug output with timestamp</source>
-        <translation>Sett tidsstempel på debugmeldinger</translation>
+        <translation>Prefixar saída de depuración coa marca de tempo</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>SSL valg: (se Bitcoin Wiki for instruksjoner for oppsett av SSL)</translation>
+        <translation>Opcións SSL: (ver ńa Wiki Bitcoin as instrucción de configuración de SSL)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Select the version of socks proxy to use (4-5, default: 5)</source>
-        <translation>Velg versjon av socks proxy (4-5, standardverdi 5)</translation>
+        <translation>Seleccionar a versión do proxy socks que usar (4-5, por defecto: 5)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Send spor/debug informasjon til konsollet istedenfor debug.log filen</translation>
+        <translation>Enviar traza/información de depuración á consola en lugar de ao arquivo debug.log</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Send trace/debug info to debugger</source>
-        <translation>Send spor/debug informasjon til debugger</translation>
+        <translation>Enviar traza/información de depuración ao depurador</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Set maximum block size in bytes (default: 250000)</source>
-        <translation>Sett maks blokkstørrelse i bytes (standardverdi: 250000)</translation>
+        <translation>Fixar tamaño máximo de bloque en bytes (por defecto: 250000)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Set minimum block size in bytes (default: 0)</source>
-        <translation>Sett minimum blokkstørrelse i bytes (standardverdi: 0)</translation>
+        <translation>Fixar tamaño mínimo de bloque en bytes (por defecto: 0)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation>Krymp debug.log filen når klienten starter (standardverdi: 1 hvis uten -debug)</translation>
+        <translation>Recortar o arquivo debug.log ao arrancar o cliente (por defecto: 1 cando no-debug)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Signing transaction failed</source>
-        <translation type="unfinished"/>
+        <translation>Fallou a sinatura da transacción</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Specify connection timeout in milliseconds (default: 5000)</source>
-        <translation>Angi tidsavbrudd for forbindelse i millisekunder (standardverdi: 5000)</translation>
+        <translation>Especificar tempo límite da conexión en milisegundos (por defecto: 5000)</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>System error: </source>
-        <translation>Systemfeil:</translation>
+        <translation>Erro do sistema:</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Transaction amount too small</source>
-        <translation type="unfinished"/>
+        <translation>A cantidade da transacción é demasiado pequena</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Transaction amounts must be positive</source>
-        <translation type="unfinished"/>
+        <translation>As cantidades da transacción deben ser positivas</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Transaction too large</source>
-        <translation>Transaksjonen er for stor</translation>
+        <translation>A transacción é demasiado grande</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Use UPnP to map the listening port (default: 0)</source>
-        <translation>Bruk UPnP for lytteport (standardverdi: 0)</translation>
+        <translation>Usar UPnP para mapear o porto de escoita (por defecto: 0)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation>Bruk UPnP for lytteport (standardverdi: 1 ved lytting)</translation>
+        <translation>Usar UPnP para mapear o porto de escoita (por defecto: 1 se á escoita)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Use proxy to reach tor hidden services (default: same as -proxy)</source>
-        <translation>Bruk en proxy for å nå skjulte tor tjenester (standardverdi: samme som -proxy)</translation>
+        <translation>Empregar proxy para chegar os servicios ocultos de tor (por defecto: mesmo que -proxy)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Username for JSON-RPC connections</source>
-        <translation>Brukernavn for JSON-RPC forbindelser</translation>
+        <translation>Nome de usuario para conexións JSON-RPC</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Warning</source>
-        <translation>Advarsel</translation>
+        <translation>Precaución</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation>Advarsel: Denne versjonen er foreldet, oppgradering kreves!</translation>
+        <translation>Precaución: Esta versión é obsoleta, precísase unha actualización!</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>wallet.dat corrupt, salvage failed</source>
-        <translation type="unfinished"/>
+        <translation>wallet.dat corrupto, fallou o gardado</translation>
     </message>
     <message>
         <location line="-54"/>
         <source>Password for JSON-RPC connections</source>
-        <translation>Passord for JSON-RPC forbindelser</translation>
+        <translation>Contrasinal para conexións JSON-RPC</translation>
     </message>
     <message>
         <location line="-70"/>
         <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation>Tillat JSON-RPC tilkoblinger fra angitt IP-adresse</translation>
+        <translation>Permitir conexións JSON-RPC dende direccións IP especificadas</translation>
     </message>
     <message>
         <location line="+79"/>
         <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation>Send kommandoer til node på &lt;ip&gt; (standardverdi: 127.0.0.1)</translation>
+        <translation>Enviar comandos a nodo executando na &lt;ip&gt; (por defecto: 127.0.0.1)</translation>
     </message>
     <message>
         <location line="-126"/>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Eksekvér kommando når beste blokk endrer seg (%s i kommandoen erstattes med blokkens hash)</translation>
+        <translation>Executar comando cando o mellor bloque cambie (%s no comando é sustituído polo hash do bloque)</translation>
     </message>
     <message>
         <location line="+155"/>
         <source>Upgrade wallet to latest format</source>
-        <translation>Oppgradér lommebok til nyeste format</translation>
+        <translation>Actualizar moedeiro ao formato máis recente</translation>
     </message>
     <message>
         <location line="-23"/>
         <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation>Angi størrelse på nøkkel-lager til &lt;n&gt; (standardverdi: 100)</translation>
+        <translation>Fixar tamaño do pool de claves a &lt;n&gt; (por defecto: 100)</translation>
     </message>
     <message>
         <location line="-12"/>
         <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Se gjennom blokk-kjeden etter manglende lommeboktransaksjoner</translation>
+        <translation>Rescanear transaccións ausentes na cadea de bloques</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>Bruk OpenSSL (https) for JSON-RPC forbindelser</translation>
+        <translation>Empregar OpenSSL (https) para conexións JSON-RPC</translation>
     </message>
     <message>
         <location line="-29"/>
         <source>Server certificate file (default: server.cert)</source>
-        <translation>Servers sertifikat (standardverdi: server.cert)</translation>
+        <translation>Arquivo de certificado do servidor (por defecto: server.cert)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Server private key (default: server.pem)</source>
-        <translation>Servers private nøkkel (standardverdi: server.pem)</translation>
+        <translation>Clave privada do servidor (por defecto: server.perm)</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>This help message</source>
-        <translation>Denne hjelpemeldingen</translation>
+        <translation>Esta mensaxe de axuda</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation>Kan ikke binde til %s på denne datamaskinen (bind returnerte feil %d, %s)</translation>
+        <translation>Imposible enlazar con %s neste ordenador (enlace devolveu erro %d, %s)</translation>
     </message>
     <message>
         <location line="-95"/>
         <source>Connect through socks proxy</source>
-        <translation>Koble til gjennom socks proxy</translation>
+        <translation>Conectar a través de proxy de socks</translation>
     </message>
     <message>
         <location line="-11"/>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>Tillat DNS oppslag for -addnode, -seednode og -connect</translation>
+        <translation>Permitir lookup de DNS para -addnote, -seednote e -connect</translation>
     </message>
     <message>
         <location line="+58"/>
         <source>Loading addresses...</source>
-        <translation>Laster adresser...</translation>
+        <translation>Cargando direccións...</translation>
     </message>
     <message>
         <location line="-36"/>
         <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Feil ved lasting av wallet.dat: Lommeboken er skadet</translation>
+        <translation>Erro cargando wallet.dat: Moedeiro corrupto</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
-        <translation>Feil ved lasting av wallet.dat: Lommeboken krever en nyere versjon av Bitcoin</translation>
+        <translation>Erro cargando wallet.dat: O moedeiro precisa unha versión máis nova de Bitcoin</translation>
     </message>
     <message>
         <location line="+98"/>
         <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
-        <translation>Lommeboken måtte skrives om: start Bitcoin på nytt for å fullføre</translation>
+        <translation>Precísase rescribir o moedeiro: reinicie Bitcoin para completar</translation>
     </message>
     <message>
         <location line="-100"/>
         <source>Error loading wallet.dat</source>
-        <translation>Feil ved lasting av wallet.dat</translation>
+        <translation>Erro cargando wallet.dat</translation>
     </message>
     <message>
         <location line="+30"/>
         <source>Invalid -proxy address: &apos;%s&apos;</source>
-        <translation>Ugyldig -proxy adresse: &apos;%s&apos;</translation>
+        <translation>Dirección -proxy inválida: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+57"/>
         <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
-        <translation>Ukjent nettverk angitt i -onlynet &apos;%s&apos;</translation>
+        <translation>Rede descoñecida especificada en -onlynet: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="-1"/>
         <source>Unknown -socks proxy version requested: %i</source>
-        <translation>Ukjent -socks proxy versjon angitt: %i</translation>
+        <translation>Versión solicitada de proxy -socks descoñecida: %i</translation>
     </message>
     <message>
         <location line="-100"/>
         <source>Cannot resolve -bind address: &apos;%s&apos;</source>
-        <translation>Kunne ikke slå opp -bind adresse: &apos;%s&apos;</translation>
+        <translation>Non se pode resolver a dirección -bind: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
-        <translation>Kunne ikke slå opp -externalip adresse: &apos;%s&apos;</translation>
+        <translation>Non se pode resolver dirección -externalip: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+46"/>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation>Ugyldig beløp for -paytxfee=&lt;beløp&gt;: &apos;%s&apos;</translation>
+        <translation>Cantidade inválida para -paytxfee=&lt;cantidade&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Invalid amount</source>
-        <translation>Ugyldig beløp</translation>
+        <translation>Cantidade inválida</translation>
     </message>
     <message>
         <location line="-6"/>
         <source>Insufficient funds</source>
-        <translation>Utilstrekkelige midler</translation>
+        <translation>Fondos insuficientes</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Loading block index...</source>
-        <translation>Laster blokkindeks...</translation>
+        <translation>Cargando índice de bloques...</translation>
     </message>
     <message>
         <location line="-60"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Legg til node for tilkobling og hold forbindelsen åpen</translation>
+        <translation>Engadir un nodo ao que conectarse e tentar manter a conexión aberta</translation>
     </message>
     <message>
         <location line="-28"/>
         <source>Unable to bind to %s on this computer. Bitcoin is probably already running.</source>
-        <translation>Kan ikke binde til %s på denne datamaskinen. Sannsynligvis kjører Bitcoin allerede.</translation>
+        <translation>Imposible enlazar a %s neste ordenador. Bitcoin probablemente xa se estea executando.</translation>
     </message>
     <message>
         <location line="+69"/>
         <source>Fee per KB to add to transactions you send</source>
-        <translation>Gebyr per KB for transaksjoner du sender</translation>
+        <translation>Tarifa por KB para engadir ás transaccións que vostede envía</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Loading wallet...</source>
-        <translation>Laster lommebok...</translation>
+        <translation>Cargando moedeiro...</translation>
     </message>
     <message>
         <location line="-54"/>
         <source>Cannot downgrade wallet</source>
-        <translation>Kan ikke nedgradere lommebok</translation>
+        <translation>Non se pode desactualizar o moedeiro</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Cannot write default address</source>
-        <translation>Kan ikke skrive standardadresse</translation>
+        <translation>Non se pode escribir a dirección por defecto</translation>
     </message>
     <message>
         <location line="+66"/>
         <source>Rescanning...</source>
-        <translation>Leser gjennom...</translation>
+        <translation>Rescaneando...</translation>
     </message>
     <message>
         <location line="-58"/>
         <source>Done loading</source>
-        <translation>Ferdig med lasting</translation>
+        <translation>Carga completa</translation>
     </message>
     <message>
         <location line="+85"/>
         <source>To use the %s option</source>
-        <translation>For å bruke %s opsjonen</translation>
+        <translation>Empregar a opción %s</translation>
     </message>
     <message>
         <location line="-77"/>
         <source>Error</source>
-        <translation>Feil</translation>
+        <translation>Erro</translation>
     </message>
     <message>
         <location line="-33"/>
         <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
 %s
 If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation>Du må sette rpcpassword=&lt;passord&gt; i konfigurasjonsfilen:
+        <translation>Debes fixar rpcpassword=&lt;contrasinal&gt; no arquivo de configuración:
 %s
-Hvis filen ikke finnes, opprett den med leserettighet kun for eier av filen.</translation>
+Se o arquivo non existe, debes crealo con permisos de so lectura para o propietario.</translation>
     </message>
 </context>
 </TS>
