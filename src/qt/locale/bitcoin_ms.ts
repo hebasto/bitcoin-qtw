@@ -1,207 +1,213 @@
-<TS language="sr@latin" version="2.1">
+<TS language="ms" version="2.1">
 <context>
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Klikni desnim tasterom za uređivanje adrese ili oznake</translation>
+        <translation>Klik-kanan untuk edit alamat ataupun label</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>Kreiraj novu adresu</translation>
+        <translation>Cipta alamat baru</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>&amp;Novi</translation>
+        <translation>&amp;Baru</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Kopiraj selektovanu adresu u sistemski klipbord</translation>
+        <translation>Salin alamat terpilih ke dalam sistem papan klip</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;Kopiraj</translation>
+        <translation>&amp;Salin</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>Zatvori</translation>
+        <translation>&amp;Tutup</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>Briše trenutno izabranu adresu sa liste</translation>
+        <translation>Padam alamat semasa yang dipilih dari senaraiyang dipilih dari senarai</translation>
+    </message>
+    <message>
+        <source>Enter address or label to search</source>
+        <translation>Masukkan alamat atau label untuk carian
+</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Izvoz podataka iz trenutne kartice u datoteku</translation>
+        <translation>
+Alihkan fail data ke dalam tab semasa</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;Izvoz</translation>
+        <translation>&amp;Eksport</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Izbrisati</translation>
+        <translation>&amp;Padam</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Izaberite adresu za slanje novčića</translation>
+        <translation>Pilih alamat untuk hantar koin kepada</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Izaberite adresu za prijem novčića</translation>
+        <translation>Pilih alamat untuk menerima koin dengan</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
-        <translation>I&amp;zaberi</translation>
+        <translation>&amp;Pilih</translation>
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>Adresa na koju se šalje</translation>
+        <translation>alamat-alamat penghantaran</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
-        <translation>Adresa na koju se prima</translation>
+        <translation>alamat-alamat penerimaan</translation>
     </message>
     <message>
         <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ovo su Vaše Bitcoin adrese na koju se vrše uplate. Uvek proverite iznos i prijemnu adresu pre slanja novčića.</translation>
+        <translation>Ini adalah alamat Bitcoin anda untuk pembayaran. Periksa jumlah dan alamat penerima sebelum membuat penghantaran koin sentiasa.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation>&amp;Kopiraj Adresu</translation>
+        <translation>&amp;Salin Aamat</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
-        <translation>Kopiranje &amp;Oznaka</translation>
+        <translation>Salin &amp; Label</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>&amp;Izmena</translation>
+        <translation>&amp;Edit</translation>
     </message>
     <message>
         <source>Export Address List</source>
-        <translation>Izvezi Listu Adresa</translation>
+        <translation>Eskport Senarai Alamat</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Zarezom odvojena datoteka (*.csv) </translation>
+        <translation>Fail dibahagi oleh koma(*.csv)</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Izvoz Neuspeo</translation>
+        <translation>Mengeksport Gagal</translation>
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
-        <translation>Desila se greška prilikom čuvanja liste adresa u %1. Molimo pokusajte ponovo.</translation>
+        <translation>Terdapat ralat semasa cubaan menyimpan senarai alamat kepada %1. Sila cuba lagi.</translation>
     </message>
 </context>
 <context>
     <name>AddressTableModel</name>
     <message>
         <source>Label</source>
-        <translation>Oznaka</translation>
+        <translation>Label</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Adresa</translation>
+        <translation>Alamat</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(bez oznake)</translation>
+        <translation>(tiada label)</translation>
     </message>
 </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>Dialog pristupne fraze</translation>
+        <translation>Dialog frasa laluan</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>Unesi pristupnu frazu</translation>
+        <translation>memasukkan frasa laluan</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>Nova pristupna fraza</translation>
+        <translation>Frasa laluan baru</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>Ponovo unesite pristupnu frazu</translation>
+        <translation>Ulangi frasa laluan baru</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
-        <translation>Šifrujte novčanik</translation>
+        <translation>Dompet encrypt</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Da biste otključali novčanik potrebno je da unesete svoju pristupnu frazu.</translation>
+        <translation>Operasi ini perlukan frasa laluan dompet anda untuk membuka kunci dompet.</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Otključajte novčanik</translation>
+        <translation>Membuka kunci dompet</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Da biste dešifrovali novčanik, potrebno je da unesete svoju pristupnu frazu.</translation>
+        <translation>Operasi ini memerlukan frasa laluan dompet anda untuk menyahsulit dompet.</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
-        <translation>Dešifrujte novčanik</translation>
+        <translation>Menyahsulit dompet</translation>
     </message>
     <message>
         <source>Change passphrase</source>
-        <translation>Promenite pristupnu frazu</translation>
+        <translation>Menukar frasa laluan</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
-        <translation>Potvrdite šifrovanje novčanika</translation>
+        <translation>Mengesahkan enkripsi dompet</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Upozorenje: Ako šifrujete svoj novčanik, i potom izgubite svoju pristupnu frazu &lt;b&gt;IZGUBIĆETE SVE SVOJE BITKOINE&lt;/b&gt;!</translation>
+        <translation>Amaran: Jika anda enkripkan dompet anda dan hilangkan frasa laluan, anda akan &lt;b&gt;ANDA AKAN HILANGKAN SEMUA BITCOIN ANDA&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Da li ste sigurni da želite da šifrujete svoj novčanik?</translation>
+        <translation>Anda pasti untuk membuat enkripsi dompet anda?</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
-        <translation>Novčanik je šifrovan</translation>
+        <translation>Dompet dienkripsi</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>VAŽNO: Ranije rezervne kopije wallet datoteke trebate zameniti sa novo-kreiranom, enkriptovanom wallet datotekom. Iz sigurnosnih razloga, ranije ne-enkriptovane wallet datoteke će postati neupotrebljive čim počnete koristiti novi, enkriptovani novčanik.</translation>
+        <translation>PENTING: Apa-apa sandaran yang anda buat sebelum ini untuk fail dompet anda hendaklah digantikan dengan fail dompet enkripsi yang dijana baru. Untuk sebab-sebab keselamatan , sandaran fail dompet yang belum dibuat enkripsi sebelum ini akan menjadi tidak berguna secepat anda mula guna dompet enkripsi baru.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
-        <translation>Enkripcija novčanika neuspešna</translation>
+        <translation>Enkripsi dompet gagal</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Enkripcija novčanika nije uspela zbog greške u programu. Vaš novčanik nije enkriptovan.</translation>
+        <translation>Enkripsi dompet gagal kerana ralat dalaman. Dompet anda tidak dienkripkan.</translation>
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
-        <translation>Unete pristupne fraze nisu tačne.</translation>
+        <translation>Frasa laluan yang dibekalkan tidak sepadan.</translation>
     </message>
     <message>
         <source>Wallet unlock failed</source>
-        <translation>Otključavanje novčanika neuspešno</translation>
+        <translation>Pembukaan kunci dompet gagal</translation>
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>Pristupna fraza za dekriptovanje novčanika nije tačna.</translation>
+        <translation>Frasa laluan dimasukki untuk dekripsi dompet adalah tidak betul.</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
-        <translation>Dekriptovanje novčanika neuspešno</translation>
+        <translation>Dekripsi dompet gagal</translation>
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>Pristupna fraza novčanika je uspešno promenjena.</translation>
+        <translation>Frasa laluan dompet berjaya ditukar.</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>Upozorenje: Caps Lock je uključen!</translation>
+        <translation>Amaran: Kunci Caps Lock buka!</translation>
     </message>
 </context>
 <context>
@@ -212,251 +218,225 @@
     </message>
     <message>
         <source>Banned Until</source>
-        <translation>Banovani ste do</translation>
+        <translation>Diharamkan sehingga</translation>
     </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>Potpišite &amp;poruka...</translation>
+        <translation>Tandatangan &amp; mesej...</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>Usklađivanje sa mrežom...</translation>
+        <translation>Penyegerakan dengan rangkaian...</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
-        <translation>&amp;Pregled</translation>
+        <translation>&amp;Gambaran Keseluruhan</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>Prikaži opšti pregled novčanika</translation>
+        <translation>Tunjuk gambaran keseluruhan umum dompet</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation>&amp;Transakcije</translation>
+        <translation>&amp;Transaksi</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>Pregled istorije transakcija</translation>
+        <translation>Menyemak imbas sejarah transaksi </translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>I&amp;zađi</translation>
+        <translation>&amp;Keluar</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation>Isključi aplikaciju</translation>
+        <translation>Berhenti aplikasi</translation>
     </message>
     <message>
         <source>&amp;About %1</source>
-        <translation>&amp;Otprilike %1</translation>
+        <translation>&amp;Mengenai%1</translation>
     </message>
     <message>
         <source>Show information about %1</source>
-        <translation>Prikaži informacije za otprilike %1</translation>
+        <translation>Menunjuk informasi mengenai%1</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation>O &amp;Qt</translation>
+        <translation>Mengenai &amp;Qt</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>Prikaži informacije o Qt</translation>
+        <translation>Menunjuk informasi megenai Qt</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>&amp;Opcije...</translation>
+        <translation>Pilihan</translation>
     </message>
     <message>
         <source>Modify configuration options for %1</source>
-        <translation>Izmeni podešavanja za %1</translation>
+        <translation>Mengubah suai pilihan konfigurasi untuk %1</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Enkriptuj Novčanik...</translation>
+        <translation>&amp;Enkripsi Dompet</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Rezervna Kopija Novčanika...</translation>
+        <translation>&amp;Dompet Sandaran...</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Izmeni pristupnu frazu...</translation>
+        <translation>&amp;Menukar frasa-laluan</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
-        <translation>Otvori &amp;URI...</translation>
+        <translation>Buka &amp;URI...</translation>
+    </message>
+    <message>
+        <source>Wallet:</source>
+        <translation>dompet</translation>
     </message>
     <message>
         <source>Click to disable network activity.</source>
-        <translation>Odaberite za prekid aktivnosti na mreži.</translation>
+        <translation>Tekan untuk lumpuhkan rangkaian</translation>
     </message>
     <message>
         <source>Network activity disabled.</source>
-        <translation>Aktivnost na mreži je prekinuta.</translation>
+        <translation>Aktiviti rangkaian dilumpuhkan</translation>
     </message>
     <message>
         <source>Click to enable network activity again.</source>
-        <translation>Odaberite da ponovo dozvolite aktivnost na mreži.</translation>
+        <translation>Tekan untuk mengaktifkan rangkain semula</translation>
     </message>
     <message>
         <source>Syncing Headers (%1%)...</source>
-        <translation>Sinhronizujem Najnovije Blokove (%1%)...</translation>
+        <translation>Penyelarasn tajuk (%1%)...</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>Ponovo obeležavam blokove na disku...</translation>
+        <translation>Reindexi blok pada cakera...</translation>
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
-        <translation>Pošalji novčiće na Bitcoin adresu</translation>
+        <translation>Menghantar koin kepada alamat Bitcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>Napravite rezervnu kopiju novčanika na drugom mestu</translation>
+        <translation>Wallet sandaran ke lokasi lain</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Promenite pristupnu frazu za enkiptovanje novčanika</translation>
+        <translation>Tukar kata laluan untuk dompet disulitkan</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
-        <translation>&amp;Prozor za otklanjanje grešaka</translation>
+        <translation>Tetingkap windows</translation>
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
-        <translation>Otvori konzolu za dijagnostiku i otklanjanje grešaka</translation>
+        <translation>buka debug dan konsol diagnostik</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>&amp;Proveri poruku...</translation>
+        <translation>sahkan mesej</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation>&amp;Pošalji</translation>
+        <translation>hantar</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation>&amp;Primi</translation>
+        <translation>terima</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;Prikazati / Sakriti</translation>
+        <translation>&amp;tunjuk/sembunyi</translation>
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>Prikaži ili sakrij glavni prozor</translation>
+        <translation>tunjuk atau sembunyi tetingkap utama</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Enkriptuj privatne ključeve novčanika</translation>
+        <translation>sulitkan kata laluan milik peribadi anda </translation>
     </message>
     <message>
         <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Potpišite poruke sa svojim Bitcoin adresama da biste dokazali njihovo vlasništvo</translation>
+        <translation>sahkan mesej bersama alamat bitcoin anda untuk menunjukkan alamat ini anda punya</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Proverite poruke da biste utvrdili sa kojim Bitcoin adresama su potpisane</translation>
+        <translation>Sahkan mesej untuk memastikan mereka telah ditandatangani dengan alamat Bitcoin yang ditentukan</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>&amp;Fajl</translation>
+        <translation>fail</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>&amp;Podešavanja</translation>
+        <translation>tetapan</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;Pomoć</translation>
+        <translation>tolong</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation>Alatke za tabove</translation>
+        <translation>Bar alat tab
+</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Zatražite plaćanje (generiše QR kodove i bitcoin: URI-e)</translation>
+        <translation>Request payments (generates QR codes and bitcoin: URIs)
+</translation>
+    </message>
+    <message>
+        <source>Show the list of used sending addresses and labels</source>
+        <translation>Tunjukkan senarai alamat dan label yang digunakan
+</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Greska</translation>
+        <translation>Ralat</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Upozorenje</translation>
+        <translation>Amaran</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Informacije</translation>
+        <translation>Notis</translation>
     </message>
     <message>
-        <source>%1 client</source>
-        <translation>%1 klijent</translation>
+        <source>Up to date</source>
+        <translation>Terkini</translation>
     </message>
     <message>
-        <source>Date: %1
-</source>
-        <translation>Datum: %1
-</translation>
+        <source>Open Wallet</source>
+        <translation>Buka Wallet</translation>
     </message>
     <message>
-        <source>Amount: %1
-</source>
-        <translation>Iznos: %1
-</translation>
+        <source>Close Wallet...</source>
+        <translation>Tutup Wallet...</translation>
     </message>
     <message>
-        <source>Type: %1
-</source>
-        <translation>Tip: %1
-</translation>
+        <source>Close wallet</source>
+        <translation>Tutup Wallet</translation>
     </message>
     <message>
-        <source>Label: %1
-</source>
-        <translation>Oznaka: %1
-</translation>
-    </message>
-    <message>
-        <source>Address: %1
-</source>
-        <translation>Adresa: %1
+        <source>default wallet</source>
+        <translation>dompet lalai
 </translation>
     </message>
     </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
-        <source>Quantity:</source>
-        <translation>Količina:</translation>
-    </message>
-    <message>
-        <source>Amount:</source>
-        <translation>Iznos:</translation>
-    </message>
-    <message>
-        <source>Fee:</source>
-        <translation>Naknada:</translation>
-    </message>
-    <message>
-        <source>After Fee:</source>
-        <translation>Nakon Naknade:</translation>
-    </message>
-    <message>
-        <source>Amount</source>
-        <translation>Kolicina</translation>
-    </message>
-    <message>
-        <source>Date</source>
-        <translation>Datum</translation>
-    </message>
-    <message>
         <source>(no label)</source>
-        <translation>(bez oznake)</translation>
+        <translation>(tiada label)</translation>
     </message>
     </context>
 <context>
@@ -469,15 +449,11 @@
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation>Izmeni Adresu</translation>
-    </message>
-    <message>
-        <source>&amp;Label</source>
-        <translation>&amp;Oznaka</translation>
+        <translation>Alamat</translation>
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation>&amp;Adresa</translation>
+        <translation>Alamat</translation>
     </message>
     </context>
 <context>
@@ -494,7 +470,7 @@
     </message>
     <message>
         <source>Error</source>
-        <translation>Greska</translation>
+        <translation>Ralat</translation>
     </message>
     </context>
 <context>
@@ -505,12 +481,21 @@
     </context>
 <context>
     <name>OpenWalletActivity</name>
-    </context>
+    <message>
+        <source>default wallet</source>
+        <translation>dompet lalai
+</translation>
+    </message>
+    <message>
+        <source>Opening Wallet &lt;b&gt;%1&lt;/b&gt;...</source>
+        <translation>Buka sedang Wallet &lt;b&gt;%1&lt;/b&gt;...</translation>
+    </message>
+</context>
 <context>
     <name>OptionsDialog</name>
     <message>
         <source>Error</source>
-        <translation>Greska</translation>
+        <translation>Ralat</translation>
     </message>
     </context>
 <context>
@@ -524,15 +509,7 @@
     </context>
 <context>
     <name>QObject</name>
-    <message>
-        <source>Amount</source>
-        <translation>Kolicina</translation>
-    </message>
-    <message>
-        <source>unknown</source>
-        <translation>nepoznato</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>QRImageWidget</name>
     </context>
@@ -545,62 +522,42 @@
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
-        <source>Address</source>
-        <translation>Adresa</translation>
+        <source>Copy &amp;Address</source>
+        <translation>&amp;Salin Alamat</translation>
     </message>
     <message>
-        <source>Amount</source>
-        <translation>Kolicina</translation>
+        <source>Address</source>
+        <translation>Alamat</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Oznaka</translation>
+        <translation>Label</translation>
     </message>
     <message>
         <source>Wallet</source>
-        <translation>Novčanik</translation>
+        <translation>dompet</translation>
     </message>
 </context>
 <context>
     <name>RecentRequestsTableModel</name>
     <message>
-        <source>Date</source>
-        <translation>Datum</translation>
-    </message>
-    <message>
         <source>Label</source>
-        <translation>Oznaka</translation>
+        <translation>Label</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(bez oznake)</translation>
+        <translation>(tiada label)</translation>
     </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
-        <source>Quantity:</source>
-        <translation>Količina:</translation>
-    </message>
-    <message>
-        <source>Amount:</source>
-        <translation>Iznos:</translation>
-    </message>
-    <message>
-        <source>Fee:</source>
-        <translation>Naknada:</translation>
-    </message>
-    <message>
-        <source>After Fee:</source>
-        <translation>Nakon Naknade:</translation>
-    </message>
-    <message>
-        <source>Transaction fee</source>
-        <translation>Taksa transakcije</translation>
+        <source>Balance:</source>
+        <translation>Baki</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(bez oznake)</translation>
+        <translation>(tiada label)</translation>
     </message>
 </context>
 <context>
@@ -620,22 +577,6 @@
     </context>
 <context>
     <name>TransactionDesc</name>
-    <message>
-        <source>Date</source>
-        <translation>Datum</translation>
-    </message>
-    <message>
-        <source>unknown</source>
-        <translation>nepoznato</translation>
-    </message>
-    <message>
-        <source>Transaction fee</source>
-        <translation>Taksa transakcije</translation>
-    </message>
-    <message>
-        <source>Amount</source>
-        <translation>Kolicina</translation>
-    </message>
     </context>
 <context>
     <name>TransactionDescDialog</name>
@@ -643,39 +584,31 @@
 <context>
     <name>TransactionTableModel</name>
     <message>
-        <source>Date</source>
-        <translation>Datum</translation>
-    </message>
-    <message>
         <source>Label</source>
-        <translation>Oznaka</translation>
+        <translation>Label</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(bez oznake)</translation>
+        <translation>(tiada label)</translation>
     </message>
     </context>
 <context>
     <name>TransactionView</name>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Zarezom odvojena datoteka (*.csv) </translation>
-    </message>
-    <message>
-        <source>Date</source>
-        <translation>Datum</translation>
+        <translation>Fail dibahagi oleh koma(*.csv)</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Oznaka</translation>
+        <translation>Label</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Adresa</translation>
+        <translation>Alamat</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Izvoz Neuspeo</translation>
+        <translation>Mengeksport Gagal</translation>
     </message>
     </context>
 <context>
@@ -683,45 +616,43 @@
     </context>
 <context>
     <name>WalletController</name>
+    <message>
+        <source>Close wallet</source>
+        <translation>Tutup Wallet</translation>
+    </message>
     </context>
 <context>
     <name>WalletFrame</name>
     </context>
 <context>
     <name>WalletModel</name>
-    </context>
+    <message>
+        <source>default wallet</source>
+        <translation>dompet lalai
+</translation>
+    </message>
+</context>
 <context>
     <name>WalletView</name>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;Izvoz</translation>
+        <translation>&amp;Eksport</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Izvoz podataka iz trenutne kartice u datoteku</translation>
+        <translation>
+Alihkan fail data ke dalam tab semasa</translation>
     </message>
     </context>
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Insufficient funds</source>
-        <translation>Nedovoljno sredstava</translation>
-    </message>
-    <message>
-        <source>Loading block index...</source>
-        <translation>Ucitavanje indeksa bloka...</translation>
-    </message>
-    <message>
         <source>Loading wallet...</source>
-        <translation>Ucitavanje novcanika...</translation>
-    </message>
-    <message>
-        <source>Rescanning...</source>
-        <translation>Ponovno skeniranje...</translation>
+        <translation>Sedang baca wallet...</translation>
     </message>
     <message>
         <source>Done loading</source>
-        <translation>Zavrseno ucitavanje</translation>
+        <translation>Baca Selesai</translation>
     </message>
 </context>
 </TS>

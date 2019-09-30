@@ -1,1094 +1,1166 @@
-<TS language="he" version="2.1">
+<TS language="sl" version="2.1">
 <context>
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>לחץ על הכפתור הימני בעכבר כדי לערוך את הכתובת או התווית</translation>
+        <translation>Desni klik za urejanje naslovov ali oznak</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>צור כתובת חדשה</translation>
+        <translation>Ustvari nov naslov</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>&amp;חדש</translation>
+        <translation>&amp;Novo</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>העתק את הכתובת המסומנת ללוח העריכה</translation>
+        <translation>Kopiraj trenutno izbrani naslov v odložišče</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;העתק</translation>
+        <translation>&amp;Kopiraj</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>&amp;סגור</translation>
+        <translation>&amp;Zapri</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>מחק את הכתובת המסומנת ברשימה</translation>
+        <translation>Izbriši trenutno označeni naslov  iz seznama</translation>
     </message>
     <message>
         <source>Enter address or label to search</source>
-        <translation>הכנס כתובת או תווית לחפש</translation>
+        <translation>Iščite po naslovu ali oznaki</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>יצוא הנתונים מהלשונית הנוכחית לקובץ</translation>
+        <translation>Izvozi podatke v trenutnem zavihku v datoteko</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;יצוא</translation>
+        <translation>&amp;Izvozi</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;מחק</translation>
+        <translation>I&amp;zbriši</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>בחר את הכתובת אליה תרצה לשלוח את המטבעות</translation>
+        <translation>Izberi naslov prejemnika kovancev</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>בחר את הכתובת לקבלת המטבעות</translation>
+        <translation>Izberi naslov, na katerega želiš prejeti kovance</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
-        <translation>&amp;בחירה</translation>
+        <translation>&amp;Izberi</translation>
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>כתובת לשליחה</translation>
+        <translation>Imenik naslovov za pošiljanje</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
-        <translation>כתובות לקבלה</translation>
+        <translation>Imenik naslovov za prejemanje</translation>
     </message>
     <message>
         <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>אלו הן כתובות הביטקוין שלך לשליחת תשלומים. חשוב לבדוק את הסכום ואת הכתובת המקבלת לפני שליחת מטבעות.</translation>
+        <translation>To so vaši Bitcoin naslovi za pošiljanje. Pred pošiljanjem vedno preverite količino in prejemnikov naslov.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation>&amp;העתק כתובת</translation>
+        <translation>&amp;Kopiraj naslov</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
-        <translation>העתקת &amp;תווית</translation>
+        <translation>Kopiraj &amp;oznako</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>&amp;עריכה</translation>
+        <translation>&amp;Uredi</translation>
     </message>
     <message>
         <source>Export Address List</source>
-        <translation>יצוא רשימת הכתובות</translation>
+        <translation>Izvozi seznam naslovov</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>קובץ מופרד בפסיקים (‎*.csv)</translation>
+        <translation>Podatki ločenimi z vejico (*.csv)</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>יצוא נכשל</translation>
+        <translation>Podatkov ni bilo mogoče izvoziti.</translation>
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
-        <translation>אירעה שגיאה בעת הניסיון לשמור את רשימת הכתובת אל %1. נא לנסות שוב.</translation>
+        <translation>Napaka pri shranjevanju seznama naslovov v %1. Prosim poskusite znova.</translation>
     </message>
 </context>
 <context>
     <name>AddressTableModel</name>
     <message>
         <source>Label</source>
-        <translation>תווית</translation>
+        <translation>Oznaka</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>כתובת</translation>
+        <translation>Naslov</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(ללא תוית)</translation>
+        <translation>(brez oznake)</translation>
     </message>
 </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>שיח סיסמא</translation>
+        <translation>Vnos gesla</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>הכנס סיסמה</translation>
+        <translation>Vnesite geslo</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>סיסמה חדשה</translation>
+        <translation>Novo geslo</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>חזור על הסיסמה החדשה</translation>
+        <translation>Ponovite novo geslo</translation>
+    </message>
+    <message>
+        <source>Show passphrase</source>
+        <translation>Pokaži geslo</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
-        <translation>הצפנת הארנק</translation>
+        <translation>Šifriraj denarnico</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>הפעולה הזו דורשת את סיסמת הארנק שלך בשביל לפתוח את הארנק.</translation>
+        <translation>To dejanje zahteva geslo za odklepanje vaše denarnice.</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>פתיחת ארנק</translation>
+        <translation>Odkleni denarnico</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>הפעולה הזו דורשת את סיסמת הארנק שלך בשביל לפענח את הארנק.</translation>
+        <translation>To dejanje zahteva geslo za dešifriranje vaše denarnice.</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
-        <translation>פענוח הארנק</translation>
+        <translation>Odšifriraj denarnico</translation>
     </message>
     <message>
         <source>Change passphrase</source>
-        <translation>שינוי סיסמה</translation>
+        <translation>Spremeni geslo</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
-        <translation>אשר הצפנת ארנק</translation>
+        <translation>Potrdi šifriranje denarnice</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>אזהרה: אם אתה מצפין את הארנק ומאבד את הסיסמה, אתה &lt;b&gt;תאבד את כל הביטקוינים שלך&lt;/b&gt;!</translation>
+        <translation>Opozorilo: V primeru izgube gesla šifrirane denarnice, boste &lt;b&gt;IZGUBILI VSE SVOJE BITCOINE&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>האם אתה בטוח שברצונך להצפין את הארנק?</translation>
+        <translation>Ali ste prepričani, da želite šifrirati svojo denarnico?</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
-        <translation>הארנק מוצפן</translation>
+        <translation>Denarnica šifrirana</translation>
+    </message>
+    <message>
+        <source>Enter the new passphrase for the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <translation>Vnesite novo geslo za denarnico. &lt;br/&gt;Prosimo, uporabite geslo z vsaj &lt;b&gt;10 ali več naključnimi simboli&lt;/b&gt;, ali vsaj osmimi besedami.&lt;b&gt;</translation>
+    </message>
+    <message>
+        <source>Wallet to be encrypted</source>
+        <translation>Denarnica, ki bo zašifrirana</translation>
+    </message>
+    <message>
+        <source>Your wallet is about to be encrypted. </source>
+        <translation>Vaša denarnica bo zašifrirana.</translation>
+    </message>
+    <message>
+        <source>Your wallet is now encrypted. </source>
+        <translation>Vaša denarnica je sedaj šifrirana.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>חשוב! כל גיבוי קודם שעשית לארנק שלך יש להחליף עם קובץ הארנק המוצפן שזה עתה נוצר. מסיבות אבטחה, גיבויים קודמים של קובץ הארנק הלא-מוצפן יהפכו לחסרי שימוש ברגע שתתחיל להשתמש בארנק החדש המוצפן.</translation>
+        <translation>POMEMBNO: Vse starejše varnostne kopije denarnice je potrebno zamenjati z novoizdelano, šifrirano, varnostno kopijo. Zaradi varnosti bodo stare varnostne kopije postale neuporabne takoj, ko začnete uporabljati novo, šifrirano denarnico.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
-        <translation>הצפנת הארנק נכשלה</translation>
+        <translation>Šifriranje denarnice ni uspelo</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>הצפנת הארנק נכשלה עקב תקלה פנימית. הארנק שלך לא הוצפן.</translation>
+        <translation>Šifriranje denarnice ni uspelo zaradi notranje napake. Vaša denarnica ni bila šifrirana.</translation>
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
-        <translation>הסיסמות שניתנו אינן תואמות.</translation>
+        <translation>Navedeni gesli se ne ujemata.</translation>
     </message>
     <message>
         <source>Wallet unlock failed</source>
-        <translation>פתיחת הארנק נכשלה</translation>
+        <translation>Denarnice ni bilo mogoče odkleniti.</translation>
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>הסיסמה שהוכנסה לפענוח הארנק שגויה.</translation>
+        <translation>Geslo za dešifriranje denarnice, ki ste ga vnesli, ni pravilno.</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
-        <translation>פענוח הארנק נכשל</translation>
+        <translation>Dešifriranje denarnice ni uspelo</translation>
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>סיסמת הארנק שונתה בהצלחה.</translation>
+        <translation>Geslo za dostop do denarnice je bilo uspešno spremenjeno.</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>אזהרה: מקש ה־Caps Lock פעיל!</translation>
+        <translation>Opozorilo: Vključena je tipka Caps Lock!</translation>
     </message>
 </context>
 <context>
     <name>BanTableModel</name>
     <message>
         <source>IP/Netmask</source>
-        <translation>IP/Netmask</translation>
+        <translation>IP/Netmaska</translation>
     </message>
     <message>
         <source>Banned Until</source>
-        <translation>חסום עד</translation>
+        <translation>Prepoved do</translation>
     </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>חתום &amp;הודעה...</translation>
+        <translation>Podpiši &amp;sporočilo ...</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>מסתנכרן עם הרשת...</translation>
+        <translation>Dohitevam omrežje ...</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
-        <translation>&amp;סקירה</translation>
+        <translation>Pre&amp;gled</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>הצג סקירה כללית של הארנק</translation>
+        <translation>Oglejte si splošne informacije o vaši denarnici</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation>&amp;העברות</translation>
+        <translation>&amp;Transakcije</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>עיין בהיסטוריית ההעברות</translation>
+        <translation>Brskajte po zgodovini transakcij</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>י&amp;ציאה</translation>
+        <translation>I&amp;zhod</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation>סגור תוכנה</translation>
+        <translation>Ustavite program</translation>
     </message>
     <message>
         <source>&amp;About %1</source>
-        <translation>&amp;אודות %1</translation>
+        <translation>&amp;O nas%1</translation>
     </message>
     <message>
         <source>Show information about %1</source>
-        <translation>הצג מידע על %1</translation>
+        <translation>Prikaži informacije o %1</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation>אודות &amp;Qt</translation>
+        <translation>O &amp;Qt</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>הצג מידע על Qt</translation>
+        <translation>Oglejte si informacije o Qt</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>&amp;אפשרויות…</translation>
+        <translation>&amp;Možnosti ...</translation>
     </message>
     <message>
         <source>Modify configuration options for %1</source>
-        <translation>שינוי אפשרויות התצורה עבור %1</translation>
+        <translation>Spremeni možnosti konfiguracije za %1</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;הצפנת הארנק…</translation>
+        <translation>&amp;Šifriraj denarnico ...</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;גיבוי הארנק…</translation>
+        <translation>Shrani &amp;varnostno kopijo denarnice ...</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;שנה סיסמה...</translation>
+        <translation>&amp;Spremeni geslo ...</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
-        <translation>פתיחת &amp;כתובת משאב…</translation>
+        <translation>Odpri &amp;URI ...</translation>
+    </message>
+    <message>
+        <source>Create Wallet...</source>
+        <translation>Ustvari denarnico ...</translation>
+    </message>
+    <message>
+        <source>Create a new wallet</source>
+        <translation>Ustvari novo denarnico</translation>
     </message>
     <message>
         <source>Wallet:</source>
-        <translation>ארנק:</translation>
+        <translation>Denarnica:</translation>
     </message>
     <message>
         <source>Click to disable network activity.</source>
-        <translation>לחץ כדי לנטרל את פעילות הרשת.</translation>
+        <translation>Kliknite, da onemogočite omrežno aktivnosti.</translation>
     </message>
     <message>
         <source>Network activity disabled.</source>
-        <translation>פעילות הרשת נוטרלה.</translation>
+        <translation>Omrežna aktivnost onemogočena.</translation>
     </message>
     <message>
         <source>Click to enable network activity again.</source>
-        <translation>לחץ כדי לחדש את פעילות הרשת.</translation>
+        <translation>Kliknite, da ponovno vključite omrežno aktivnost.</translation>
     </message>
     <message>
         <source>Syncing Headers (%1%)...</source>
-        <translation>הכותרות מתעדכנות (%1%)...</translation>
+        <translation>Sinhronizacija glav (%1%)...</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>המקטעים נוספים למפתח בכונן…</translation>
+        <translation>Poustvarjam kazalo blokov na disku ...</translation>
     </message>
     <message>
         <source>Proxy is &lt;b&gt;enabled&lt;/b&gt;: %1</source>
-        <translation>שרת הפרוקסי &lt;b&gt;פעיל&lt;/b&gt;: %1</translation>
+        <translation>Namestniški strežnik je omogočen&lt;/b&gt;: %1</translation>
     </message>
     <message>
         <source>Send coins to a Bitcoin address</source>
-        <translation>שליחת מטבעות לכתובת ביטקוין</translation>
+        <translation>Izvedite plačilo na naslov Bitcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>גיבוי הארנק למיקום אחר</translation>
+        <translation>Shranite varnostno kopijo svoje denarnice na drugo lokacijo</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>שנה את הסיסמא המשמשת להצפנת הארנק</translation>
+        <translation>Spremenite geslo za šifriranje denarnice</translation>
     </message>
     <message>
         <source>&amp;Debug window</source>
-        <translation>חלון &amp;ניפוי</translation>
+        <translation>&amp;Razhroščevalno okno</translation>
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
-        <translation>פתיחת לוח הבקרה לאבחון ולניפוי</translation>
+        <translation>Odprite razhroščevalno in diagnostično konzolo</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>&amp;אימות הודעה…</translation>
+        <translation>&amp;Preveri sporočilo ...</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation>&amp;שליחה</translation>
+        <translation>&amp;Pošlji</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation>&amp;קבלה</translation>
+        <translation>P&amp;rejmi</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>ה&amp;צגה / הסתרה</translation>
+        <translation>&amp;Prikaži / Skrij</translation>
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>הצגה או הסתרה של החלון הראשי</translation>
+        <translation>Prikaži ali skrij glavno okno</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>הצפנת המפתחות הפרטיים ששייכים לארנק שלך</translation>
+        <translation>Šifrirajte zasebne ključe, ki se nahajajo v denarnici</translation>
     </message>
     <message>
         <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>חתום על הודעות עם כתובות הביטקוין שלך כדי להוכיח שהן בבעלותך</translation>
+        <translation>Podpišite poljubno sporočilo z enim svojih naslovov Bitcoin, da prejemniku sporočila dokažete, da je ta naslov v vaši lasti.</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>אמת הודעות כדי להבטיח שהן נחתמו עם כתובת ביטקוין מסוימות</translation>
+        <translation>Preverite, če je bilo prejeto sporočilo podpisano z določenim naslovom Bitcoin</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>&amp;קובץ</translation>
+        <translation>&amp;Datoteka</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>&amp;הגדרות</translation>
+        <translation>&amp;Nastavitve</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>ע&amp;זרה</translation>
+        <translation>&amp;Pomoč</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation>סרגל כלים לשוניות</translation>
+        <translation>Orodna vrstica zavihkov</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>בקשת תשלומים (יצירה של קודים מסוג QR וסכימות כתובות משאב של :bitcoin)</translation>
+        <translation>Zahtevajte plačilo (ustvarite zahtevek s kodo QR in URI tipa bitcoin:)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
-        <translation>הצג את רשימת הכתובות לשליחה שהיו בשימוש לרבות התוויות</translation>
+        <translation>Preglejte in uredite seznam naslovov, na katere ste kdaj poslali plačila</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>הצגת רשימת הכתובות והתוויות הנמצאות בשימוש</translation>
+        <translation>Preglejte in uredite seznam naslovov, na katere ste kdaj prejeli plačila</translation>
     </message>
     <message>
         <source>Open a bitcoin: URI or payment request</source>
-        <translation>פתיחת ביטקוין: כתובת משאב או בקשת תשלום</translation>
+        <translation>Izvedite plačilo iz zahtevka v datoteki ali iz URI tipa bitcoin:</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
-        <translation>אפשרויות &amp;שורת הפקודה</translation>
+        <translation>Opcije &amp;ukazne vrstice</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>חיבור אחד פעיל לרשת ביטקוין</numerusform><numerusform>%n חיבורים פעילים לרשת ביטקוין</numerusform><numerusform>%n חיבורים פעילים לרשת ביטקוין</numerusform><numerusform>%n חיבורים פעילים לרשת ביטקוין</numerusform></translation>
+        <translation><numerusform>%n aktivna povezava v omrežje Bitcoin</numerusform><numerusform>%n aktivni povezavi v omrežje Bitcoin</numerusform><numerusform>%n aktivne povezave v omrežje Bitcoin</numerusform><numerusform>%n aktivnih povezav v omrežje Bitcoin</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
-        <translation>המקטעים על הכונן מסודרים באינדקס…</translation>
+        <translation>Indeksirani bloki na disku ...</translation>
     </message>
     <message>
         <source>Processing blocks on disk...</source>
-        <translation>מעבד בלוקים על הדיסק...</translation>
+        <translation>Obdelava blokov na disku ...</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
-        <translation><numerusform>%n מקטע של היסטוריית העברות עבר עיבוד</numerusform><numerusform>%n מקטעים של היסטוריית העברות עברו עיבוד</numerusform><numerusform>%n מקטעים של היסטוריית העברות עברו עיבוד</numerusform><numerusform>%n מקטעים של היסטוריית העברות עברו עיבוד</numerusform></translation>
+        <translation><numerusform>%n obdelan blok zgodovine transakcij.</numerusform><numerusform>%n obdelana bloka zgodovine transakcij.</numerusform><numerusform>%n obdelani bloki zgodovine transakcij.</numerusform><numerusform>%n obdelanih blokov zgodovine transakcij.</numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
-        <translation>%1 מאחור</translation>
+        <translation>imam še %1 zaostanka</translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation>המקטע האחרון שהתקבל נוצר לפני %1.</translation>
+        <translation>Zadnji prejeti blok je star %1.</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>ההעברות שבוצעו לאחר העברה זו לא יופיעו.</translation>
+        <translation>Novejše transakcije še ne bodo vidne.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>שגיאה</translation>
+        <translation>Napaka</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>אזהרה</translation>
+        <translation>Opozorilo</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>מידע</translation>
+        <translation>Informacije</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation>עדכני</translation>
+        <translation>Posodobljeno</translation>
     </message>
     <message>
         <source>&amp;Sending addresses</source>
-        <translation>&amp;כתובות למשלוח</translation>
+        <translation>&amp;Naslovi za pošiljanje ...</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses</source>
-        <translation>&amp;כתובות לקבלה</translation>
+        <translation>&amp;Naslovi za prejemanje ...</translation>
     </message>
     <message>
         <source>Open Wallet</source>
-        <translation>פתיחת ארנק</translation>
+        <translation>Odpri denarnico</translation>
     </message>
     <message>
         <source>Open a wallet</source>
-        <translation>פתיחת ארנק</translation>
+        <translation>Odpri denarnico</translation>
     </message>
     <message>
         <source>Close Wallet...</source>
-        <translation>סגירת ארנק...</translation>
+        <translation>Zapri denarnico ...</translation>
     </message>
     <message>
         <source>Close wallet</source>
-        <translation>סגירת ארנק</translation>
+        <translation>Zapri denarnico</translation>
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation>יש להציג את הודעת העזרה של %1 כדי להציג רשימה עם אפשרויות שורת פקודה לביטקוין</translation>
+        <translation>Pokaži %1 sporočilo za pomoč s seznamom vseh možnosti v ukazni vrstici</translation>
     </message>
     <message>
         <source>default wallet</source>
-        <translation>ארנק בררת מחדל</translation>
+        <translation>privzeta denarnica</translation>
     </message>
     <message>
         <source>No wallets available</source>
-        <translation>אין ארנקים זמינים</translation>
+        <translation>Ni denarnic na voljo</translation>
     </message>
     <message>
         <source>&amp;Window</source>
-        <translation>&amp;חלון</translation>
+        <translation>O&amp;kno</translation>
     </message>
     <message>
         <source>Minimize</source>
-        <translation>מזעור</translation>
+        <translation>Pomanjšaj</translation>
     </message>
     <message>
         <source>Zoom</source>
-        <translation>הגדלה</translation>
+        <translation>Povečaj</translation>
     </message>
     <message>
         <source>Main Window</source>
-        <translation>חלון עיקרי</translation>
+        <translation>Glavno okno</translation>
     </message>
     <message>
         <source>%1 client</source>
-        <translation>לקוח %1</translation>
+        <translation>%1 odjemalec</translation>
     </message>
     <message>
         <source>Connecting to peers...</source>
-        <translation>מתבצעת התחברות לעמיתים…</translation>
+        <translation>Povezujem s soležniki ...</translation>
     </message>
     <message>
         <source>Catching up...</source>
-        <translation>מתבצע עדכון…</translation>
+        <translation>Dohitevam omrežje ...</translation>
     </message>
     <message>
         <source>Error: %1</source>
-        <translation>שגיאה: %1</translation>
+        <translation>Napaka: %1</translation>
+    </message>
+    <message>
+        <source>Warning: %1</source>
+        <translation>Opozorilo: %1</translation>
     </message>
     <message>
         <source>Date: %1
 </source>
-        <translation>תאריך: %1
+        <translation>Datum: %1
 </translation>
     </message>
     <message>
         <source>Amount: %1
 </source>
-        <translation>כמות: %1
+        <translation>Znesek: %1
 </translation>
     </message>
     <message>
         <source>Wallet: %1
 </source>
-        <translation>ארנק: %1
+        <translation>Denarnica: %1
 </translation>
     </message>
     <message>
         <source>Type: %1
 </source>
-        <translation>סוג: %1
+        <translation>Vrsta: %1
 </translation>
     </message>
     <message>
         <source>Label: %1
 </source>
-        <translation>תווית: %1
+        <translation>Oznaka: %1
 </translation>
     </message>
     <message>
         <source>Address: %1
 </source>
-        <translation>כתובת: %1
+        <translation>Naslov: %1
 </translation>
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>העברת שליחה</translation>
+        <translation>Odlivi</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation>העברת קבלה</translation>
+        <translation>Prilivi</translation>
     </message>
     <message>
         <source>HD key generation is &lt;b&gt;enabled&lt;/b&gt;</source>
-        <translation>ייצור מפתחות HD &lt;b&gt;מופעל&lt;/b&gt;</translation>
+        <translation>Generiranje HD ključa je &lt;b&gt;omogočeno&lt;/b&gt;</translation>
     </message>
     <message>
         <source>HD key generation is &lt;b&gt;disabled&lt;/b&gt;</source>
-        <translation>ייצור מפתחות HD &lt;b&gt;כבוי&lt;/b&gt;</translation>
+        <translation>Generiranje HD ključa je &lt;b&gt;onemogočeno&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Private key &lt;b&gt;disabled&lt;/b&gt;</source>
-        <translation>מפתח פרטי &lt;b&gt;נוטרל&lt;/b&gt;</translation>
+        <translation>Zasebni ključ &lt;b&gt;onemogočen&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>הארנק &lt;b&gt;מוצפן&lt;/b&gt; ו&lt;b&gt;פתוח&lt;/b&gt; כרגע</translation>
+        <translation>Denarnica je &lt;b&gt;šifrirana&lt;/b&gt; in trenutno &lt;b&gt;odklenjena&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>הארנק &lt;b&gt;מוצפן&lt;/b&gt; ו&lt;b&gt;נעול&lt;/b&gt; כרגע</translation>
+        <translation>Denarnica je &lt;b&gt;šifrirana&lt;/b&gt; in trenutno &lt;b&gt;zaklenjena&lt;/b&gt;</translation>
     </message>
     <message>
         <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>אירעה שגיאה חמורה. אין אפשרות להשתמש עוד בביטקוין באופן מאובטח והיישום ייסגר.</translation>
+        <translation>Napaka. Bitcoin ne more več varno nadaljevati in se bo zaprl.</translation>
     </message>
 </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
         <source>Coin Selection</source>
-        <translation>בחירת מטבע</translation>
+        <translation>Izbira vhodnih kovancev</translation>
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>כמות:</translation>
+        <translation>Število vhodov:</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>בתים:</translation>
+        <translation>Število bajtov:</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>סכום:</translation>
+        <translation>Znesek:</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>עמלה:</translation>
+        <translation>Provizija:</translation>
     </message>
     <message>
         <source>Dust:</source>
-        <translation>אבק:</translation>
+        <translation>Prah:</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>לאחר עמלה:</translation>
+        <translation>Po proviziji:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>עודף:</translation>
+        <translation>Vračilo:</translation>
     </message>
     <message>
         <source>(un)select all</source>
-        <translation>ביטול/אישור הבחירה</translation>
+        <translation>izberi vse/nič</translation>
     </message>
     <message>
         <source>Tree mode</source>
-        <translation>מצב עץ</translation>
+        <translation>Drevesni prikaz</translation>
     </message>
     <message>
         <source>List mode</source>
-        <translation>מצב רשימה</translation>
+        <translation>Seznam</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>כמות</translation>
+        <translation>Znesek</translation>
     </message>
     <message>
         <source>Received with label</source>
-        <translation>התקבל עם תווית</translation>
+        <translation>Oznaka priliva</translation>
     </message>
     <message>
         <source>Received with address</source>
-        <translation>התקבל עם כתובת</translation>
+        <translation>Naslov priliva</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>תאריך</translation>
+        <translation>Datum</translation>
     </message>
     <message>
         <source>Confirmations</source>
-        <translation>אישורים</translation>
+        <translation>Potrditve</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>מאושר</translation>
+        <translation>Potrjeno</translation>
     </message>
     <message>
         <source>Copy address</source>
-        <translation>העתקת הכתובת</translation>
+        <translation>Kopiraj naslov</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>העתקת התווית</translation>
+        <translation>Kopiraj oznako</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>העתקת הסכום</translation>
+        <translation>Kopiraj znesek</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>העתקת מזהה ההעברה</translation>
+        <translation>Kopiraj ID transakcije</translation>
     </message>
     <message>
         <source>Lock unspent</source>
-        <translation>נעילת יתרה</translation>
+        <translation>Zakleni neporabljeno</translation>
     </message>
     <message>
         <source>Unlock unspent</source>
-        <translation>פתיחת יתרה</translation>
+        <translation>Odkleni neporabljeno</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>העתקת הכמות</translation>
+        <translation>Kopiraj količino</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation>העתקת העמלה</translation>
+        <translation>Kopiraj znesek provizije</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation>העתקה אחרי העמלה</translation>
+        <translation>Kopiraj po proviziji</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>העתקת בתים</translation>
+        <translation>Kopiraj bajte</translation>
     </message>
     <message>
         <source>Copy dust</source>
-        <translation>העתקת אבק</translation>
+        <translation>Kopiraj prah</translation>
     </message>
     <message>
         <source>Copy change</source>
-        <translation>העתקת השינוי</translation>
+        <translation>Kopiraj vračilo</translation>
     </message>
     <message>
         <source>(%1 locked)</source>
-        <translation>(%1 נעולים)</translation>
+        <translation>(%1 zaklenjeno)</translation>
     </message>
     <message>
         <source>yes</source>
-        <translation>כן</translation>
+        <translation>da</translation>
     </message>
     <message>
         <source>no</source>
-        <translation>לא</translation>
+        <translation>ne</translation>
     </message>
     <message>
         <source>This label turns red if any recipient receives an amount smaller than the current dust threshold.</source>
-        <translation>תווית זו הופכת לאדומה אם מישהו מהנמענים מקבל סכום נמוך יותר מסף האבק הנוכחי.</translation>
+        <translation>Ta oznaka se spremeni v rdeče, če katerikoli prejemnik prejme znesek, ki je manjši od trenutnega praga za prah.</translation>
     </message>
     <message>
         <source>Can vary +/- %1 satoshi(s) per input.</source>
-        <translation>יכול להשתנות במגמה של +/- %1 סנטושי לקלט.</translation>
+        <translation>Se lahko razlikuje +/- %1 satošijev na vnos.</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(ללא תווית)</translation>
+        <translation>(brez oznake)</translation>
     </message>
     <message>
         <source>change from %1 (%2)</source>
-        <translation>עודף מ־%1 (%2)</translation>
+        <translation>vračilo od %1 (%2)</translation>
     </message>
     <message>
         <source>(change)</source>
-        <translation>(עודף)</translation>
+        <translation>(vračilo)</translation>
     </message>
 </context>
 <context>
     <name>CreateWalletActivity</name>
+    <message>
+        <source>Creating Wallet &lt;b&gt;%1&lt;/b&gt;...</source>
+        <translation>Ustvarjam denarnico &lt;b&gt;%1&lt;/b&gt; ...</translation>
+    </message>
+    <message>
+        <source>Create wallet failed</source>
+        <translation>Ustvarjanje denarnice neuspešno</translation>
+    </message>
     </context>
 <context>
     <name>CreateWalletDialog</name>
-    </context>
+    <message>
+        <source>Create Wallet</source>
+        <translation>Ustvari denarnico</translation>
+    </message>
+    <message>
+        <source>Wallet Name</source>
+        <translation>Ime denarnice</translation>
+    </message>
+    <message>
+        <source>Encrypt the wallet. The wallet will be encrypted with a passphrase of your choice.</source>
+        <translation>Šifriraj denarnico. Denarnica bo bila šifrirana z geslom po vaši izbiri.</translation>
+    </message>
+    <message>
+        <source>Encrypt Wallet</source>
+        <translation>Šifriraj denarnico</translation>
+    </message>
+    <message>
+        <source>Make Blank Wallet</source>
+        <translation>Ustvari prazno denarnico</translation>
+    </message>
+    <message>
+        <source>Create</source>
+        <translation>Ustvari</translation>
+    </message>
+</context>
 <context>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation>עריכת כתובת</translation>
+        <translation>Uredi naslov</translation>
     </message>
     <message>
         <source>&amp;Label</source>
-        <translation>ת&amp;ווית</translation>
+        <translation>&amp;Oznaka</translation>
     </message>
     <message>
         <source>The label associated with this address list entry</source>
-        <translation>התווית המשויכת לרשומה הזו ברשימת הכתובות</translation>
+        <translation>Oznaka, pod katero je spodnji naslov naveden v vašem imeniku naslovov.</translation>
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>הכתובת המשויכת עם רשומה זו ברשימת הכתובות. ניתן לשנות זאת רק עבור כתובות לשליחה.</translation>
+        <translation>Naslov tega vnosa v imeniku. Spremeniti ga je mogoče le pri vnosih iz imenika naslovov za pošiljanje.</translation>
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation>&amp;כתובת</translation>
+        <translation>&amp;Naslov</translation>
     </message>
     <message>
         <source>New sending address</source>
-        <translation>כתובת שליחה חדשה</translation>
+        <translation>Nov naslov za pošiljanje</translation>
     </message>
     <message>
         <source>Edit receiving address</source>
-        <translation>עריכת כתובת הקבלה</translation>
+        <translation>Nov naslov za prejemanje</translation>
     </message>
     <message>
         <source>Edit sending address</source>
-        <translation>עריכת כתובת השליחה</translation>
+        <translation>Uredi naslov za pošiljanje</translation>
     </message>
     <message>
         <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>הכתובת שהוקלדה „%1” היא אינה כתובת ביטקוין תקנית.</translation>
+        <translation>Vnešeni naslov %1 ni veljaven Bitcoin naslov.</translation>
     </message>
     <message>
         <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
-        <translation>כתובת "%1" כבר קיימת ככתובת מקבלת עם תווית "%2" ולכן לא ניתן להוסיף אותה ככתובת שולחת</translation>
+        <translation>Naslov %1 že obstaja kot naslov za prejemanje z oznako "%2" in ga je nemogoče dodati kot naslov za pošiljanje.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book with label "%2".</source>
-        <translation>הכתובת שהוכנסה "%1" כבר נמצאת בפנקס הכתובות עם התווית "%2".</translation>
+        <translation>Vnešeni naslov "%1" je že v imeniku z oznako "%2".</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
-        <translation>לא ניתן לשחרר את הארנק.</translation>
+        <translation>Denarnice ni bilo mogoče odkleniti.</translation>
     </message>
     <message>
         <source>New key generation failed.</source>
-        <translation>יצירת המפתח החדש נכשלה.</translation>
+        <translation>Generiranje novega ključa je spodletelo.</translation>
     </message>
 </context>
 <context>
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation>תיקיית נתונים חדשה תיווצר.</translation>
+        <translation>Ustvarjena bo nova podatkovna mapa.</translation>
     </message>
     <message>
         <source>name</source>
-        <translation>שם</translation>
+        <translation>ime</translation>
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation>התיקייה כבר קיימת. ניתן להוסיף %1 אם יש ליצור תיקייה חדשה כאן.</translation>
+        <translation>Mapa že obstaja. Dodajte %1, če tu želite ustvariti novo mapo.</translation>
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
-        <translation>הנתיב כבר קיים ואינו מצביע על תיקייה.</translation>
+        <translation>Pot že obstaja, vendar ni mapa.</translation>
     </message>
     <message>
         <source>Cannot create data directory here.</source>
-        <translation>לא ניתן ליצור כאן תיקיית נתונים.</translation>
+        <translation>Na tem mestu ni mogoče ustvariti nove mape.</translation>
     </message>
 </context>
 <context>
     <name>HelpMessageDialog</name>
     <message>
         <source>version</source>
-        <translation>גרסה</translation>
+        <translation>različica</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
-        <translation>(%1-סיביות)</translation>
+        <translation>(%1-bit)</translation>
     </message>
     <message>
         <source>About %1</source>
-        <translation>אודות %1</translation>
+        <translation>O %1</translation>
     </message>
     <message>
         <source>Command-line options</source>
-        <translation>אפשרויות שורת פקודה</translation>
+        <translation>Možnosti ukazne vrstice</translation>
     </message>
 </context>
 <context>
     <name>Intro</name>
     <message>
         <source>Welcome</source>
-        <translation>ברוך בואך</translation>
+        <translation>Dobrodošli</translation>
     </message>
     <message>
         <source>Welcome to %1.</source>
-        <translation>ברוך בואך אל %1.</translation>
+        <translation>Dobrodošli v %1</translation>
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where %1 will store its data.</source>
-        <translation>כיוון שזו ההפעלה הראשונה של התכנית, ניתן לבחור היכן יאוחסן המידע של %1.</translation>
+        <translation>Ker ste program zagnali prvič, lahko izberete, kje bo %1 shranil podatke.</translation>
     </message>
     <message>
         <source>When you click OK, %1 will begin to download and process the full %4 block chain (%2GB) starting with the earliest transactions in %3 when %4 initially launched.</source>
-        <translation>בעת לחיצה על אישור, %1 יחל בהורדה ועיבוד מלאים של שרשרת המקטעים %4 (%2 ג״ב) החל מההעברות הראשונות ב־%3 עם ההשקה הראשונית של %4.</translation>
+        <translation>Ko kliknete OK, bo %1 začel prenašati podatke in procesirati celotno %4 bazo podatkovnih blokov (%2 GB), začenši z najstarejšo transakcijo in z %3 ob prvotnem začetku %4.</translation>
     </message>
     <message>
         <source>This initial synchronisation is very demanding, and may expose hardware problems with your computer that had previously gone unnoticed. Each time you run %1, it will continue downloading where it left off.</source>
-        <translation>הסינכרון הראשוני הוא תובעני ועלול לחשוף בעיות חומרה במחשב שהיו חבויות עד כה. כל פעם שתריץ %1 התהליך ימשיך בהורדה מהנקודה שבה הוא עצר לאחרונה.</translation>
+        <translation>Začetna sinhronizacija je zelo zahtevna in lahko odkrije probleme s strojno opremo v vašem računalniku, ki so prej bili neopaženi. Vsakič, ko zaženete %1, bo le-ta nadaljeval s prenosom kjer je ostal.</translation>
     </message>
     <message>
         <source>If you have chosen to limit block chain storage (pruning), the historical data must still be downloaded and processed, but will be deleted afterward to keep your disk usage low.</source>
-        <translation>אם בחרת להגביל את שטח האחרון לשרשרת, עדיין נדרש מידע היסטורי להורדה ועיבוד אך המידע ההיסטורי יימחק לאחר מכן כדי לשמור על צריכת שטח האחסון בדיסק נמוכה.</translation>
+        <translation>Če ste se odločili omejiti shranjevanje blokovnih verig (obrezovanje), je treba zgodovinske podatke še vedno prenesti in obdelati, vendar jih boste pozneje izbrisali, da bo uporaba diska nizka.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
-        <translation>שימוש בבררת המחדל של תיקיית הנתונים.</translation>
+        <translation>Uporabi privzeto podatkovno mapo</translation>
     </message>
     <message>
         <source>Use a custom data directory:</source>
-        <translation>שימוש בתיקיית נתונים מותאמת אישית:</translation>
+        <translation>Uporabi to podatkovno mapo:</translation>
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>ביטקוין</translation>
+        <translation>Bitcoin</translation>
     </message>
     <message>
         <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
-        <translation>מידע בנפח של לפחות %1 ג׳יגה-בייט יאוחסן בתיקייה זו, והוא יגדל עם הזמן.</translation>
+        <translation>Vsaj %1 GB podatkov bo shranjenih v tem direktoriju, velikost podatkov pa bo s časom naraščala.</translation>
     </message>
     <message>
         <source>Approximately %1 GB of data will be stored in this directory.</source>
-        <translation>מידע בנפח של כ-%1 ג׳יגה-בייט יאוחסן בתיקייה זו.</translation>
+        <translation>Približno %1 GB podatkov bo shranjenih v tem direktoriju.</translation>
     </message>
     <message>
         <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation>%1 תוריד ותאחסן עותק של שרשרת הבלוקים של ביטקוין.</translation>
+        <translation>%1 bo prenesel in shranil kopijo Bitcoin baze podatkovnih blokov.</translation>
     </message>
     <message>
         <source>The wallet will also be stored in this directory.</source>
-        <translation>הארנק גם מאוחסן בתיקייה הזו.</translation>
+        <translation>Tudi denarnica bo shranjena v tem direktoriju.</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>שגיאה: לא ניתן ליצור את תיקיית הנתונים שצוינה „%1“.</translation>
+        <translation>Napaka: Ni mogoče ustvariti mape "%1".</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>שגיאה</translation>
+        <translation>Napaka</translation>
     </message>
     <message numerus="yes">
         <source>%n GB of free space available</source>
-        <translation><numerusform>ג״ב של מקום פנוי זמין</numerusform><numerusform>%n ג״ב של מקום פנוי זמינים</numerusform><numerusform>%n ג״ב של מקום פנוי זמינים</numerusform><numerusform>%n ג״ב של מקום פנוי זמינים</numerusform></translation>
+        <translation><numerusform>%n GiB prostega prostora na voljo</numerusform><numerusform>%n GiB prostega prostora na voljo</numerusform><numerusform>%n GiB prostega prostora na voljo</numerusform><numerusform>%n GiB prostega prostora na voljo</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>(of %n GB needed)</source>
-        <translation><numerusform>(מתוך %n ג״ב נדרשים)</numerusform><numerusform>(מתוך %n ג״ב נדרשים)</numerusform><numerusform>(מתוך %n ג״ב נדרשים)</numerusform><numerusform>(מתוך %n ג״ב נדרשים)</numerusform></translation>
+        <translation><numerusform>(od potrebnih %n GiB)</numerusform><numerusform>(od potrebnih %n GiB)</numerusform><numerusform>(od potrebnih %n GiB)</numerusform><numerusform>(od potrebnih %n GB)</numerusform></translation>
     </message>
-    </context>
+    <message numerus="yes">
+        <source>(%n GB needed for full chain)</source>
+        <translation><numerusform>(%n GB potreben za celotno verigo blokov)</numerusform><numerusform>(%n GB potrebna za celotno verigo blokov)</numerusform><numerusform>(%n GB potrebni za celotno verigo blokov)</numerusform><numerusform>(%n GB potrebnih za celotno verigo blokov)</numerusform></translation>
+    </message>
+</context>
 <context>
     <name>ModalOverlay</name>
     <message>
         <source>Form</source>
-        <translation>טופס</translation>
+        <translation>Oblika</translation>
     </message>
     <message>
         <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
-        <translation>ייתכן שהעברות שבוצעו לאחרונה לא יופיעו עדיין, ולכן המאזן בארנק שלך יהיה שגוי. המידע הנכון יוצג במלואו כאשר הארנק שלך יסיים להסתנכרן עם רשת הביטקוין, כמפורט למטה.</translation>
+        <translation>Zadnje transakcije morda še niso vidne, zato je stanje v denarnici morda napačno. Ti podatki bodo pravilni, ko se bo vaša denarnica končala s sinhronizacijo z bitcoin omrežjem, kot je podrobneje opisano spodaj.</translation>
     </message>
     <message>
         <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>הרשת תסרב לקבל הוצאת ביטקוינים במידה והם כבר נמצאים בהעברות אשר לא מוצגות עדיין.</translation>
+        <translation>Poskus porabe bitcoinov, na katere vplivajo še ne prikazane transakcije, omrežje ne bo sprejelo.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
-        <translation>מספר מקטעים שנותרו</translation>
+        <translation>Preostalo število blokov</translation>
     </message>
     <message>
         <source>Unknown...</source>
-        <translation>לא ידוע...</translation>
+        <translation>Neznano ...</translation>
     </message>
     <message>
         <source>Last block time</source>
-        <translation>זמן המקטע האחרון</translation>
+        <translation>Čas zadnjega bloka</translation>
     </message>
     <message>
         <source>Progress</source>
-        <translation>התקדמות</translation>
+        <translation>Napredek</translation>
     </message>
     <message>
         <source>Progress increase per hour</source>
-        <translation>התקדמות לפי שעה</translation>
+        <translation>Napredek na uro</translation>
     </message>
     <message>
         <source>calculating...</source>
-        <translation>נערך חישוב…</translation>
+        <translation>Računam ...</translation>
     </message>
     <message>
         <source>Estimated time left until synced</source>
-        <translation>הזמן המוערך שנותר עד הסנכרון</translation>
+        <translation>Ocenjeni čas do sinhronizacije</translation>
     </message>
     <message>
         <source>Hide</source>
-        <translation>הסתר</translation>
+        <translation>Skrij</translation>
     </message>
     <message>
         <source>Unknown. Syncing Headers (%1, %2%)...</source>
-        <translation>לא ידוע. סינכרון כותרות (%1, %2%)...</translation>
+        <translation>Neznano. Sinhroniziram glave (%1, %2%)...</translation>
     </message>
 </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
         <source>Open URI</source>
-        <translation>פתיחת כתובת משאב</translation>
+        <translation>Odpri URl</translation>
     </message>
     <message>
         <source>Open payment request from URI or file</source>
-        <translation>פתיחת בקשת תשלום מכתובת משאב או מקובץ</translation>
+        <translation>Vnesite zahtevek za plačilo iz URI ali pa ga naložite iz datoteke</translation>
     </message>
     <message>
         <source>URI:</source>
-        <translation>כתובת משאב:</translation>
+        <translation>URI:</translation>
     </message>
     <message>
         <source>Select payment request file</source>
-        <translation>בחירת קובץ בקשת תשלום</translation>
+        <translation>Izbiranje datoteke z zahtevkom za plačilo</translation>
     </message>
     <message>
         <source>Select payment request file to open</source>
-        <translation>בחירת קובץ בקשת תשלום לפתיחה</translation>
+        <translation>Izberi datoteko za zahtevek plačila</translation>
     </message>
 </context>
 <context>
     <name>OpenWalletActivity</name>
     <message>
+        <source>Open wallet failed</source>
+        <translation>Odpiranje denarnice neuspešno</translation>
+    </message>
+    <message>
         <source>default wallet</source>
-        <translation>ארנק בררת מחדל</translation>
+        <translation>privzeta denarnica</translation>
     </message>
     <message>
         <source>Opening Wallet &lt;b&gt;%1&lt;/b&gt;...</source>
-        <translation>פותח ארנק&lt;b&gt;%1&lt;/b&gt;...</translation>
+        <translation>Odpiram denarnico &lt;b&gt;%1&lt;/b&gt;...</translation>
     </message>
 </context>
 <context>
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation>אפשרויות</translation>
+        <translation>Možnosti</translation>
     </message>
     <message>
         <source>&amp;Main</source>
-        <translation>&amp;ראשי</translation>
+        <translation>&amp;Glavno</translation>
     </message>
     <message>
         <source>Automatically start %1 after logging in to the system.</source>
-        <translation>להפעיל את %1 אוטומטית לאחר הכניסה למערכת.</translation>
+        <translation>Avtomatsko zaženi %1 po prijavi v sistem.</translation>
     </message>
     <message>
         <source>&amp;Start %1 on system login</source>
-        <translation>ה&amp;פעלת %1 עם הכניסה למערכת</translation>
+        <translation>&amp;Zaženi %1 ob prijavi v sistem</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
-        <translation>גודל מ&amp;טמון מסד הנתונים</translation>
+        <translation>Velikost &amp;predpomnilnika podatkovne baze</translation>
     </message>
     <message>
         <source>Number of script &amp;verification threads</source>
-        <translation>מספר תהליכי ה&amp;אימות של הסקריפט</translation>
+        <translation>Število programskih &amp;niti za preverjanje</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
-        <translation>כתובת ה־IP של המתווך (לדוגמה IPv4: 127.0.0.1‏ / IPv6: ::1)</translation>
+        <translation>Naslov IP posredniškega strežnika (npr. IPv4: 127.0.0.1 ali IPv6: ::1)</translation>
     </message>
     <message>
         <source>Shows if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
-        <translation>מראה אם פרוקסי SOCKS5 המסופק כבררת מחדל משמש להתקשרות עם עמיתים באמצעות סוג רשת זה.</translation>
+        <translation>Prikaže, če je priloženi privzeti proxy SOCKS5 uporabljen za doseganje soležnikov prek te vrste omrežja.</translation>
     </message>
     <message>
         <source>Use separate SOCKS&amp;5 proxy to reach peers via Tor hidden services:</source>
-        <translation>השתמשו בפרוקסי SOCKS&amp;5 נפרד כדי להתקשר עם עמיתים באמצעות שירותים חבויים ברשת Tor:</translation>
+        <translation>Za dostop do soležnikov preko skritih storitev Tor uporabi drug posredniški strežnik SOCKS&amp;5:</translation>
     </message>
     <message>
         <source>Hide the icon from the system tray.</source>
-        <translation>הסתר את סמל מגש המערכת</translation>
+        <translation>Skrij ikono na pladnju.</translation>
     </message>
     <message>
         <source>&amp;Hide tray icon</source>
-        <translation>&amp;הסתרת צלמית מגירה</translation>
+        <translation>&amp;Skrij ikono</translation>
     </message>
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
-        <translation>מזער ואל תצא מהאפליקציה עם סגירת החלון. כאשר אפשרות זו דלוקה, האפליקציה תיסגר רק בבחירת ״יציאה״ בתפריט.</translation>
+        <translation>Ko zaprete glavno okno programa, bo program tekel še naprej, okno pa bo zgolj minimirano. Program v tem primeru ustavite tako, da v meniju izberete ukaz Izhod.</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
-        <translation>כתובות צד־שלישי (כגון: סייר מקטעים) שמופיעים בלשונית ההעברות בתור פריטים בתפריט ההקשר. %s בכתובת מוחלף בגיבוב ההעברה. מספר כתובות יופרדו בפס אנכי |.</translation>
+        <translation>Naslovi URL tretjih oseb (npr. raziskovalec blokov), ki bodo navedeni v kontekstnem meniju seznama transakcij. Niz %s iz naslova URL je nadomeščen s hash vrednostjo transakcije. Več zaporednih naslovov URL je med seboj ločenih z znakom |.</translation>
     </message>
     <message>
         <source>Open the %1 configuration file from the working directory.</source>
-        <translation>פתיחת קובץ התצורה של %1 מתיקיית העבודה.</translation>
+        <translation>Odpri %1 konfiguracijsko datoteko iz delovne podatkovne mape.</translation>
     </message>
     <message>
         <source>Open Configuration File</source>
-        <translation>פתיחת קובץ ההגדרות</translation>
+        <translation>Odpri konfiguracijsko datoteko</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation>איפוס כל אפשרויות התכנית לבררת המחדל.</translation>
+        <translation>Ponastavi vse nastavitve programa na privzete vrednosti.</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
-        <translation>&amp;איפוס אפשרויות</translation>
+        <translation>&amp;Ponastavi nastavitve</translation>
     </message>
     <message>
         <source>&amp;Network</source>
-        <translation>&amp;רשת</translation>
+        <translation>&amp;Omrežje</translation>
     </message>
     <message>
         <source>Disables some advanced features but all blocks will still be fully validated. Reverting this setting requires re-downloading the entire blockchain. Actual disk usage may be somewhat higher.</source>
-        <translation>משבית מספר תכונות מתקדמות אבל כל הבלוקים עדיין יעברו אימות מלא. שינוי של הגדרה זו מצריך הורדה מחדש של הבלוקצ'יין. נצילות הדיסק עלולה לעלות.</translation>
+        <translation>Onemogoči nekatere napredne funkcije, vendar bodo vsi bloki še vedno v celoti potrjeni. Če spremenite to nastavitev, morate ponovno naložiti celoten blok. Dejanska poraba diskov je morda nekoliko večja.</translation>
     </message>
     <message>
         <source>Prune &amp;block storage to</source>
-        <translation> יש לגזום את &amp;מאגר הבלוקים אל</translation>
+        <translation>Obreži velikost podatkovne baze na </translation>
     </message>
     <message>
         <source>GB</source>
-        <translation>ג״ב</translation>
+        <translation>GB</translation>
     </message>
     <message>
         <source>Reverting this setting requires re-downloading the entire blockchain.</source>
-        <translation>שינוי הגדרה זו מצריך הורדה מחדש של הבלוקצ'יין</translation>
+        <translation>Če spremenite to nastavitev, morate ponovno naložiti celotno verigo blokov.</translation>
     </message>
     <message>
         <source>MiB</source>
@@ -1096,67 +1168,67 @@
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
-        <translation>(0 = אוטומטי, &lt;0 = להשאיר כזאת כמות של ליבות חופשיות)</translation>
+        <translation>(0 = samodejno, &lt;0 = toliko procesorskih jeder naj ostane prostih)</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
-        <translation>&amp;ארנק</translation>
+        <translation>&amp;Denarnica</translation>
     </message>
     <message>
         <source>Expert</source>
-        <translation>מומחה</translation>
+        <translation>Napredne možnosti</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
-        <translation>הפעלת תכונות &amp;בקרת מטבעות</translation>
+        <translation>Omogoči upravljanje s kovanci</translation>
     </message>
     <message>
         <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
-        <translation>אם אפשרות ההשקעה של עודף בלתי מאושר תנוטרל, לא ניתן יהיה להשתמש בעודף מההעברה עד שלהעברה יהיה לפחות אישור אחד. פעולה זו גם משפיעה על חישוב המאזן שלך.</translation>
+        <translation>Če onemogočite trošenje drobiža iz še nepotrjenih transakcij, potem vrnjenega drobiža ne morete uporabiti, dokler plačilo ni vsaj enkrat potrjeno. Ta opcija vpliva tudi na izračun stanja sredstev.</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
-        <translation>עודף &amp;בלתי מאושר מההשקעה</translation>
+        <translation>Omogoči &amp;trošenje drobiža iz še nepotrjenih plačil</translation>
     </message>
     <message>
         <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>פתיחת הפתחה של ביטקוין בנתב באופן אוטומטי. עובד רק אם UPnP מופעל ונתמך בנתב.</translation>
+        <translation>Program samodejno odpre ustrezna vrata na usmerjevalniku. To deluje samo, če vaš usmerjevalnik podpira in ima omogočen UPnP.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
-        <translation>מיפוי פתחה באמצעות UPnP</translation>
+        <translation>Preslikaj vrata z uporabo &amp;UPnP</translation>
     </message>
     <message>
         <source>Accept connections from outside.</source>
-        <translation>אשר חיבורים חיצוניים</translation>
+        <translation>Sprejmi zunanje povezave</translation>
     </message>
     <message>
         <source>Allow incomin&amp;g connections</source>
-        <translation>לאפשר חיבורים &amp;נכנסים</translation>
+        <translation>&amp;Dovoli dohodne povezave</translation>
     </message>
     <message>
         <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>התחבר לרשת הביטקוין דרך פרוקסי SOCKS5.</translation>
+        <translation>Poveži se v omrežje Bitcoin preko posredniškega strežnika SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
-        <translation>להתחבר &amp;דרך מתווך SOCKS5 (מתווך בררת מחדל):</translation>
+        <translation>&amp;Poveži se preko posredniškega strežnika SOCKS5 (privzeti strežnik):</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
-        <translation>כתובת ה־IP של המ&amp;תווך:</translation>
+        <translation>Naslov &amp;IP posredniškega strežnika:</translation>
     </message>
     <message>
         <source>&amp;Port:</source>
-        <translation>&amp;פתחה:</translation>
+        <translation>&amp;Vrata:</translation>
     </message>
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation>הפתחה של המתווך (למשל 9050)</translation>
+        <translation>Vrata posredniškega strežnika (npr. 9050)</translation>
     </message>
     <message>
         <source>Used for reaching peers via:</source>
-        <translation>עבור הגעה לעמיתים דרך:</translation>
+        <translation>Uporabljano za povezovanje s soležniki preko:</translation>
     </message>
     <message>
         <source>IPv4</source>
@@ -1172,1236 +1244,1251 @@
     </message>
     <message>
         <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>התחברות לרשת ביטקוין דרך מתווך SOCKS5 נפרד לשירותי Tor נסתרים.</translation>
+        <translation>Poveži se v omrežje Bitcoin preko posredniškega strežnika SOCKS5 za skrite storitve Tor.</translation>
     </message>
     <message>
         <source>&amp;Window</source>
-        <translation>&amp;חלון</translation>
+        <translation>O&amp;kno</translation>
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>הצג סמל מגש בלבד לאחר מזעור החלון.</translation>
+        <translation>Po minimiranju okna samo prikaži ikono programa na pladnju.</translation>
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>מ&amp;זעור למגש במקום לשורת המשימות</translation>
+        <translation>&amp;Minimiraj na pladenj namesto na opravilno vrstico</translation>
     </message>
     <message>
         <source>M&amp;inimize on close</source>
-        <translation>מ&amp;זעור עם סגירה</translation>
+        <translation>Ob zapiranju okno zgolj m&amp;inimiraj</translation>
     </message>
     <message>
         <source>&amp;Display</source>
-        <translation>ת&amp;צוגה</translation>
+        <translation>&amp;Prikaz</translation>
     </message>
     <message>
         <source>User Interface &amp;language:</source>
-        <translation>&amp;שפת מנשק המשתמש:</translation>
+        <translation>&amp;Jezik uporabniškega vmesnika:</translation>
     </message>
     <message>
         <source>The user interface language can be set here. This setting will take effect after restarting %1.</source>
-        <translation>ניתן להגדיר כאן את שפת מנשק המשתמש. הגדרה זו תיכנס לתוקף לאחר הפעלה של %1 מחדש.</translation>
+        <translation>Tukaj je mogoče nastaviti uporabniški vmesnik za jezike. Ta nastavitev bo prikazana šele, ko boste znova zagnali %1.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>י&amp;חידת מידה להצגת כמויות:</translation>
+        <translation>&amp;Enota za prikaz zneskov:</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>ניתן לבחור את בררת המחדל ליחידת החלוקה שתוצג במנשק ובעת שליחת מטבעות.</translation>
+        <translation>Izberite privzeto mersko enoto za prikaz v uporabniškem vmesniku in pri pošiljanju kovancev.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
-        <translation>האם להציג תכונות שליטת מטבע או לא.</translation>
+        <translation>Omogoči dodatno možnost podrobnega nadzora nad posameznimi kovanci v transakcijah.</translation>
     </message>
     <message>
         <source>&amp;Third party transaction URLs</source>
-        <translation>&amp;כתובות אינטרנט של עסקאות צד שלישי</translation>
+        <translation>URL nakazila tretjih oseb</translation>
     </message>
     <message>
         <source>Options set in this dialog are overridden by the command line or in the configuration file:</source>
-        <translation>אפשרויות שמוגדרות בדיאלוג הזה נדרסות ע"י שורת הפקודה או קובץ הקונפיגורציה</translation>
+        <translation>Možnosti, nastavljene v tem pogovornem oknu so preglašene v ukazni vrstici ali konfiguracijski datoteki:</translation>
     </message>
     <message>
         <source>&amp;OK</source>
-        <translation>&amp;אישור</translation>
+        <translation>&amp;Potrdi</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>&amp;ביטול</translation>
+        <translation>&amp;Prekliči</translation>
     </message>
     <message>
         <source>default</source>
-        <translation>בררת מחדל</translation>
+        <translation>privzeto</translation>
     </message>
     <message>
         <source>none</source>
-        <translation>ללא</translation>
+        <translation>nič</translation>
     </message>
     <message>
         <source>Confirm options reset</source>
-        <translation>אישור איפוס האפשרויות</translation>
+        <translation>Potrditev ponastavitve</translation>
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
-        <translation>נדרשת הפעלה מחדש של הלקוח כדי להפעיל את השינויים.</translation>
+        <translation>Za uveljavitev sprememb je potreben ponoven zagon programa.</translation>
     </message>
     <message>
         <source>Client will be shut down. Do you want to proceed?</source>
-        <translation>הלקוח יכבה. להמשיך?</translation>
+        <translation>Program bo zaustavljen. Želite nadaljevati z izhodom?</translation>
     </message>
     <message>
         <source>Configuration options</source>
-        <translation>אפשרויות להגדרה</translation>
+        <translation>Možnosti konfiguracije</translation>
     </message>
     <message>
         <source>The configuration file is used to specify advanced user options which override GUI settings. Additionally, any command-line options will override this configuration file.</source>
-        <translation>בקובץ ההגדרות ניתן לציין אפשרויות מתקדמות אשר יקבלו עדיפות על ההגדרות בממשק הגרפי. כמו כן, אפשרויות בשורת הפקודה יקבלו עדיפות על קובץ ההגדרות.</translation>
+        <translation>Konfiguracijska datoteka se uporablja za določanje naprednih uporabniških možnosti, ki preglasijo nastavitve GUI-ja. Poleg tega bodo vse možnosti ukazne vrstice preglasile to konfiguracijsko datoteko.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>שגיאה</translation>
+        <translation>Napaka</translation>
     </message>
     <message>
         <source>The configuration file could not be opened.</source>
-        <translation>לא ניתן לפתוח את קובץ ההגדרות</translation>
+        <translation>Konfiguracijske datoteke ni bilo moč odpreti.</translation>
     </message>
     <message>
         <source>This change would require a client restart.</source>
-        <translation>שינוי זה ידרוש הפעלה מחדש של תכנית הלקוח.</translation>
+        <translation>Ta sprememba zahteva ponoven zagon programa.</translation>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation>כתובת המתווך שסופקה אינה תקינה.</translation>
+        <translation>Vnešeni naslov posredniškega strežnika ni veljaven.</translation>
     </message>
 </context>
 <context>
     <name>OverviewPage</name>
     <message>
         <source>Form</source>
-        <translation>טופס</translation>
+        <translation>Oblika</translation>
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>המידע המוצג עשוי להיות מיושן. הארנק שלך מסתנכרן באופן אוטומטי עם רשת הביטקוין לאחר יצירת החיבור, אך התהליך טרם הסתיים.</translation>
+        <translation>Prikazani podatki so morda zastareli. Program ob vzpostavitvi povezave samodejno sinhronizira denarnico z omrežjem Bitcoin, a trenutno ta proces še ni zaključen.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
-        <translation>צפייה בלבד:</translation>
+        <translation>Opazovano:</translation>
     </message>
     <message>
         <source>Available:</source>
-        <translation>זמין:</translation>
+        <translation>Na voljo:</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
-        <translation>היתרה הזמינה הנוכחית</translation>
+        <translation>Skupni znesek vaših sredstev, s katerimi lahko prosto razpolagate</translation>
     </message>
     <message>
         <source>Pending:</source>
-        <translation>בהמתנה:</translation>
+        <translation>Nepotrjeno:</translation>
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
-        <translation>הסכום הכולל של העברות שטרם אושרו ועדיין אינן נספרות בחישוב היתרה הזמינה</translation>
+        <translation>Skupni znesek sredstev s katerimi še ne razpolagate prosto, ker so del še nepotrjenih transakcij.</translation>
     </message>
     <message>
         <source>Immature:</source>
-        <translation>לא בשל:</translation>
+        <translation>Nedozorelo:</translation>
     </message>
     <message>
         <source>Mined balance that has not yet matured</source>
-        <translation>מאזן שנכרה וטרם הבשיל</translation>
+        <translation>Nedozorel narudarjeni znesek</translation>
     </message>
     <message>
         <source>Balances</source>
-        <translation>מאזנים</translation>
+        <translation>Stanje sredstev</translation>
     </message>
     <message>
         <source>Total:</source>
-        <translation>סך הכול:</translation>
+        <translation>Skupaj:</translation>
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation>סך כל היתרה הנוכחית שלך</translation>
+        <translation>Trenutna vsota vseh vaših sredstev</translation>
     </message>
     <message>
         <source>Your current balance in watch-only addresses</source>
-        <translation>המאזן הנוכחי שלך בכתובות לקריאה בלבד</translation>
+        <translation>Trenutno stanje vaših sredstev na opazovanih naslovih</translation>
     </message>
     <message>
         <source>Spendable:</source>
-        <translation>ניתנים לבזבוז</translation>
+        <translation>Na voljo:</translation>
     </message>
     <message>
         <source>Recent transactions</source>
-        <translation>העברות אחרונות</translation>
+        <translation>Nedavne transakcije</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
-        <translation>העברות בלתי מאושרות לכתובות לצפייה בלבד</translation>
+        <translation>Nepotrjene transakcije na opazovanih naslovih</translation>
     </message>
     <message>
         <source>Mined balance in watch-only addresses that has not yet matured</source>
-        <translation>מאזן לאחר כרייה בכתובות לצפייה בלבד שעדיין לא הבשילו</translation>
+        <translation>Nedozoreli narudarjeni znesek na opazovanih naslovih</translation>
     </message>
     <message>
         <source>Current total balance in watch-only addresses</source>
-        <translation>המאזן הכולל הנוכחי בכתובות לצפייה בלבד</translation>
+        <translation>Trenutno skupno stanje sredstev na opazovanih naslovih</translation>
     </message>
 </context>
 <context>
     <name>PaymentServer</name>
     <message>
         <source>Payment request error</source>
-        <translation>שגיאת בקשת תשלום</translation>
+        <translation>Napaka pri zahtevi plačila</translation>
     </message>
     <message>
         <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>לא ניתן להפעיל את המקשר bitcoin: click-to-pay</translation>
+        <translation>Ni mogoče zagnati rokovalca plačilnih povezav tipa bitcoin:.</translation>
     </message>
     <message>
         <source>URI handling</source>
-        <translation>טיפול בכתובות</translation>
+        <translation>Rokovanje z URI</translation>
     </message>
     <message>
         <source>'bitcoin://' is not a valid URI. Use 'bitcoin:' instead.</source>
-        <translation>'//:bitcoin' אינה כתובת URI תקינה. השתמשו במקום ב ':bitcoin'.</translation>
+        <translation>'bitcoin://' ni veljaven URI. Uporabite raje 'bitcoin:' .</translation>
     </message>
     <message>
         <source>You are using a BIP70 URL which will be unsupported in the future.</source>
-        <translation>אתם משתמשים בכתובת אינטרנט BIP70 אשר לא תתמך בעתיד</translation>
+        <translation>Uporabljate BIP70 URL, ki v prihodnosti ne bo podprt.</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
-        <translation>כתובת ה URL של בקשת התשלום אינה תקינה : %1</translation>
+        <translation>Naslov URL za pridobitev zahtevka za plačilo ni veljaven: %1</translation>
     </message>
     <message>
         <source>Cannot process payment request because BIP70 support was not compiled in.</source>
-        <translation>אין אפשרות לבצע עיבוד בקשת תשלום כיון שהתמיכה ב BIP70 אינה כלולה בקוד.</translation>
+        <translation>Zahteve za plačilo ni mogoče obdelati, ker podpora za BIP70 ni bila sestavljena v Bitcoin Core.</translation>
     </message>
     <message>
         <source>Invalid payment address %1</source>
-        <translation>כתובת תשלום שגויה %1</translation>
+        <translation>Neveljaven naslov za plačilo %1</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>לא ניתן לנתח את כתובת המשאב! מצב זה יכול לקרות עקב כתובת ביטקוין שגויה או פרמטרים שגויים בכתובת המשאב.</translation>
+        <translation>URI je neprepoznaven! Možno je, da je naslov Bitcoin neveljaven, ali da so parametri v URI napačno oblikovani.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
-        <translation>טיפול בקבצי בקשות תשלום</translation>
+        <translation>Rokovanje z datoteko z zahtevkom za plačilo</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
-        <translation>לא ניתן לקרוא את קובץ בקשת התשלום! מצב כזה יכול לקרות בעקבות קובץ בקשת תשלום פגום.</translation>
+        <translation>Datoteke z zahtevkom za plačilo ni mogoče prebrati! Možno je, da datoteka ni veljavna.</translation>
     </message>
     <message>
         <source>Payment request rejected</source>
-        <translation>בקשת התשלום נדחתה</translation>
+        <translation>Zahtevek za plačilo zavrnjen</translation>
     </message>
     <message>
         <source>Payment request network doesn't match client network.</source>
-        <translation>רשת בקשת התשלום אינה תואמת לרשת הלקוח.</translation>
+        <translation>Zahtevek za plačilo in vaš odjemalec se nahajata na dveh različnih omrežjih.</translation>
     </message>
     <message>
         <source>Payment request expired.</source>
-        <translation>בקשת התשלום פגה.</translation>
+        <translation>Zahtevek za plačilo je potekel.</translation>
     </message>
     <message>
         <source>Payment request is not initialized.</source>
-        <translation>בקשת התשלום לא הופעלה.</translation>
+        <translation>Zahtevek za plačilo ni inicializiran.</translation>
     </message>
     <message>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
-        <translation>בקשות תשלום לתסריטי תשלום מותאמים אישית שלא עברו וידוא אינן נתמכות.</translation>
+        <translation>Nepreverjeni zahtevki za plačilo, namenjeni plačilni skripti po meri, niso podprti.</translation>
     </message>
     <message>
         <source>Invalid payment request.</source>
-        <translation>בקשת תשלום שגויה.</translation>
+        <translation>Neveljaven zahtevek za plačilo.</translation>
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
-        <translation>הסכום על סך %1 הנדרש לתשלום קטן מדי (נחשב לאבק)</translation>
+        <translation>Znesek %1 v zahtevku za plačilo je prenizek (smatran za prah).</translation>
     </message>
     <message>
         <source>Refund from %1</source>
-        <translation>זיכוי מאת %1</translation>
+        <translation>Povračilo od %1</translation>
     </message>
     <message>
         <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
-        <translation>בקשת התשלום %1 גדולה מדי (%2 בתים, מורשה %3 בתים).</translation>
+        <translation>Zahtevek za plačilo %1 je prevelik (%2 bajtov, dovoljenih je %3 bajtov.)</translation>
     </message>
     <message>
         <source>Error communicating with %1: %2</source>
-        <translation>שגיאה בעת יצירת קשר עם %1:‏ %2</translation>
+        <translation>Napaka pri povezavi z  %1: %2</translation>
     </message>
     <message>
         <source>Payment request cannot be parsed!</source>
-        <translation>לא ניתן לפענח את בקשת התשלום!</translation>
+        <translation>Zahtevek za plačilo je neprepoznaven!</translation>
     </message>
     <message>
         <source>Bad response from server %1</source>
-        <translation>תגובה שגויה מהשרת %1</translation>
+        <translation>Napačen odziv strežnika %1</translation>
     </message>
     <message>
         <source>Network request error</source>
-        <translation>שגיאת בקשת רשת</translation>
+        <translation>Napaka pri zahtevku za plačilo</translation>
     </message>
     <message>
         <source>Payment acknowledged</source>
-        <translation>התשלום אושר</translation>
+        <translation>Plačilo potrjeno</translation>
     </message>
 </context>
 <context>
     <name>PeerTableModel</name>
     <message>
         <source>User Agent</source>
-        <translation>סוכן משתמש</translation>
+        <translation>Ime agenta</translation>
     </message>
     <message>
         <source>Node/Service</source>
-        <translation>צומת/שירות</translation>
+        <translation>Naslov</translation>
     </message>
     <message>
         <source>NodeId</source>
-        <translation>מזהה צומת</translation>
+        <translation>NodeId</translation>
     </message>
     <message>
         <source>Ping</source>
-        <translation>פינג</translation>
+        <translation>Odzivni čas (Ping)</translation>
     </message>
     <message>
         <source>Sent</source>
-        <translation>נשלחו</translation>
+        <translation>Oddano</translation>
     </message>
     <message>
         <source>Received</source>
-        <translation>התקבלו</translation>
+        <translation>Prejeto</translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
         <source>Amount</source>
-        <translation>כמות</translation>
+        <translation>Znesek</translation>
     </message>
     <message>
         <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>נא להזין כתובת ביטקוין (למשל: %1)</translation>
+        <translation>Vnesite naslov Bitcoin (npr. %1):</translation>
     </message>
     <message>
         <source>%1 d</source>
-        <translation>%1 ימים</translation>
+        <translation>%1 d</translation>
     </message>
     <message>
         <source>%1 h</source>
-        <translation>%1 שעות</translation>
+        <translation>%1 h</translation>
     </message>
     <message>
         <source>%1 m</source>
-        <translation>%1 דקות</translation>
+        <translation>%1 m</translation>
     </message>
     <message>
         <source>%1 s</source>
-        <translation>%1 שניות</translation>
+        <translation>%1 s</translation>
     </message>
     <message>
         <source>None</source>
-        <translation>ללא</translation>
+        <translation>Nič</translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation>לא זמין</translation>
+        <translation>Neznano</translation>
     </message>
     <message>
         <source>%1 ms</source>
-        <translation>%1 מילישניות</translation>
+        <translation>%1 ms</translation>
     </message>
     <message numerus="yes">
         <source>%n second(s)</source>
-        <translation><numerusform>שנייה אחת</numerusform><numerusform>%n שניות</numerusform><numerusform>%n שניות</numerusform><numerusform>%n שניות</numerusform></translation>
+        <translation><numerusform>%n sekunda</numerusform><numerusform>%n sekundi</numerusform><numerusform>%n sekunde</numerusform><numerusform>%n sekund</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
-        <translation><numerusform>דקה אחת</numerusform><numerusform>%n דקות</numerusform><numerusform>%n דקות</numerusform><numerusform>%n דקות</numerusform></translation>
+        <translation><numerusform>%n minuta</numerusform><numerusform>%n minuti</numerusform><numerusform>%n minute</numerusform><numerusform>%n minut</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
-        <translation><numerusform>שעה אחת</numerusform><numerusform>%n שעות</numerusform><numerusform>%n שעות</numerusform><numerusform>%n שעות</numerusform></translation>
+        <translation><numerusform>%n ura</numerusform><numerusform>%n uri</numerusform><numerusform>%n ure</numerusform><numerusform>%n ur</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
-        <translation><numerusform>יום אחד</numerusform><numerusform>%n ימים</numerusform><numerusform>%n ימים</numerusform><numerusform>%n ימים</numerusform></translation>
+        <translation><numerusform>%n dan</numerusform><numerusform>%n dni</numerusform><numerusform>%n dni</numerusform><numerusform>%n dni</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
-        <translation><numerusform>שבוע אחד</numerusform><numerusform>%n שבועות</numerusform><numerusform>%n שבועות</numerusform><numerusform>%n שבועות</numerusform></translation>
+        <translation><numerusform>%n teden</numerusform><numerusform>%n tedna</numerusform><numerusform>%n tedne</numerusform><numerusform>%n tednov</numerusform></translation>
     </message>
     <message>
         <source>%1 and %2</source>
-        <translation>%1 ו%2</translation>
+        <translation>%1 in %2</translation>
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
-        <translation><numerusform>שנה אחת</numerusform><numerusform>%n שנים</numerusform><numerusform>%n שנים</numerusform><numerusform>%n שנים</numerusform></translation>
+        <translation><numerusform>%n leto</numerusform><numerusform>%n leti</numerusform><numerusform>%n leta</numerusform><numerusform>%n let</numerusform></translation>
     </message>
     <message>
         <source>%1 B</source>
-        <translation>%1 ב׳</translation>
+        <translation>%1 B</translation>
     </message>
     <message>
         <source>%1 KB</source>
-        <translation>%1 ק״ב</translation>
+        <translation>%1 KiB</translation>
     </message>
     <message>
         <source>%1 MB</source>
-        <translation>%1 מ״ב</translation>
+        <translation>%1 MiB</translation>
     </message>
     <message>
         <source>%1 GB</source>
-        <translation>%1 ג״ב</translation>
+        <translation>%1 GiB</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
-        <translation>שגיאה: תיקיית הנתונים שצוינה „%1” אינה קיימת.</translation>
+        <translation>Napaka: Vnešena podatkovna mapa "%1" ne obstaja.</translation>
     </message>
     <message>
         <source>Error: Cannot parse configuration file: %1.</source>
-        <translation>שגיאה: כשל בפענוח קובץ הקונפיגורציה: %1.</translation>
+        <translation>Napaka: Ne morem razčleniti konfiguracijske datoteke: %1.</translation>
     </message>
     <message>
         <source>Error: %1</source>
-        <translation>שגיאה: %1</translation>
+        <translation>Napaka: %1</translation>
     </message>
     <message>
         <source>%1 didn't yet exit safely...</source>
-        <translation>הסגירה של %1 לא הושלמה בהצלחה עדיין…</translation>
+        <translation>%1 se še ni varno zaprl ...</translation>
     </message>
     <message>
         <source>unknown</source>
-        <translation>לא ידוע</translation>
+        <translation>neznano</translation>
     </message>
 </context>
 <context>
     <name>QRImageWidget</name>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>&amp;שמירת תמונה…</translation>
+        <translation>&amp;Shrani sliko ...</translation>
     </message>
     <message>
         <source>&amp;Copy Image</source>
-        <translation>העתקת ת&amp;מונה</translation>
+        <translation>&amp;Kopiraj sliko</translation>
     </message>
     <message>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation>הכתובת שנוצרה ארוכה מדי, כדאי לנסות לקצר את הטקסט של התווית / הודעה.</translation>
+        <translation>Nastali URI je predolg. Skušajte skrajšati besedilo v oznaki/sporočilu.</translation>
     </message>
     <message>
         <source>Error encoding URI into QR Code.</source>
-        <translation>שגיאה בקידוד ה URI לברקוד.</translation>
+        <translation>Napaka pri kodiranju URI naslova v QR kodo.</translation>
+    </message>
+    <message>
+        <source>QR code support not available.</source>
+        <translation>Podpora za QR kode ni na voljo.</translation>
     </message>
     <message>
         <source>Save QR Code</source>
-        <translation>שמירת קוד QR</translation>
+        <translation>Shrani QR kodo</translation>
     </message>
     <message>
         <source>PNG Image (*.png)</source>
-        <translation>תמונת PNG (‏‎*.png)</translation>
+        <translation>PNG slika (*.png)</translation>
     </message>
 </context>
 <context>
     <name>RPCConsole</name>
     <message>
         <source>N/A</source>
-        <translation>לא זמין</translation>
+        <translation>Neznano</translation>
     </message>
     <message>
         <source>Client version</source>
-        <translation>גרסה</translation>
+        <translation>Različica odjemalca</translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>מי&amp;דע</translation>
+        <translation>&amp;Informacije</translation>
     </message>
     <message>
         <source>Debug window</source>
-        <translation>חלון ניפוי</translation>
+        <translation>Razhroščevalno okno</translation>
     </message>
     <message>
         <source>General</source>
-        <translation>כללי</translation>
+        <translation>Splošno</translation>
     </message>
     <message>
         <source>Using BerkeleyDB version</source>
-        <translation>גרסת BerkeleyDB</translation>
+        <translation>BerkeleyDB različica v rabi</translation>
     </message>
     <message>
         <source>Datadir</source>
-        <translation>Datadir</translation>
+        <translation>Podatkovna mapa</translation>
     </message>
     <message>
         <source>To specify a non-default location of the data directory use the '%1' option.</source>
-        <translation>כדי לשנות את מיקום תיקית הנתונים יש להשתמש באופצית '%1' .</translation>
+        <translation>Za izbiranje ne-privzete lokacije podatkovne mape uporabite možnost '%1'.</translation>
     </message>
     <message>
         <source>Blocksdir</source>
-        <translation>Blocksdir</translation>
+        <translation>Podatkovna mapa blokov</translation>
     </message>
     <message>
         <source>To specify a non-default location of the blocks directory use the '%1' option.</source>
-        <translation>כדי לשנות את מיקום תיקית הבלוקים יש להשתמש באופצית '%1' .</translation>
+        <translation>Če želite določiti neprivzeto lokacijo podatkovne mape blokov, uporabite možnost '%1'.</translation>
     </message>
     <message>
         <source>Startup time</source>
-        <translation>זמן עלייה</translation>
+        <translation>Čas zagona</translation>
     </message>
     <message>
         <source>Network</source>
-        <translation>רשת</translation>
+        <translation>Omrežje</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>שם</translation>
+        <translation>Ime</translation>
     </message>
     <message>
         <source>Number of connections</source>
-        <translation>מספר חיבורים</translation>
+        <translation>Število povezav</translation>
     </message>
     <message>
         <source>Block chain</source>
-        <translation>שרשרת מקטעים</translation>
+        <translation>Veriga blokov</translation>
     </message>
     <message>
         <source>Current number of blocks</source>
-        <translation>מספר המקטעים הנוכחי</translation>
+        <translation>Trenutno število blokov</translation>
     </message>
     <message>
         <source>Memory Pool</source>
-        <translation>מאגר זכרון</translation>
+        <translation>Memory Pool</translation>
     </message>
     <message>
         <source>Current number of transactions</source>
-        <translation>מספר עסקאות נוכחי</translation>
+        <translation>Trenutno število transakcij</translation>
     </message>
     <message>
         <source>Memory usage</source>
-        <translation>ניצול זכרון</translation>
+        <translation>Raba spomina</translation>
     </message>
     <message>
         <source>Wallet: </source>
-        <translation>ארנק:</translation>
+        <translation>Denarnica:</translation>
     </message>
     <message>
         <source>(none)</source>
-        <translation>(אין)</translation>
+        <translation>(nič)</translation>
     </message>
     <message>
         <source>&amp;Reset</source>
-        <translation>&amp;איפוס</translation>
+        <translation>&amp;Ponastavi</translation>
     </message>
     <message>
         <source>Received</source>
-        <translation>התקבלו</translation>
+        <translation>Prejeto</translation>
     </message>
     <message>
         <source>Sent</source>
-        <translation>נשלחו</translation>
+        <translation>Oddano</translation>
     </message>
     <message>
         <source>&amp;Peers</source>
-        <translation>&amp;עמיתים</translation>
+        <translation>&amp;Soležniki</translation>
     </message>
     <message>
         <source>Banned peers</source>
-        <translation>משתמשים חסומים</translation>
+        <translation>Blokirani soležniki</translation>
     </message>
     <message>
         <source>Select a peer to view detailed information.</source>
-        <translation>נא לבחור בעמית כדי להציג מידע מפורט.</translation>
+        <translation>Izberite soležnika, o katerem si želite ogledati podrobnejše informacije.</translation>
     </message>
     <message>
         <source>Whitelisted</source>
-        <translation>ברשימה הלבנה</translation>
+        <translation>Dovoljeni</translation>
     </message>
     <message>
         <source>Direction</source>
-        <translation>כיוון</translation>
+        <translation>Smer povezave</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>גרסה</translation>
+        <translation>Različica</translation>
     </message>
     <message>
         <source>Starting Block</source>
-        <translation>בלוק התחלה</translation>
+        <translation>Začetni blok</translation>
     </message>
     <message>
         <source>Synced Headers</source>
-        <translation>כותרות עדכניות</translation>
+        <translation>Sinhronizirane glave</translation>
     </message>
     <message>
         <source>Synced Blocks</source>
-        <translation>בלוקים מסונכרנים</translation>
+        <translation>Sinhronizirani bloki</translation>
     </message>
     <message>
         <source>User Agent</source>
-        <translation>סוכן משתמש</translation>
+        <translation>Ime agenta</translation>
     </message>
     <message>
         <source>Open the %1 debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>פתחו את לוג ניפוי השגיאות ה%1 מתיקיית הנתונים הנוכחית. עבור קבצי לוג גדולים ייתכן זמן המתנה של מספר שניות.</translation>
+        <translation>Odpre %1 razhroščevalni dnevnik debug.log, ki se nahaja v trenutni podatkovni mapi. Če je datoteka velika, lahko postopek traja nekaj sekund.</translation>
     </message>
     <message>
         <source>Decrease font size</source>
-        <translation>הקטן גודל גופן</translation>
+        <translation>Zmanjšaj velikost pisave</translation>
     </message>
     <message>
         <source>Increase font size</source>
-        <translation>הגדל גודל גופן</translation>
+        <translation>Povečaj velikost pisave</translation>
     </message>
     <message>
         <source>Services</source>
-        <translation>שירותים</translation>
+        <translation>Storitve</translation>
     </message>
     <message>
         <source>Ban Score</source>
-        <translation>דירוג חסימה</translation>
+        <translation>Kazenske točke</translation>
     </message>
     <message>
         <source>Connection Time</source>
-        <translation>זמן החיבור</translation>
+        <translation>Trajanje povezave</translation>
     </message>
     <message>
         <source>Last Send</source>
-        <translation>שליחה אחרונה</translation>
+        <translation>Nazadje oddano</translation>
     </message>
     <message>
         <source>Last Receive</source>
-        <translation>קבלה אחרונה</translation>
+        <translation>Nazadnje prejeto</translation>
     </message>
     <message>
         <source>Ping Time</source>
-        <translation>זמן המענה</translation>
+        <translation>Odzivni čas</translation>
     </message>
     <message>
         <source>The duration of a currently outstanding ping.</source>
-        <translation>משך הפינג הבולט הנוכחי</translation>
+        <translation>Trajanje trenutnega pinga.</translation>
     </message>
     <message>
         <source>Ping Wait</source>
-        <translation>פינג</translation>
+        <translation>Ping Wait</translation>
     </message>
     <message>
         <source>Min Ping</source>
-        <translation>פינג מינימלי</translation>
+        <translation>Min Ping</translation>
     </message>
     <message>
         <source>Time Offset</source>
-        <translation>הפרש זמן</translation>
+        <translation>Časovni odklon</translation>
     </message>
     <message>
         <source>Last block time</source>
-        <translation>זמן המקטע האחרון</translation>
+        <translation>Čas zadnjega bloka</translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation>&amp;פתיחה</translation>
+        <translation>&amp;Odpri</translation>
     </message>
     <message>
         <source>&amp;Console</source>
-        <translation>מ&amp;סוף בקרה</translation>
+        <translation>&amp;Konzola</translation>
     </message>
     <message>
         <source>&amp;Network Traffic</source>
-        <translation>&amp;תעבורת רשת</translation>
+        <translation>&amp;Omrežni promet</translation>
     </message>
     <message>
         <source>Totals</source>
-        <translation>סכומים</translation>
+        <translation>Promet</translation>
     </message>
     <message>
         <source>In:</source>
-        <translation>נכנס:</translation>
+        <translation>Dohodnih:</translation>
     </message>
     <message>
         <source>Out:</source>
-        <translation>יוצא:</translation>
+        <translation>Odhodnih:</translation>
     </message>
     <message>
         <source>Debug log file</source>
-        <translation>קובץ יומן ניפוי</translation>
+        <translation>Razhroščevalni dnevnik</translation>
     </message>
     <message>
         <source>Clear console</source>
-        <translation>ניקוי מסוף הבקרה</translation>
+        <translation>Počisti konzolo</translation>
     </message>
     <message>
         <source>1 &amp;hour</source>
-        <translation>&amp;שעה אחת</translation>
+        <translation>1 &amp;ura</translation>
     </message>
     <message>
         <source>1 &amp;day</source>
-        <translation>&amp;יום אחד</translation>
+        <translation>1 &amp;dan</translation>
     </message>
     <message>
         <source>1 &amp;week</source>
-        <translation>ש&amp;בוע אחד</translation>
+        <translation>1 &amp;teden</translation>
     </message>
     <message>
         <source>1 &amp;year</source>
-        <translation>ש&amp;נה אחת</translation>
+        <translation>1 &amp;leto</translation>
     </message>
     <message>
         <source>&amp;Disconnect</source>
-        <translation>&amp;ניתוק</translation>
+        <translation>&amp;Prekini povezavo</translation>
     </message>
     <message>
         <source>Ban for</source>
-        <translation>חסימה למשך</translation>
+        <translation>Blokiraj za</translation>
     </message>
     <message>
         <source>&amp;Unban</source>
-        <translation>&amp;שחרור חסימה</translation>
+        <translation>&amp;Odblokiraj</translation>
     </message>
     <message>
         <source>Welcome to the %1 RPC console.</source>
-        <translation>ברוך בואך למסוף ה־RPC של %1.</translation>
+        <translation>Dobrodošli v konzoli %1.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
-        <translation>יש להשתמש בחצים למעלה ומלטה כדי לנווט בהסיטוריה וב־%1 כדי לנקות את המסך.</translation>
+        <translation>Uporabite tipki gor in dol za navigacijo po zgodovini ukazov, in %1 za čiščenje zaslona.</translation>
     </message>
     <message>
         <source>Type %1 for an overview of available commands.</source>
-        <translation>הקלידו %1 לקבלת סקירה של הפקודות הזמינות.</translation>
+        <translation>Vtipkajte %1 za pregled razpoložljivih ukazov.</translation>
     </message>
     <message>
         <source>For more information on using this console type %1.</source>
-        <translation>למידע נוסף על שימוש במסוף בקרה מסוג זה %1.</translation>
+        <translation>Za več informacij o uporabi te konzole vpišite %1.</translation>
     </message>
     <message>
         <source>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramifications of a command.</source>
-        <translation>אזהרה! ישנם רמאים הנוהגים לשכנע משתמשים להקליד פקודות כאן ועל ידי כך לגנוב את תכולת הארנק שלהם. אל תשתמש במסוף הבקרה מבלי שאתה מבין באופן מלא את המשמעות של הפקודה!</translation>
+        <translation>OPOZORILO: Goljufi so bili aktivni! Uporabnikom svetujejo, naj tukaj vnašajo ukaze in jim tako kradejo vsebino denarnice. Te konzole ne uporabljajte, če ne popolnoma razumete posledic ukazov.</translation>
     </message>
     <message>
         <source>Network activity disabled</source>
-        <translation>פעילות הרשת נוטרלה</translation>
+        <translation>Omrežna aktivnost onemogočena.</translation>
     </message>
     <message>
         <source>Executing command without any wallet</source>
-        <translation>מבצע פקודה ללא כל ארנק</translation>
+        <translation>Izvajam ukaz brez denarnice</translation>
     </message>
     <message>
         <source>Executing command using "%1" wallet</source>
-        <translation>מבצע פקודה באמצעות ארנק "%1" </translation>
+        <translation>Izvajam ukaz v denarnici "%1"</translation>
     </message>
     <message>
         <source>(node id: %1)</source>
-        <translation>(node id: %1)</translation>
+        <translation>(id vozlišča: %1)</translation>
     </message>
     <message>
         <source>via %1</source>
-        <translation>דרך %1</translation>
+        <translation>preko %1</translation>
     </message>
     <message>
         <source>never</source>
-        <translation>לעולם לא</translation>
+        <translation>nikoli</translation>
     </message>
     <message>
         <source>Inbound</source>
-        <translation>תעבורה נכנסת</translation>
+        <translation>Dohodna</translation>
     </message>
     <message>
         <source>Outbound</source>
-        <translation>תעבורה יוצאת</translation>
+        <translation>Odhodna</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation>כן</translation>
+        <translation>Da</translation>
     </message>
     <message>
         <source>No</source>
-        <translation>לא</translation>
+        <translation>Ne</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation>לא ידוע</translation>
+        <translation>Neznano</translation>
     </message>
 </context>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
         <source>&amp;Amount:</source>
-        <translation>&amp;סכום:</translation>
+        <translation>&amp;Znesek:</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>ת&amp;ווית:</translation>
+        <translation>&amp;Oznaka:</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
-        <translation>הו&amp;דעה:</translation>
+        <translation>&amp;Sporočilo:</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>הודעת רשות לצירוף לבקשת התשלום שתוצג בעת פתיחת הבקשה. לתשומת לבך: ההודעה לא תישלח עם התשלום ברשת ביטקוין.</translation>
+        <translation>Neobvezno sporočilo kot priponka zahtevku za plačilo, ki bo prikazano, ko bo zahtevek odprt. Opomba: Opravljeno plačilo.prek omrežja Bitcoin tega sporočila ne bo vsebovalo.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
-        <translation>תווית רשות לשיוך עם כתובת הקבלה החדשה.</translation>
+        <translation>Oznaka novega sprejemnega naslova.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
-        <translation>יש להשתמש בטופס זה כדי לבקש תשלומים. כל השדות הם בגדר &lt;b&gt;רשות&lt;/b&gt;.</translation>
+        <translation>S tem obrazcem ustvarite nov zahtevek za plačilo. Vsa polja so &lt;b&gt;neobvezna&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
-        <translation>סכום כרשות לבקשה. ניתן להשאיר זאת ריק כדי לא לבקש סכום מסוים.</translation>
+        <translation>Zahtevani znesek. Če ne zahtevate določenega zneska, pustite prazno ali nastavite vrednost na 0.</translation>
+    </message>
+    <message>
+        <source>&amp;Create new receiving address</source>
+        <translation>&amp;Ustvari nov naslov za prejemanje</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>ניקוי של כל השדות בטופס.</translation>
+        <translation>Počisti vsa polja.</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation>ניקוי</translation>
+        <translation>Počisti</translation>
     </message>
     <message>
         <source>Native segwit addresses (aka Bech32 or BIP-173) reduce your transaction fees later on and offer better protection against typos, but old wallets don't support them. When unchecked, an address compatible with older wallets will be created instead.</source>
-        <translation>כתובות segwit טבעיות (כלומר Bech32 או BIP-173) מפחיתות את עמלת העסקה שלכם בהמשך ומציעות הגנה נגד שגיאות כתיב, אך ארנקים ישנים לא תומכים בהן. אם לא סומן, כתובת תאימה לארנקים ישנים תיווצר במקום.</translation>
+        <translation>Nativni naslovi segwit (aka Bech32 ali BIP-173) kasneje znižajo vaše transakcijske stroške in nudijo boljšo zaščito pred tiskarskimi škrati, vendar jih stare denarnice ne podpirajo. Če ne izberete polja, bo namesto tega ustvarjen naslov združljiv s starejšimi denarnicami.</translation>
     </message>
     <message>
         <source>Generate native segwit (Bech32) address</source>
-        <translation>הפקת כתובת segwit טבעית (Bech32)</translation>
+        <translation>Ustvari domači segwit (Bech32) naslov</translation>
     </message>
     <message>
         <source>Requested payments history</source>
-        <translation>היסטוריית בקשות תשלום</translation>
+        <translation>Zgodovina zahtevkov za plačilo</translation>
     </message>
     <message>
         <source>Show the selected request (does the same as double clicking an entry)</source>
-        <translation>הצגת בקשות נבחרות (דומה ללחיצה כפולה על רשומה)</translation>
+        <translation>Prikaz izbranega zahtevka. (Isto funkcijo opravi dvojni klik na zapis.)</translation>
     </message>
     <message>
         <source>Show</source>
-        <translation>הצגה</translation>
+        <translation>Pokaži</translation>
     </message>
     <message>
         <source>Remove the selected entries from the list</source>
-        <translation>הסרת הרשומות הנבחרות מהרשימה</translation>
+        <translation>Odstrani označene vnose iz seznama</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>הסרה</translation>
+        <translation>Odstrani</translation>
     </message>
     <message>
         <source>Copy URI</source>
-        <translation>העתקת כתובת</translation>
+        <translation>Kopireaj URI</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>העתקת התווית</translation>
+        <translation>Kopiraj oznako</translation>
     </message>
     <message>
         <source>Copy message</source>
-        <translation>העתקת הודעה</translation>
+        <translation>Kopiraj sporočilo</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>העתקת הסכום</translation>
+        <translation>Kopiraj znesek</translation>
     </message>
 </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
         <source>QR Code</source>
-        <translation>קוד QR</translation>
+        <translation>QR Koda</translation>
     </message>
     <message>
         <source>Copy &amp;URI</source>
-        <translation>העתקת &amp;כתובת משאב</translation>
+        <translation>Kopiraj &amp;URl</translation>
     </message>
     <message>
         <source>Copy &amp;Address</source>
-        <translation>העתקת &amp;כתובת</translation>
+        <translation>Kopiraj &amp;naslov</translation>
     </message>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>&amp;שמירת תמונה…</translation>
+        <translation>&amp;Shrani sliko ...</translation>
     </message>
     <message>
         <source>Request payment to %1</source>
-        <translation>בקשת תשלום אל %1</translation>
+        <translation>Zaprosi za plačilo na naslov %1</translation>
     </message>
     <message>
         <source>Payment information</source>
-        <translation>פרטי תשלום</translation>
+        <translation>Informacije o plačilu</translation>
     </message>
     <message>
         <source>URI</source>
-        <translation>כתובת</translation>
+        <translation>URI</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>כתובת</translation>
+        <translation>Naslov</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>סכום</translation>
+        <translation>Znesek</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>תוית</translation>
+        <translation>Oznaka</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>הודעה</translation>
+        <translation>Sporočilo</translation>
     </message>
     <message>
         <source>Wallet</source>
-        <translation>ארנק</translation>
+        <translation>Denarnica</translation>
     </message>
 </context>
 <context>
     <name>RecentRequestsTableModel</name>
     <message>
         <source>Date</source>
-        <translation>תאריך</translation>
+        <translation>Datum</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>תוית</translation>
+        <translation>Oznaka</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>הודעה</translation>
+        <translation>Sporočilo</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(ללא תוית)</translation>
+        <translation>(brez oznake)</translation>
     </message>
     <message>
         <source>(no message)</source>
-        <translation>(אין הודעה)</translation>
+        <translation>(ni sporočila)</translation>
     </message>
     <message>
         <source>(no amount requested)</source>
-        <translation>(לא התבקש סכום)</translation>
+        <translation>(brez zneska)</translation>
     </message>
     <message>
         <source>Requested</source>
-        <translation>בקשה</translation>
+        <translation>Zahtevana plačila</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>שליחת מטבעות</translation>
+        <translation>Pošlji</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
-        <translation>תכונות בקרת מטבעות</translation>
+        <translation>Upravljanje s kovanci</translation>
     </message>
     <message>
         <source>Inputs...</source>
-        <translation>קלטים…</translation>
+        <translation>Vhodi ...</translation>
     </message>
     <message>
         <source>automatically selected</source>
-        <translation>בבחירה אוטומטית</translation>
+        <translation>samodejno izbrani</translation>
     </message>
     <message>
         <source>Insufficient funds!</source>
-        <translation>אין מספיק כספים!</translation>
+        <translation>Premalo sredstev!</translation>
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>כמות:</translation>
+        <translation>Št.vhodov:</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>בתים:</translation>
+        <translation>Št.bajtov:</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>סכום:</translation>
+        <translation>Znesek:</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>עמלה:</translation>
+        <translation>Provizija:</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>לאחר עמלה:</translation>
+        <translation>Po proviziji:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>עודף:</translation>
+        <translation>Vračilo:</translation>
     </message>
     <message>
         <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
-        <translation>אם אפשרות זו מופעלת אך כתובת העודף ריקה או שגויה, העודף יישלח לכתובת חדשה שתיווצר.</translation>
+        <translation>Če to vključite, nato pa vnesete neveljaven naslov, ali pa pustite polje prazno, bo vrnjen drobiž poslan na novo ustvarjen naslov.</translation>
     </message>
     <message>
         <source>Custom change address</source>
-        <translation>כתובת לעודף מותאמת אישית</translation>
+        <translation>Naslov za vračilo drobiža po meri</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
-        <translation>עמלת העברה:</translation>
+        <translation>Provizija:</translation>
     </message>
     <message>
         <source>Choose...</source>
-        <translation>בחר...</translation>
+        <translation>Izberi ...</translation>
     </message>
     <message>
         <source>Using the fallbackfee can result in sending a transaction that will take several hours or days (or never) to confirm. Consider choosing your fee manually or wait until you have validated the complete chain.</source>
-        <translation>שימוש בעמלת בררת המחדל עלול לגרום לשליחת עסקה שתכלל בבלוק עוד מספר שעות או ימים (או לעולם לא). נא שקלו בחירה ידנית של העמלה או המתינו לאימות מלא של הבלוקצ'יין.</translation>
+        <translation>Uporaba nadomestnega nadomestila lahko pošlje transakcijo, ki bo trajala več ur ali dni (ali nikoli) za potrditev. Razmislite o ročni izbiri ali počakajte, da potrdite celotno verigo.</translation>
     </message>
     <message>
         <source>Warning: Fee estimation is currently not possible.</source>
-        <translation>אזהרה</translation>
+        <translation>Opozorilo: ocena provizije trenutno ni mogoča.</translation>
     </message>
     <message>
         <source>collapse fee-settings</source>
-        <translation>צמצום הגדרות עמלה</translation>
+        <translation>Skrije nastavitve provizije</translation>
     </message>
     <message>
         <source>Specify a custom fee per kB (1,000 bytes) of the transaction's virtual size.
 
 Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis per kB" for a transaction size of 500 bytes (half of 1 kB) would ultimately yield a fee of only 50 satoshis.</source>
-        <translation>ציינו עמלה מותאמת אישית פר קילובייט (1000 בתים) של הגודל הוירטואלי של העסקה.
-
-לתשומת לבכם: מאחר והעמלה מחושבת על בסיס פר-בית, עמלה של "100 סטושי פר קילובייט" עבור עסקה בגודל 500 בתים (חצי קילובייט) תפיק בסופו של דבר עמלה של 50 סטושי בלבד.</translation>
+        <translation>Določite poljubno provizijo na kB (1000 bajtov) navidezne velikosti transakcije.
+Opomba: Ker se provizija izračuna na bajt, bi provizija "100 satoshijev na kB" za transakcijo velikosti 500 bajtov (polovica enega kB) znašala 50 satoshijev.</translation>
     </message>
     <message>
         <source>per kilobyte</source>
-        <translation>עבור קילו-בית</translation>
+        <translation>na KiB</translation>
     </message>
     <message>
         <source>Hide</source>
-        <translation>הסתר</translation>
+        <translation>Skrij</translation>
     </message>
     <message>
         <source>Recommended:</source>
-        <translation>מומלץ:</translation>
+        <translation>Priporočena:</translation>
     </message>
     <message>
         <source>Custom:</source>
-        <translation>מותאם אישית:</translation>
+        <translation>Po meri:</translation>
     </message>
     <message>
         <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
-        <translation>(שירות עמלה חכמה לא אותחל עדיין. יש להמתין מספר בלוקים...)</translation>
+        <translation>(Samodejni obračun provizije še ni pripravljen. Po navadi izračun traja nekaj blokov ...)</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation>שליחה למספר מוטבים בו־זמנית</translation>
+        <translation>Pošlji več prejemnikom hkrati</translation>
     </message>
     <message>
         <source>Add &amp;Recipient</source>
-        <translation>הוספת &amp;מוטב</translation>
+        <translation>Dodaj &amp;prejemnika</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>ניקוי של כל השדות בטופס.</translation>
+        <translation>Počisti vsa polja.</translation>
     </message>
     <message>
         <source>Dust:</source>
-        <translation>אבק:</translation>
+        <translation>Prah:</translation>
     </message>
     <message>
         <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
-        <translation>כאשר יש פחות נפח עסקאות מאשר מקום בבלוק, כורים וכן צמתות מקשרות יכולות להכתיב עמלות מינימום. התשלום של עמלת מינימום הנו תקין, אך יש לקחת בחשבון שהדבר יכול לגרום לעסקה שלא תאושר ברגע שיש יותר ביקוש לעסקאות ביטקוין מאשר הרשת יכולה לעבד. </translation>
+        <translation>Kadar je v blokih manj volumna transakcij kot prostora v blokih, lahko rudarji in preusmeritvena vozlišča (relay nodes) uveljavijo minimalno provizijo. Plačilo le te minimalne provizije je čisto v redu, vendar se zavedajte, da lahko to povzroči nikoli potrjeno transakcijo, ko bo po bitcoin transakcijah večje povpraševanje, kot ga lahko obdela omrežje.</translation>
     </message>
     <message>
         <source>A too low fee might result in a never confirming transaction (read the tooltip)</source>
-        <translation>עמלה נמוכה מדי עלולה לגרום לכך שהעסקה לעולם לא תאושר (ניתן לקרוא על כך ב tooltip)</translation>
+        <translation>Prenizka provizija lahko privede do nikoli potrjene transakcije (preberite namig)</translation>
     </message>
     <message>
         <source>Confirmation time target:</source>
-        <translation>זמן לקבלת אישור:</translation>
+        <translation>Čas do potrditve:</translation>
     </message>
     <message>
         <source>Enable Replace-By-Fee</source>
-        <translation>אפשר ״החלפה-על ידי עמלה״</translation>
+        <translation>Omogoči Replace-By-Fee</translation>
     </message>
     <message>
         <source>With Replace-By-Fee (BIP-125) you can increase a transaction's fee after it is sent. Without this, a higher fee may be recommended to compensate for increased transaction delay risk.</source>
-        <translation>באמצעות עמלה-ניתנת-לשינוי (BIP-125) תוכלו להגדיל עמלת עסקה גם לאחר שליחתה. ללא אפשרות זו, עמלה גבוהה יותר יכולה להיות מומלצת כדי להקטין את הסיכון בעיכוב אישור העסקה.</translation>
+        <translation>Z zamenjavo plačila (BIP-125) lahko po pošiljanju povečate pristojbino za transakcijo. Brez tega se lahko priporoči višja pristojbina za nadomestilo povečanega tveganja zamude pri transakciji.</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>&amp;ניקוי הכול</translation>
+        <translation>Počisti &amp;vse </translation>
     </message>
     <message>
         <source>Balance:</source>
-        <translation>מאזן:</translation>
+        <translation>Stanje:</translation>
     </message>
     <message>
         <source>Confirm the send action</source>
-        <translation>אישור פעולת השליחה</translation>
+        <translation>Potrdi pošiljanje</translation>
     </message>
     <message>
         <source>S&amp;end</source>
-        <translation>&amp;שליחה</translation>
+        <translation>&amp;Pošlji</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>העתקת הכמות</translation>
+        <translation>Kopiraj količino</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>העתקת הסכום</translation>
+        <translation>Kopiraj znesek</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation>העתקת העמלה</translation>
+        <translation>Kopiraj znesek provizije</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation>העתקה אחרי העמלה</translation>
+        <translation>Kopiraj po proviziji</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>העתקת בתים</translation>
+        <translation>Kopiraj bajte</translation>
     </message>
     <message>
         <source>Copy dust</source>
-        <translation>העתקת אבק</translation>
+        <translation>Kopiraj prah</translation>
     </message>
     <message>
         <source>Copy change</source>
-        <translation>העתקת השינוי</translation>
+        <translation>Kopiraj vračilo</translation>
     </message>
     <message>
         <source>%1 (%2 blocks)</source>
-        <translation>%1 (%2 בלוקים)</translation>
+        <translation>%1 (%2 blokov)</translation>
+    </message>
+    <message>
+        <source> from wallet '%1'</source>
+        <translation>iz denarnice '%1'</translation>
+    </message>
+    <message>
+        <source>%1 to '%2'</source>
+        <translation>%1 do '%2'</translation>
     </message>
     <message>
         <source>%1 to %2</source>
-        <translation>%1 ל %2</translation>
+        <translation>%1 do %2</translation>
     </message>
     <message>
         <source>Are you sure you want to send?</source>
-        <translation>לשלוח?</translation>
+        <translation>Ali ste prepričani, da želite poslati?</translation>
     </message>
     <message>
         <source>or</source>
-        <translation>או</translation>
+        <translation>ali</translation>
     </message>
     <message>
         <source>You can increase the fee later (signals Replace-By-Fee, BIP-125).</source>
-        <translation>תוכלו להגדיל את העמלה מאוחר יותר (איתות Replace-By-Fee, BIP-125).</translation>
+        <translation>Provizijo lahko zvišate kasneje (signali Replace-By-Fee, BIP-125).</translation>
     </message>
     <message>
         <source>Please, review your transaction.</source>
-        <translation>אנא עברו שוב על העסקה שלכם.</translation>
+        <translation>Prosimo, preglejte vaše transakcije.</translation>
     </message>
     <message>
         <source>Transaction fee</source>
-        <translation>עמלת העברה</translation>
+        <translation>Provizija transakcije</translation>
     </message>
     <message>
         <source>Not signalling Replace-By-Fee, BIP-125.</source>
-        <translation>לא משדר Replace-By-Fee, BIP-125.</translation>
+        <translation>Not signalling Replace-By-Fee, BIP-125.</translation>
     </message>
     <message>
         <source>Total Amount</source>
-        <translation>סכום כולל</translation>
+        <translation>Skupni znesek</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>אימות שליחת מטבעות</translation>
+        <translation>Potrdi pošiljanje kovancev</translation>
     </message>
     <message>
         <source>The recipient address is not valid. Please recheck.</source>
-        <translation>כתובת הנמען שגויה. נא לבדוק שוב.</translation>
+        <translation>Naslov prejemnika je neveljaven. Prosimo, preverite.</translation>
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>הסכום לתשלום צריך להיות גדול מ־0.</translation>
+        <translation>Znesek plačila mora biti večji od 0.</translation>
     </message>
     <message>
         <source>The amount exceeds your balance.</source>
-        <translation>הסכום חורג מהמאזן שלך.</translation>
+        <translation>Znesek presega vaše dobroimetje.</translation>
     </message>
     <message>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>הסכום גבוה מהמאזן שלכם לאחר כלילת עמלת עסקה  %1.</translation>
+        <translation>Celotni znesek z vključeno provizijo %1 je večji od stanja sredstev, s katerimi razpolagate.</translation>
     </message>
     <message>
         <source>Duplicate address found: addresses should only be used once each.</source>
-        <translation>נמצאה כתובת כפולה: יש להשתמש בכל כתובת פעם אחת בלבד.</translation>
+        <translation>Naslov je že bil uporabljen. Vsak naslov naj bi se uporabil samo enkrat.</translation>
     </message>
     <message>
         <source>Transaction creation failed!</source>
-        <translation>יצירת ההעברה נכשלה!</translation>
+        <translation>Transakcije ni bilo mogoče ustvariti!</translation>
     </message>
     <message>
         <source>The transaction was rejected with the following reason: %1</source>
-        <translation>ההעברה נדחתה מהסיבות הבאות: %1</translation>
+        <translation>Transakcija je bila zavrnjena: %1</translation>
     </message>
     <message>
         <source>A fee higher than %1 is considered an absurdly high fee.</source>
-        <translation>עמלה מעל לסכום של %1 נחשבת לעמלה גבוהה באופן מוגזם.</translation>
+        <translation>Provizija, ki je večja od %1, velja za nesmiselno veliko.</translation>
     </message>
     <message>
         <source>Payment request expired.</source>
-        <translation>בקשת התשלום פגה.</translation>
+        <translation>Zahtevek za plačilo je potekel.</translation>
     </message>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation><numerusform>האמדן לתחילת ביצוע אימות בתוך בלוק %n </numerusform><numerusform>האמדן לתחילת ביצוע אימות בתוך %n בלוקים</numerusform><numerusform>האמדן לתחילת ביצוע אימות בתוך %n בלוקים</numerusform><numerusform>C.</numerusform></translation>
+        <translation><numerusform>Predviden začetek potrditev po %n najdenemu bloku.</numerusform><numerusform>Predviden začetek potrditev po %n najdenih blokih.</numerusform><numerusform>Predviden začetek potrditev po %n najdenih blokih.</numerusform><numerusform>Predviden začetek potrditev po %n najdenih blokih.</numerusform></translation>
     </message>
     <message>
         <source>Warning: Invalid Bitcoin address</source>
-        <translation>אזהרה: כתובת ביטקיון שגויה</translation>
+        <translation>Opozorilo: Neveljaven Bitcoin naslov</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
-        <translation>אזהרה: כתובת החלפה בלתי ידועה</translation>
+        <translation>Opozorilo: Neznan naslov za vračilo drobiža</translation>
     </message>
     <message>
         <source>Confirm custom change address</source>
-        <translation>אימות כתובת החלפה בהתאמה אישית</translation>
+        <translation>Potrdi naslov za vračilo drobiža po meri</translation>
     </message>
     <message>
         <source>The address you selected for change is not part of this wallet. Any or all funds in your wallet may be sent to this address. Are you sure?</source>
-        <translation>הכתובת שבחרת עבור ההחלפה אינה חלק מארנק זה. כל ההסכום שבארנק שלך עשוי להישלח לכתובת זו. מקובל עליך?</translation>
+        <translation>Naslov, ki ste ga izbrali za spremembo, ni del te denarnice. Na ta naslov se lahko pošlje katero koli ali vsa sredstva v vaši denarnici. Ali ste prepričani?</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(ללא תווית)</translation>
+        <translation>(brez oznake)</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
         <source>A&amp;mount:</source>
-        <translation>&amp;כמות:</translation>
+        <translation>&amp;Znesek:</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
-        <translation>לשלם ל&amp;טובת:</translation>
+        <translation>Prejemnik &amp;plačila:</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>ת&amp;ווית:</translation>
+        <translation>&amp;Oznaka:</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>בחירת כתובת שהייתה בשימוש</translation>
+        <translation>Izberite enega od že uporabljenih naslovov</translation>
     </message>
     <message>
         <source>This is a normal payment.</source>
-        <translation>זהו תשלום רגיל.</translation>
+        <translation>Plačilo je navadne vrste.</translation>
     </message>
     <message>
         <source>The Bitcoin address to send the payment to</source>
-        <translation>כתובת הביטקוין של המוטב</translation>
+        <translation>Naslov Bitcoin, na katerega bo plačilo poslano</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2409,7 +2496,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>הדבקת כתובת מלוח הגזירים</translation>
+        <translation>Prilepite naslov iz odložišča</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -2417,92 +2504,92 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
     </message>
     <message>
         <source>Remove this entry</source>
-        <translation>הסרת רשומה זו</translation>
+        <translation>Izpraznite vsebino polja</translation>
     </message>
     <message>
         <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>העמלה תנוכה מהסכום שנשלח. הנמען יקבל פחות ביטקוינים ממה שהזנת בשדה הסכום. אם נבחרו מספר נמענים, העמלה תחולק באופן שווה.</translation>
+        <translation>Znesek plačila bo zmanjšan za znesek provizije. Prejemnik bo prejel manjše število kovancev, kot je bil vnešeni znesek. Če je prejemnikov več, bo provizija med njih enakomerno porazdeljena.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
-        <translation>ה&amp;חסרת העמלה מהסכום</translation>
+        <translation>O&amp;dštej provizijo od zneska</translation>
     </message>
     <message>
         <source>Use available balance</source>
-        <translation>השתמש בכלל היתרה</translation>
+        <translation>Uporabi dobroimetje na voljo</translation>
     </message>
     <message>
         <source>Message:</source>
-        <translation>הודעה:</translation>
+        <translation>Sporočilo:</translation>
     </message>
     <message>
         <source>This is an unauthenticated payment request.</source>
-        <translation>זוהי בקשת תשלום לא מאומתת.</translation>
+        <translation>Zahtevek za plačilo je neoverjen.</translation>
     </message>
     <message>
         <source>This is an authenticated payment request.</source>
-        <translation>זוהי בקשה מאומתת לתשלום.</translation>
+        <translation>Zahtevek za plačilo je overjen.</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
-        <translation>יש להזין תווית עבור כתובת זו כדי להוסיף אותה לרשימת הכתובות בשימוש</translation>
+        <translation>Če vnesete oznako za zgornji naslov, se bo skupaj z naslovom shranila v imenk že uporabljenih naslovov</translation>
     </message>
     <message>
         <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>הודעה שצורפה לביטקוין: כתובת שתאוחסן בהעברה לצורך מעקב מצדך. לתשומת לבך: הודעה זו לא תישלח ברשת הביטקוין.</translation>
+        <translation>Sporočilo, ki ste ga pripeli na URI tipa bitcoin:. Shranjeno bo skupaj s podatki o transakciji. Opomba: Sporočilo ne bo poslano preko omrežja Bitcoin.</translation>
     </message>
     <message>
         <source>Pay To:</source>
-        <translation>תשלום לטובת:</translation>
+        <translation>Prejemnik:</translation>
     </message>
     <message>
         <source>Memo:</source>
-        <translation>תזכורת:</translation>
+        <translation>Opomba:</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
-        <translation>נא להזין תווית לכתובת זו כדי להוסיף אותה לספר הכתובות שלך</translation>
+        <translation>Vnesite oznako, pod katero bo zgornji naslov shranjen v imenik</translation>
     </message>
 </context>
 <context>
     <name>SendConfirmationDialog</name>
     <message>
         <source>Yes</source>
-        <translation>כן</translation>
+        <translation>Da</translation>
     </message>
 </context>
 <context>
     <name>ShutdownWindow</name>
     <message>
         <source>%1 is shutting down...</source>
-        <translation>%1 בתהליך כיבוי...</translation>
+        <translation>%1 se zapira ...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
-        <translation>אין לכבות את המחשב עד שחלון זה נעלם.</translation>
+        <translation>Dokler to okno ne izgine, ne zaustavljajte računalnika.</translation>
     </message>
 </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation>חתימות - חתימה או אימות של הודעה</translation>
+        <translation>Podpiši / preveri sporočilo</translation>
     </message>
     <message>
         <source>&amp;Sign Message</source>
-        <translation>חתימה על הו&amp;דעה</translation>
+        <translation>&amp;Podpiši sporočilo</translation>
     </message>
     <message>
         <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>באפשרותך לחתום על הודעות/הסכמים באמצעות הכתובות שלך, כדי להוכיח שאתה יכול לקבל את הביטקוינים הנשלחים אליהן. היזהר לא לחתום על תוכן עמום או אקראי, מכיוון שתקיפות פישינג עשויות לנסות לגנוב את הזהות שלך. חתום רק על הצהרות מפורטות שאתה מסכים להן.</translation>
+        <translation>S svojimi naslovi lahko podpisujete sporočila ali pogodbe in s tem dokazujete, da na teh naslovih lahko prejemate kovance. Bodite previdni in ne podpisujte ničesar nejasnega ali naključnega, ker vas zlikovci preko ribarjenja (phishing) lahko prelisičijo, da na njih prepišete svojo identiteto. Podpisujte samo podrobno opisane izjave, s katerimi se strinjate.</translation>
     </message>
     <message>
         <source>The Bitcoin address to sign the message with</source>
-        <translation>כתובת הביטקוין אתה לחתום אתה את ההודעה</translation>
+        <translation>Naslov Bitcoin, s katerim podpisujete sporočilo</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>בחירת כתובת שהייתה בשימוש</translation>
+        <translation>Izberite enega od že uporabljenih naslovov</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2510,7 +2597,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>הדבקת כתובת מלוח הגזירים</translation>
+        <translation>Prilepite naslov iz odložišča</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -2518,1146 +2605,1158 @@ Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis p
     </message>
     <message>
         <source>Enter the message you want to sign here</source>
-        <translation>יש להוסיף כאן את ההודעה עליה לחתום</translation>
+        <translation>Vnesite sporočilo, ki ga želite podpisati</translation>
     </message>
     <message>
         <source>Signature</source>
-        <translation>חתימה</translation>
+        <translation>Podpis</translation>
     </message>
     <message>
         <source>Copy the current signature to the system clipboard</source>
-        <translation>העתקת החתימה הנוכחית ללוח הגזירים</translation>
+        <translation>Kopiranje trenutnega podpisa na sistemsko odložišče.</translation>
     </message>
     <message>
         <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>ניתן לחתום על ההודעה כדי להוכיח שכתובת הביטקוין הזו בבעלותך.</translation>
+        <translation>Podpišite sporočilo, da dokažete lastništvo nad zgornjim naslovom.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
-        <translation>&amp;חתימה על הודעה</translation>
+        <translation>Podpiši &amp;sporočilo</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
-        <translation>איפוס כל שדות החתימה על הודעה</translation>
+        <translation>Počisti vsa polja za vnos v oknu za podpisovanje</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>&amp;ניקוי הכול</translation>
+        <translation>Počisti &amp;vse </translation>
     </message>
     <message>
         <source>&amp;Verify Message</source>
-        <translation>&amp;אימות הודעה</translation>
+        <translation>&amp;Preveri sporočilo</translation>
     </message>
     <message>
         <source>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
-        <translation>יש להזין את כתובת הנמען, ההודעה (נא לוודא שמעתיקים במדויק את תווי קפיצות השורה, רווחים, טאבים וכדומה). והחותימה מתחת אשר מאמתת את ההודעה. יש להזהר שלא לקרוא לתוך החתימה יותר מאשר בהודעה החתומה עצמה, כדי להמנע מניצול לרעה של המתווך שבדרך. יש לשים לב שהדגר רק מוכיח שהצד החותם מקבל עם הכתובת. הדבר אינו מוכיח משלוח כלשהו של עיסקה!</translation>
+        <translation>Da preverite verodostojnost sporočila, spodaj vnesite: prejemnikov naslov, prejeto sporočilo (pazljivo skopirajte vse prelome vrstic, presledke, tabulatorje ipd.,) in prejeti podpis. Da se izognete napadom tipa man-in-the-middle, vedite, da iz veljavnega podpisa ne sledi nič drugega, kot tisto, kar je navedeno v sporočilu. Podpis samo potrjuje dejstvo, da ima podpisnik v lasti prejemni naslov, ne more pa dokazati vira nobene transakcije!</translation>
     </message>
     <message>
         <source>The Bitcoin address the message was signed with</source>
-        <translation>כתובת הביטקוין שאתה נחתמה ההודעה</translation>
+        <translation>Naslov Bitcoin, s katerim je bilo sporočilo podpisano</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>ניתן לאמת את ההודעה כדי להבטיח שהיא נחתמה עם כתובת הביטקוין הנתונה</translation>
+        <translation>Preverite, ali je bilo sporočilo v resnici podpisano z navedenim naslovom Bitcoin.</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
-        <translation>&amp;אימות הודעה</translation>
+        <translation>Preveri &amp;sporočilo</translation>
     </message>
     <message>
         <source>Reset all verify message fields</source>
-        <translation>איפוס כל שדות אימות ההודעה</translation>
+        <translation>Počisti vsa polja za vnos v oknu za preverjanje</translation>
     </message>
     <message>
         <source>Click "Sign Message" to generate signature</source>
-        <translation>יש ללחוץ על „חתימת ההודעה“ כדי לייצר חתימה</translation>
+        <translation>Kliknite na "Podpiši sporočilo" za ustvarjanje podpisa</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
-        <translation>הכתובת שהוזנה שגויה.</translation>
+        <translation>Vnešen naslov je neveljaven.</translation>
     </message>
     <message>
         <source>Please check the address and try again.</source>
-        <translation>נא לבדוק את הכתובת ולנסות שוב.</translation>
+        <translation>Prosimo, preglejte naslov in poskusite znova.</translation>
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
-        <translation>הכתובת שהוזנה לא מתייחסת למפתח.</translation>
+        <translation>Vnešeni naslov se ne nanaša na ključ.</translation>
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
-        <translation>שחרור הארנק בוטל.</translation>
+        <translation>Odklepanje denarnice je bilo preklicano.</translation>
     </message>
     <message>
         <source>Private key for the entered address is not available.</source>
-        <translation>המפתח הפרטי לכתובת שהוכנסה אינו זמין.</translation>
+        <translation>Zasebni ključ vnešenega naslova ni na voljo.</translation>
     </message>
     <message>
         <source>Message signing failed.</source>
-        <translation>חתימת ההודעה נכשלה.</translation>
+        <translation>Podpisovanje sporočila neuspešno.</translation>
     </message>
     <message>
         <source>Message signed.</source>
-        <translation>ההודעה נחתמה.</translation>
+        <translation>Sporočilo podpisano.</translation>
     </message>
     <message>
         <source>The signature could not be decoded.</source>
-        <translation>לא ניתן לפענח את החתימה.</translation>
+        <translation>Podpis ni bil dešifriran.</translation>
     </message>
     <message>
         <source>Please check the signature and try again.</source>
-        <translation>נא לבדוק את החתימה ולנסות שוב.</translation>
+        <translation>Prosimo, preglejte podpis in poskusite znova.</translation>
     </message>
     <message>
         <source>The signature did not match the message digest.</source>
-        <translation>החתימה לא תואמת את תקציר ההודעה.</translation>
+        <translation>Podpis ne ustreza rezultatu (digest) preverjanja.</translation>
     </message>
     <message>
         <source>Message verification failed.</source>
-        <translation>וידוא ההודעה נכשל.</translation>
+        <translation>Potrditev sporočila neuspešna.</translation>
     </message>
     <message>
         <source>Message verified.</source>
-        <translation>ההודעה עברה וידוא.</translation>
+        <translation>Sporočilo potrjeno.</translation>
     </message>
 </context>
 <context>
     <name>TrafficGraphWidget</name>
     <message>
         <source>KB/s</source>
-        <translation>ק״ב/ש׳</translation>
+        <translation>KiB/s</translation>
     </message>
 </context>
 <context>
     <name>TransactionDesc</name>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>פתוח עבור בלוק %n  נוסף </numerusform><numerusform>פתוח עבור %n בלוקים נוספים</numerusform><numerusform>פתוח עבור %n בלוקים נוספים</numerusform><numerusform>פתוח עבור  %n בלוקים נוספים</numerusform></translation>
+        <translation><numerusform>Odpri za %n blok več</numerusform><numerusform>Odpri za %n bloka več</numerusform><numerusform>Odpri za %n bloke več</numerusform><numerusform>Odpri za %n blokov več</numerusform></translation>
     </message>
     <message>
         <source>Open until %1</source>
-        <translation>פתוחה עד %1</translation>
+        <translation>Odpri do %1</translation>
     </message>
     <message>
         <source>conflicted with a transaction with %1 confirmations</source>
-        <translation>ישנה סתירה עם עסקה שעברה %1 אימותים</translation>
+        <translation>v sporu s transakcijo z %1 potrditvami</translation>
     </message>
     <message>
         <source>0/unconfirmed, %1</source>
-        <translation>0/לא מאומתים, %1</translation>
+        <translation>0/nepotrjenih, %1</translation>
     </message>
     <message>
         <source>in memory pool</source>
-        <translation>במאגר הזיכרון</translation>
+        <translation>v memory pool-u</translation>
     </message>
     <message>
         <source>not in memory pool</source>
-        <translation>לא במאגר הזיכרון</translation>
+        <translation>ni v memory pool-u</translation>
     </message>
     <message>
         <source>abandoned</source>
-        <translation>ננטש</translation>
+        <translation>opuščen</translation>
     </message>
     <message>
         <source>%1/unconfirmed</source>
-        <translation>%1/לא מאומתים</translation>
+        <translation>%1/nepotrjeno</translation>
     </message>
     <message>
         <source>%1 confirmations</source>
-        <translation>%1 אימותים</translation>
+        <translation>%1 potrditev</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation>מצב</translation>
+        <translation>Status</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>תאריך</translation>
+        <translation>Datum</translation>
     </message>
     <message>
         <source>Source</source>
-        <translation>מקור</translation>
+        <translation>Izvor</translation>
     </message>
     <message>
         <source>Generated</source>
-        <translation>נוצר</translation>
+        <translation>Ustvarjeno</translation>
     </message>
     <message>
         <source>From</source>
-        <translation>מאת</translation>
+        <translation>Pošiljatelj</translation>
     </message>
     <message>
         <source>unknown</source>
-        <translation>לא ידוע</translation>
+        <translation>neznano</translation>
     </message>
     <message>
         <source>To</source>
-        <translation>אל</translation>
+        <translation>Prejemnik</translation>
     </message>
     <message>
         <source>own address</source>
-        <translation>כתובת עצמית</translation>
+        <translation>lasten naslov</translation>
     </message>
     <message>
         <source>watch-only</source>
-        <translation>צפייה בלבד</translation>
+        <translation>opazovano</translation>
     </message>
     <message>
         <source>label</source>
-        <translation>תווית</translation>
+        <translation>oznaka</translation>
     </message>
     <message>
         <source>Credit</source>
-        <translation>אשראי</translation>
+        <translation>Kredit</translation>
     </message>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
-        <translation><numerusform>הבשלה בעוד בלוק %n</numerusform><numerusform>הבשלה בעוד %n בלוקים</numerusform><numerusform>הבשלה בעוד %n בלוקים</numerusform><numerusform>הבשלה בעוד %n בלוקים</numerusform></translation>
+        <translation><numerusform>dozori po %n. najdenem bloku</numerusform><numerusform>dozori po %n. najdenih blokih</numerusform><numerusform>dozori po %n. najdenih blokih</numerusform><numerusform>dozori po %n. najdenih blokih</numerusform></translation>
     </message>
     <message>
         <source>not accepted</source>
-        <translation>לא התקבל</translation>
+        <translation>ni sprejeto</translation>
     </message>
     <message>
         <source>Debit</source>
-        <translation>חיוב</translation>
+        <translation>Debit</translation>
     </message>
     <message>
         <source>Total debit</source>
-        <translation>חיוב כולל</translation>
+        <translation>Skupni debit</translation>
     </message>
     <message>
         <source>Total credit</source>
-        <translation>אשראי כול</translation>
+        <translation>Skupni kredit</translation>
     </message>
     <message>
         <source>Transaction fee</source>
-        <translation>עמלת העברה</translation>
+        <translation>Provizija transakcije</translation>
     </message>
     <message>
         <source>Net amount</source>
-        <translation>סכום נטו</translation>
+        <translation>Neto znesek</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>הודעה</translation>
+        <translation>Sporočilo</translation>
     </message>
     <message>
         <source>Comment</source>
-        <translation>הערה</translation>
+        <translation>Komentar</translation>
     </message>
     <message>
         <source>Transaction ID</source>
-        <translation>מזהה העברה</translation>
+        <translation>ID transakcije</translation>
     </message>
     <message>
         <source>Transaction total size</source>
-        <translation>גודל ההעברה הכללי</translation>
+        <translation>Skupna velikost transakcije</translation>
     </message>
     <message>
         <source>Transaction virtual size</source>
-        <translation>גודל וירטואלי של עסקה</translation>
+        <translation>Virtualna velikost transakcije</translation>
     </message>
     <message>
         <source>Output index</source>
-        <translation>מפתח פלט</translation>
+        <translation>Indeks izhoda</translation>
     </message>
     <message>
         <source>Merchant</source>
-        <translation>סוחר</translation>
+        <translation>Trgovec</translation>
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>מטבעות מופקים חייבים להבשיל במשך %1 בלוקים לפני שניתן לבזבזם. כשהפקתם בלוק זה, הבלוק שודר לרשת לצורך הוספה לבלוקצ'יין. אם הבלוק לא יתווסף לבלוקצ'יין, מצב הבלוק ישונה ל "לא התקבל" ולא יהיה ניתן לבזבזו. מצב זה עלול לקרות כאשר שרת ביטקוין אחר מפיק בלוק בהפרש של כמה שניות משלכם.</translation>
+        <translation>Ustvarjeni kovanci morajo zoreti %1 blokov, preden jih lahko porabite. Ko ste ta blok ustvarili, je bil posredovan v omrežje, da bo dodan v verigo blokov. Če se bloku ni uspelo uvrstiti v verigo, se bo njegovo stanje spremenilo v "ni bilo sprejeto" in kovancev ne bo mogoče porabiti. To se včasih zgodi, če kak drug rudar v roku nekaj sekund hkrati z vami odkrije drug blok.</translation>
     </message>
     <message>
         <source>Debug information</source>
-        <translation>פרטי ניפוי שגיאות</translation>
+        <translation>Informacije za razhroščanje</translation>
     </message>
     <message>
         <source>Transaction</source>
-        <translation>העברה</translation>
+        <translation>Transakcija</translation>
     </message>
     <message>
         <source>Inputs</source>
-        <translation>אמצעי קלט</translation>
+        <translation>Vnosi</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>סכום</translation>
+        <translation>Znesek</translation>
     </message>
     <message>
         <source>true</source>
-        <translation>אמת</translation>
+        <translation>pravilno</translation>
     </message>
     <message>
         <source>false</source>
-        <translation>שקר</translation>
+        <translation>nepravilno</translation>
     </message>
 </context>
 <context>
     <name>TransactionDescDialog</name>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>חלונית זו מציגה תיאור מפורט של ההעברה</translation>
+        <translation>V tem podoknu so prikazane podrobnosti o transakciji</translation>
     </message>
     <message>
         <source>Details for %1</source>
-        <translation>פרטים עבור %1</translation>
+        <translation>Detajli za %1</translation>
     </message>
 </context>
 <context>
     <name>TransactionTableModel</name>
     <message>
         <source>Date</source>
-        <translation>תאריך</translation>
+        <translation>Datum</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>סוג</translation>
+        <translation>Vrsta</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>תוית</translation>
+        <translation>Oznaka</translation>
     </message>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>פתוחה למשך בלוק אחד נוסף</numerusform><numerusform>פתוחה למשך %n בלוקים נוספים</numerusform><numerusform>פתוחה למשך %n בלוקים נוספים</numerusform><numerusform>פתוחה למשך %n בלוקים נוספים</numerusform></translation>
+        <translation><numerusform>Odpri za %n blok več</numerusform><numerusform>Odpri za %n bloka več</numerusform><numerusform>Odpri za %n več blokov</numerusform><numerusform>Odpri za %n več blokov</numerusform></translation>
     </message>
     <message>
         <source>Open until %1</source>
-        <translation>פתוחה עד %1</translation>
+        <translation>Odpri do %1</translation>
     </message>
     <message>
         <source>Unconfirmed</source>
-        <translation>לא מאושרת</translation>
+        <translation>Nepotrjeno</translation>
     </message>
     <message>
         <source>Abandoned</source>
-        <translation>ננטש</translation>
+        <translation>Opuščeno</translation>
     </message>
     <message>
         <source>Confirming (%1 of %2 recommended confirmations)</source>
-        <translation>באישור (%1 מתוך %2 אישורים מומלצים)</translation>
+        <translation>Potrjevanje (%1 od %2 priporočenih potrditev)</translation>
     </message>
     <message>
         <source>Confirmed (%1 confirmations)</source>
-        <translation>מאושרת (%1 אישורים)</translation>
+        <translation>Potrjeno (%1 potrditev)</translation>
     </message>
     <message>
         <source>Conflicted</source>
-        <translation>מתנגשת</translation>
+        <translation>V konfliktu</translation>
     </message>
     <message>
         <source>Immature (%1 confirmations, will be available after %2)</source>
-        <translation>צעירה (%1 אישורים, תהיה זמינה לאחר %2)</translation>
+        <translation>Nedozorelo (št. potrditev: %1, na voljo šele po: %2)</translation>
     </message>
     <message>
         <source>Generated but not accepted</source>
-        <translation>הבלוק יוצר אך לא אושר</translation>
+        <translation>Generirano, toda ne sprejeto</translation>
     </message>
     <message>
         <source>Received with</source>
-        <translation>התקבל עם</translation>
+        <translation>Prejeto s</translation>
     </message>
     <message>
         <source>Received from</source>
-        <translation>התקבל מאת</translation>
+        <translation>Prejeto iz</translation>
     </message>
     <message>
         <source>Sent to</source>
-        <translation>נשלח אל</translation>
+        <translation>Poslano</translation>
     </message>
     <message>
         <source>Payment to yourself</source>
-        <translation>תשלום לעצמך</translation>
+        <translation>Plačilo sebi</translation>
     </message>
     <message>
         <source>Mined</source>
-        <translation>נכרו</translation>
+        <translation>Narudarjeno</translation>
     </message>
     <message>
         <source>watch-only</source>
-        <translation>צפייה בלבד</translation>
+        <translation>opazovano</translation>
     </message>
     <message>
         <source>(n/a)</source>
-        <translation>(לא זמין)</translation>
+        <translation>(ni na voljo)</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(ללא תוית)</translation>
+        <translation>(brez oznake)</translation>
     </message>
     <message>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>מצב ההעברה. יש להמתין עם הסמן מעל שדה זה כדי לראות את מספר האישורים.</translation>
+        <translation>Stanje transakcije. Zapeljite z miško čez to polje za prikaz števila potrdil. </translation>
     </message>
     <message>
         <source>Date and time that the transaction was received.</source>
-        <translation>התאריך והשעה בהם העברה זו התקבלה.</translation>
+        <translation>Datum in čas, ko je transakcija bila prejeta.</translation>
     </message>
     <message>
         <source>Type of transaction.</source>
-        <translation>סוג ההעברה.</translation>
+        <translation>Vrsta transakcije</translation>
     </message>
     <message>
         <source>Whether or not a watch-only address is involved in this transaction.</source>
-        <translation>האם כתובת לצפייה בלבד כלולה בעסקה זו.</translation>
+        <translation>Ali je v transakciji udeležen kateri od opazovanih naslovov.</translation>
     </message>
     <message>
         <source>User-defined intent/purpose of the transaction.</source>
-        <translation>ייעוד/תכלית מגדר ע"י המשתמש של העסקה.</translation>
+        <translation>Uporabniško določen namen transakcije.</translation>
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
-        <translation>סכום ירד או התווסף למאזן</translation>
+        <translation>Znesek spremembe stanja sredstev.</translation>
     </message>
 </context>
 <context>
     <name>TransactionView</name>
     <message>
         <source>All</source>
-        <translation>הכול</translation>
+        <translation>Vse</translation>
     </message>
     <message>
         <source>Today</source>
-        <translation>היום</translation>
+        <translation>Danes</translation>
     </message>
     <message>
         <source>This week</source>
-        <translation>השבוע</translation>
+        <translation>Ta teden</translation>
     </message>
     <message>
         <source>This month</source>
-        <translation>החודש</translation>
+        <translation>Ta mesec</translation>
     </message>
     <message>
         <source>Last month</source>
-        <translation>חודש שעבר</translation>
+        <translation>Prejšnji mesec</translation>
     </message>
     <message>
         <source>This year</source>
-        <translation>השנה הזאת</translation>
+        <translation>To leto</translation>
     </message>
     <message>
         <source>Range...</source>
-        <translation>טווח…</translation>
+        <translation>Območje ...</translation>
     </message>
     <message>
         <source>Received with</source>
-        <translation>התקבל עם</translation>
+        <translation>Prejeto z</translation>
     </message>
     <message>
         <source>Sent to</source>
-        <translation>נשלח אל</translation>
+        <translation>Poslano</translation>
     </message>
     <message>
         <source>To yourself</source>
-        <translation>לעצמך</translation>
+        <translation>Sebi</translation>
     </message>
     <message>
         <source>Mined</source>
-        <translation>נכרו</translation>
+        <translation>Narudarjeno</translation>
     </message>
     <message>
         <source>Other</source>
-        <translation>אחר</translation>
+        <translation>Drugo</translation>
     </message>
     <message>
         <source>Enter address, transaction id, or label to search</source>
-        <translation>הכנס כתובת, מזהה העברה, או תווית לחיפוש</translation>
+        <translation>Vnesi naslov, ID transakcije, ali oznako za iskanje</translation>
     </message>
     <message>
         <source>Min amount</source>
-        <translation>סכום מזערי</translation>
+        <translation>Najmanjši znesek</translation>
     </message>
     <message>
         <source>Abandon transaction</source>
-        <translation>נטישת העברה</translation>
+        <translation>Opusti transakcijo</translation>
     </message>
     <message>
         <source>Increase transaction fee</source>
-        <translation>הגדל עמלת העברה</translation>
+        <translation>Povečaj provizijo transakcije</translation>
     </message>
     <message>
         <source>Copy address</source>
-        <translation>העתקת הכתובת</translation>
+        <translation>Kopiraj naslov</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>העתקת התווית</translation>
+        <translation>Kopiraj oznako</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>העתקת הסכום</translation>
+        <translation>Kopiraj znesek</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>העתקת מזהה ההעברה</translation>
+        <translation>Kopiraj ID transakcije</translation>
     </message>
     <message>
         <source>Copy raw transaction</source>
-        <translation>העתקת העברה גולמית</translation>
+        <translation>Kopiraj neobdelano (raw) transakcijo</translation>
     </message>
     <message>
         <source>Copy full transaction details</source>
-        <translation>העתקת פרטי ההעברה המלאים</translation>
+        <translation>Kopiraj vse detajle transakcije</translation>
     </message>
     <message>
         <source>Edit label</source>
-        <translation>עריכת תווית</translation>
+        <translation>Uredi oznako</translation>
     </message>
     <message>
         <source>Show transaction details</source>
-        <translation>הצגת פרטי העברה</translation>
+        <translation>Pokaži podrobnosti transakcije</translation>
     </message>
     <message>
         <source>Export Transaction History</source>
-        <translation>יצוא היסטוריית העברה</translation>
+        <translation>Izvoz zgodovine transakcij</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>קובץ מופרד בפסיקים (‎*.csv)</translation>
+        <translation>Podatki ločenimi z vejico (*.csv)</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>מאושרת</translation>
+        <translation>Potrjeno</translation>
     </message>
     <message>
         <source>Watch-only</source>
-        <translation>צפייה בלבד</translation>
+        <translation>Opazovano</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>תאריך</translation>
+        <translation>Datum</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>סוג</translation>
+        <translation>Vrsta</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>תוית</translation>
+        <translation>Oznaka</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>כתובת</translation>
+        <translation>Naslov</translation>
     </message>
     <message>
         <source>ID</source>
-        <translation>מזהה</translation>
+        <translation>ID</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>יצוא נכשל</translation>
+        <translation>Podatkov ni bilo mogoče izvoziti.</translation>
     </message>
     <message>
         <source>There was an error trying to save the transaction history to %1.</source>
-        <translation>אירעה שגיאה בעת ניסיון שמירת היסטוריית ההעברות אל %1.</translation>
+        <translation>Prišlo je do napake med shranjevanjem zgodovine transakcij v datoteko %1.</translation>
     </message>
     <message>
         <source>Exporting Successful</source>
-        <translation>הייצוא נכשל</translation>
+        <translation>Izvoz uspešen</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
-        <translation>היסטוריית ההעברות נשמרה בהצלחה אל %1.</translation>
+        <translation>Zgodovina poteklih transakcij je bila uspešno shranjena v datoteko %1.</translation>
     </message>
     <message>
         <source>Range:</source>
-        <translation>טווח:</translation>
+        <translation>Območje:</translation>
     </message>
     <message>
         <source>to</source>
-        <translation>עד</translation>
+        <translation>za</translation>
     </message>
 </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
     <message>
         <source>Unit to show amounts in. Click to select another unit.</source>
-        <translation>יחידת המידה להצגת הסכומים. יש ללחוץ כדי לבחור ביחידת מידה אחרת.</translation>
+        <translation>Merska enota za prikaz zneskov. Kliknite za izbiro druge enote.</translation>
     </message>
 </context>
 <context>
     <name>WalletController</name>
     <message>
         <source>Close wallet</source>
-        <translation>סגירת ארנק</translation>
+        <translation>Zapri denarnico</translation>
+    </message>
+    <message>
+        <source>Are you sure you wish to close the wallet &lt;i&gt;%1&lt;/i&gt;?</source>
+        <translation>Ali ste prepričani da želite zapreti denarnico &lt;i&gt;%1&lt;/i&gt;?</translation>
     </message>
     <message>
         <source>Closing the wallet for too long can result in having to resync the entire chain if pruning is enabled.</source>
-        <translation>סגירת הארנק למשך זמן רב מדי יכול לגרור את הצורך לסינכרון מחדש של כל השרשרת אם אופצית הגיזום אקטיבית.</translation>
+        <translation>Predolgo zapiranje denarnice lahko povzroči ponovno sinhronizacijo celotne verige, če je obrezovanje omogočeno.</translation>
     </message>
 </context>
 <context>
     <name>WalletFrame</name>
     <message>
         <source>No wallet has been loaded.</source>
-        <translation>לא נטען ארנק.</translation>
+        <translation>Nobena denarnica ni bila naložena.</translation>
     </message>
 </context>
 <context>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>שליחת מטבעות</translation>
+        <translation>Pošlji kovance</translation>
     </message>
     <message>
         <source>Fee bump error</source>
-        <translation>נמצאה שגיאת סכום עמלה</translation>
+        <translation>Fee bump error</translation>
     </message>
     <message>
         <source>Increasing transaction fee failed</source>
-        <translation>כשל בהעלאת עמלת עסקה</translation>
+        <translation>Povečanje provizije transakcije neuspešno</translation>
     </message>
     <message>
         <source>Do you want to increase the fee?</source>
-        <translation>להגדיל את העמלה?</translation>
+        <translation>Ali hočete povišati provizijo?</translation>
     </message>
     <message>
         <source>Current fee:</source>
-        <translation>העמלה הנוכחית:</translation>
+        <translation>Trenutna provizija:</translation>
     </message>
     <message>
         <source>Increase:</source>
-        <translation>הגדלה:</translation>
+        <translation>Povečaj:</translation>
     </message>
     <message>
         <source>New fee:</source>
-        <translation>עמלה חדשה:</translation>
+        <translation>Nova provizija:</translation>
     </message>
     <message>
         <source>Confirm fee bump</source>
-        <translation>אישור הקפצת עמלה</translation>
+        <translation>Confirm fee bump</translation>
     </message>
     <message>
         <source>Can't sign transaction.</source>
-        <translation>אי אפשר לחתום על ההעברה.</translation>
+        <translation>Ne morem podpisati transakcije.</translation>
     </message>
     <message>
         <source>Could not commit transaction</source>
-        <translation>שילוב העסקה נכשל</translation>
+        <translation>Transakcije ni mogoče izvesti</translation>
     </message>
     <message>
         <source>default wallet</source>
-        <translation>ארנק בררת מחדל</translation>
+        <translation>privzeta denarnica</translation>
     </message>
 </context>
 <context>
     <name>WalletView</name>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;יצוא</translation>
+        <translation>&amp;Izvozi</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>יצוא הנתונים בלשונית הנוכחית לקובץ</translation>
+        <translation>Izvozi podatke v trenutnem zavihku v datoteko</translation>
     </message>
     <message>
         <source>Backup Wallet</source>
-        <translation>גיבוי הארנק</translation>
+        <translation>Izdelava varnostne kopije denarnice</translation>
     </message>
     <message>
         <source>Wallet Data (*.dat)</source>
-        <translation>נתוני ארנק (‎*.dat)</translation>
+        <translation>Denarnica (*.dat)</translation>
     </message>
     <message>
         <source>Backup Failed</source>
-        <translation>הגיבוי נכשל</translation>
+        <translation>Varnostne kopije ni bilo mogoče izdelati.</translation>
     </message>
     <message>
         <source>There was an error trying to save the wallet data to %1.</source>
-        <translation>אירעה שגיאה בעת הניסיון לשמור את נתוני הארנק אל %1.</translation>
+        <translation>Prišlo je do napake pri shranjevanju podatkov denarnice v datoteko %1.</translation>
     </message>
     <message>
         <source>Backup Successful</source>
-        <translation>הגיבוי הצליח</translation>
+        <translation>Izdelava varnostne kopije uspešna</translation>
     </message>
     <message>
         <source>The wallet data was successfully saved to %1.</source>
-        <translation>נתוני הארנק נשמרו בהצלחה אל %1.</translation>
+        <translation>Denarnica uspešno shranjena v %1.</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation>ביטול</translation>
+        <translation>Prekliči</translation>
     </message>
 </context>
 <context>
     <name>bitcoin-core</name>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file %s or %s</source>
-        <translation>מופץ תחת רשיון התוכנה של MIT, ראה קובץ מלווה  %s או %s</translation>
+        <translation>Distribuirano v okviru programske licence MIT. Podrobnosti so navedene v  priloženi datoteki %s ali %s</translation>
     </message>
     <message>
         <source>Prune configured below the minimum of %d MiB.  Please use a higher number.</source>
-        <translation>הגיזום הוגדר כפחות מהמינימום של  %d MiB. נא להשתמש במספר גבוה יותר.</translation>
+        <translation>Obrezovanje konfigurirano pod minimalnimi %d miB. Prosimo, uporabite večjo številko.</translation>
     </message>
     <message>
         <source>Prune: last wallet synchronisation goes beyond pruned data. You need to -reindex (download the whole blockchain again in case of pruned node)</source>
-        <translation>גיזום: הסינכרון האחרון של הארנק עובר את היקף הנתונים שנגזמו. יש לבצע חידוש אידקסציה (נא להוריד את כל שרשרת הבלוקים שוב במקרה של צומת מקוצצת)</translation>
+        <translation>Obrezovanje: zadnja sinhronizacija denarnice presega obrezane podatke. Izvesti morate -reindex (v primeru obrezave morate znova naložiti celoten blockchain)</translation>
     </message>
     <message>
         <source>Rescans are not possible in pruned mode. You will need to use -reindex which will download the whole blockchain again.</source>
-        <translation>סריקה מחודשת אינה אפשרית בצומת מקוצצת. יש להשתמש באינדקסציה מחודשת reindex- אשר תוריד את כל שרשרת הבלוקים מחדש.</translation>
+        <translation>RPonovno skeniranje (rescans) v obrezovalnem načinu niso možni. Uporabiti boste morali -reindex, ki bo znova naložil celoten blockchain.</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occurred, see debug.log for details</source>
-        <translation>שגיאה: סניה קלמה קריטית פנימית קרטה, פנה ל debug.log לפרטים</translation>
+        <translation>Napaka: Med izvajanjem je prišlo do nepopravljive napake. Podrobnosti so v datoteki debug.log</translation>
     </message>
     <message>
         <source>Pruning blockstore...</source>
-        <translation>מקצץ את ה blockstore...</translation>
+        <translation>Obrezujem ...</translation>
     </message>
     <message>
         <source>Unable to start HTTP server. See debug log for details.</source>
-        <translation>שרת ה HTTP לא עלה. ראו את ה debug לוג לפרטים.</translation>
+        <translation>Zagon HTTP strežnika neuspešen. Poglejte razhroščevalni dnevnik za podrobnosti (debug.log).</translation>
     </message>
     <message>
         <source>The %s developers</source>
-        <translation>ה %s מפתחים</translation>
+        <translation>%s razvijalci</translation>
     </message>
     <message>
         <source>Can't generate a change-address key. No keys in the internal keypool and can't generate any keys.</source>
-        <translation>לא מצליח ליצור מפתח שינוי כתובת. אין מפתחות במאגר הפנימי של המפתחות ולא מצליח ליצור מפתח כלשהו.</translation>
+        <translation>Ne morem ustvariti ključa change-address. V keypool-u ni ključev.</translation>
     </message>
     <message>
         <source>Cannot obtain a lock on data directory %s. %s is probably already running.</source>
-        <translation>לא מצליח לנעול את תיקית הנתונים %s. %s כנראה כבר רץ.</translation>
+        <translation>Ne morem zakleniti podatkovne mape %s. %s je verjetno že zagnan.</translation>
     </message>
     <message>
         <source>Cannot provide specific connections and have addrman find outgoing connections at the same.</source>
-        <translation>לא מצליח לספק קשרים ספציפיים ולגרום ל addrman למצוא קשרים חיצוניים יחדיו.</translation>
+        <translation>Ne morem zagotoviti določenih povezav in hkrati iskati odhodne povezave z adrman.</translation>
     </message>
     <message>
         <source>Error reading %s! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>שגיאה בנסיון לקרוא את %s! כל המפתחות נקראו נכונה, אך נתוני העסקה או הכתובות יתכן שחסרו או שגויים.</translation>
+        <translation>Napaka pri branju %s! Vsi ključi so bili prebrani pravilno, vendar so lahko vnosi o transakcijah ali vnosi naslovov nepravilni ali manjkajo.</translation>
     </message>
     <message>
         <source>Please check that your computer's date and time are correct! If your clock is wrong, %s will not work properly.</source>
-        <translation>נא בדקו שהתאריך והשעה במחשב שלכם נכונים! אם השעון שלכם לא מסונכרן, %s לא יעבוד כהלכה.</translation>
+        <translation>Opozorilo: Preverite, če sta datum in ura na vašem računalniku točna! %s ne bo deloval pravilno, če je nastavljeni čas nepravilen.</translation>
     </message>
     <message>
         <source>Please contribute if you find %s useful. Visit %s for further information about the software.</source>
-        <translation>אנא שקלו תרומה אם מצאתם את %s שימושי. בקרו ב %s למידע נוסף על התוכנה.</translation>
+        <translation>Prosimo, prispevajte, če se vam zdi %s uporaben. Za dodatne informacije o programski opremi obiščite %s.</translation>
     </message>
     <message>
         <source>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</source>
-        <translation>מאגר נתוני הבלוקים מכיל בלוק עם תאריך עתידי. הדבר יכול להיגרם מתאריך ושעה שגויים במחשב שלכם. בצעו בנייה מחדש של מאגר נתוני הבלוקים רק אם אתם בטוחים שהתאריך והשעה במחשבכם נכונים</translation>
+        <translation>Baza podatkov blokov vsebuje blok, za katerega se zdi, da bo iz prihodnosti. To je lahko posledica napačnega nastavitve datuma in časa vašega računalnika. Znova obnovijte bazo podatkov samo, če ste prepričani, da sta datum in čas računalnika pravilna</translation>
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>קוד זה הינו גרסת טסט טרום-פרסומית. *שימוש על אחריותכם בלבד* אין לעשות שימוש בקוד לצרכי כריית בלוקים או אפליקציות מסחר.</translation>
+        <translation>To je preizkusna različica še neizdanega programa. Uporabljate jo na lastno odgovornost. Programa ne uporabljajte je za rudarjenje ali trgovske aplikacije.</translation>
     </message>
     <message>
         <source>This is the transaction fee you may discard if change is smaller than dust at this level</source>
-        <translation>זוהי עמלת העסקה שתוכל לזנוח אם היתרה הנה קטנה יותר מאבק ברמה הזו.</translation>
+        <translation>To je transakcijska provizija, ki jo lahko zavržete, če je sprememba manjša od prahu na tej ravni</translation>
     </message>
     <message>
         <source>Unable to replay blocks. You will need to rebuild the database using -reindex-chainstate.</source>
-        <translation> שידור-חוזר של הבלוקים לא הצליח. תצטרכו לבצע בנייה מחדש של מאגר הנתונים באמצעות הדגל reindex-chainstate-.</translation>
+        <translation>Ne morem ponoviti blokov. Podatkovno bazo bo potrebno ponovno zgraditi z uporabo ukaza -reindex-chainstate.</translation>
     </message>
     <message>
         <source>Unable to rewind the database to a pre-fork state. You will need to redownload the blockchain</source>
-        <translation>הרצה-לאחור של מאגר הנתונים למצב טרום-פיצולי לא הצליחה. תצטרכו להוריד מחדש את הבלוקצ'יין.</translation>
+        <translation>Baze podatkov ni mogoče vrniti v stanje pred forkom. Morali boste znova naložiti verigo blokov</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
-        <translation>אזהרה: נראה כי הרשת אינה מסכימה באופן מלא! חלק מהכורים חווים תקלות.</translation>
+        <translation>Opozorilo: Trenutno na omrežju ni videti konsenza! Videti je, kot da bi imeli nekateri rudarji težave.</translation>
     </message>
     <message>
         <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>אזהרה: יתכן שלא נסכים לגמרי עם עמיתינו! יתכן שתצטרכו לשדרג או שצמתות אחרות יצטרכו לשדרג.</translation>
+        <translation>Opozorilo: Trenutno se s soležniki ne strinjamo v popolnosti! Mogoče bi morali vi ali drugi udeleženci posodobiti odjemalce.</translation>
     </message>
     <message>
         <source>%d of last 100 blocks have unexpected version</source>
-        <translation>%d מ 100 הבלוקים האחרונים הנם בעלי גירסה לא צפויה.</translation>
+        <translation>%d od zadnjih 100 blokov imajo nepričakovano verzijo</translation>
     </message>
     <message>
         <source>%s corrupt, salvage failed</source>
-        <translation>%s משובש. נסיון החילוץ נכשל.</translation>
+        <translation>%s poškodovana, obnova neuspešna</translation>
     </message>
     <message>
         <source>-maxmempool must be at least %d MB</source>
-        <translation>‎-maxmempool חייב להיות לפחות %d מ״ב</translation>
+        <translation>-maxmempool mora biti vsaj %d MB</translation>
     </message>
     <message>
         <source>Cannot resolve -%s address: '%s'</source>
-        <translation>לא מצליח לפענח -%s כתובת: '%s'</translation>
+        <translation>Naslova -%s ni mogoče razrešiti: '%s'</translation>
     </message>
     <message>
         <source>Change index out of range</source>
-        <translation>אינדקס העודף מחוץ לתחום</translation>
-    </message>
-    <message>
-        <source>Config setting for %s only applied on %s network when in [%s] section.</source>
-        <translation>הגדרות הקונפיג עבור %s מיושמות רק  %s הרשת כאשר בקבוצה [%s] .</translation>
+        <translation>Indeks drobiža izven dovoljenega območja</translation>
     </message>
     <message>
         <source>Copyright (C) %i-%i</source>
-        <translation>כל הזכויות שמורות (C) %i-‏%i</translation>
+        <translation>Copyright (C) %i-%i</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
-        <translation>התגלה מסד נתוני מקטעים לא תקין</translation>
+        <translation>Podatkovna baza blokov je okvarjena</translation>
     </message>
     <message>
         <source>Do you want to rebuild the block database now?</source>
-        <translation>האם לבנות מחדש את מסד נתוני המקטעים?</translation>
+        <translation>Želite zdaj obnoviti podatkovno bazo blokov?</translation>
     </message>
     <message>
         <source>Error initializing block database</source>
-        <translation>שגיאה באתחול מסד נתוני המקטעים</translation>
+        <translation>Napaka pri inicializaciji podatkovne baze blokov</translation>
     </message>
     <message>
         <source>Error initializing wallet database environment %s!</source>
-        <translation>שגיאה באתחול סביבת מסד נתוני הארנקים %s!</translation>
+        <translation>Napaka pri inicializaciji okolja podatkovne baze denarnice %s!</translation>
     </message>
     <message>
         <source>Error loading %s</source>
-        <translation>שגיאה בטעינת %s</translation>
+        <translation>Napaka pri nalaganju %s</translation>
     </message>
     <message>
         <source>Error loading %s: Private keys can only be disabled during creation</source>
-        <translation>שגיאת טעינה %s: מפתחות פרטיים ניתנים לניטרול רק בעת תהליך היצירה</translation>
+        <translation>Napaka pri nalaganju %s: Zasebne ključe se lahko onemogoči samo ob ustvaritvi</translation>
     </message>
     <message>
         <source>Error loading %s: Wallet corrupted</source>
-        <translation>שגיאת טעינה %s: הארנק משובש.</translation>
+        <translation>Napaka pri nalaganju %s: Denarnica pokvarjena</translation>
     </message>
     <message>
         <source>Error loading %s: Wallet requires newer version of %s</source>
-        <translation>שגיאת טעינה %s: הארנק מצריך גירסה חדשה יותר של %s</translation>
+        <translation>Napaka pri nalaganju %s: denarnica zahteva novejšo različico %s</translation>
     </message>
     <message>
         <source>Error loading block database</source>
-        <translation>שגיאה בטעינת מסד נתוני המקטעים</translation>
+        <translation>Napaka pri nalaganju podatkovne baze blokov</translation>
     </message>
     <message>
         <source>Error opening block database</source>
-        <translation>שגיאה בטעינת מסד נתוני המקטעים</translation>
+        <translation>Napaka pri odpiranju podatkovne baze blokov</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>האזנה נכשלה בכל פורט. השתמש ב- -listen=0 אם ברצונך בכך.</translation>
+        <translation>Ni mogoče poslušati na nobenih vratih. Če to zares želite, uporabite opcijo -listen=0.</translation>
     </message>
     <message>
         <source>Failed to rescan the wallet during initialization</source>
-        <translation>כשל בסריקה מחדש של הארנק בזמן האתחול</translation>
+        <translation>Med inicializacijo denarnice ni bilo mogoče preveriti zgodovine (rescan failed).</translation>
     </message>
     <message>
         <source>Importing...</source>
-        <translation>מתבצע יבוא…</translation>
+        <translation>Uvažam ...</translation>
     </message>
     <message>
         <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
-        <translation>מקטע הפתיח הוא שגוי או לא נמצא. תיקיית נתונים שגויה עבור הרשת?</translation>
+        <translation>Izvornega bloka ni mogoče najti ali pa je neveljaven. Preverite, če ste izbrali pravo podatkovno mapo za izbrano omrežje.</translation>
     </message>
     <message>
         <source>Initialization sanity check failed. %s is shutting down.</source>
-        <translation>איתחול של תהליך בדיקות השפיות נכשל. %s  בתהליך סגירה.</translation>
+        <translation>Začetni sanity check neuspešen. %s se zapira.</translation>
     </message>
     <message>
         <source>Invalid amount for -%s=&lt;amount&gt;: '%s'</source>
-        <translation>סכום שגוי עבור ‎-%s=&lt;amount&gt;:‏ '%s'</translation>
+        <translation>Neveljavna količina za -%s=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -discardfee=&lt;amount&gt;: '%s'</source>
-        <translation>סכום לא תקין של -discardfee=&lt;amount&gt;: '%s'</translation>
+        <translation>Neveljavna količina za -discardfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -fallbackfee=&lt;amount&gt;: '%s'</source>
-        <translation>סכום שגוי עבור ‎-fallbackfee=&lt;amount&gt;:‏ '%s'</translation>
+        <translation>Neveljavna količina za -fallbackfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Specified blocks directory "%s" does not exist.</source>
-        <translation>התיקיה שהוגדרה "%s" לא קיימת.</translation>
+        <translation>Vnešena podatkovna mapa za bloke "%s" ne obstaja.</translation>
+    </message>
+    <message>
+        <source>Unknown address type '%s'</source>
+        <translation>Neznan tip naslova '%s'</translation>
+    </message>
+    <message>
+        <source>Unknown change type '%s'</source>
+        <translation>Neznan tip drobiža '%s'</translation>
     </message>
     <message>
         <source>Upgrading txindex database</source>
-        <translation>שדרוג מאגר נתוני txindex </translation>
+        <translation>Nadgrajujem txindex podatkovno bazo</translation>
     </message>
     <message>
         <source>Loading P2P addresses...</source>
-        <translation>טעינת כתובות P2P...</translation>
+        <translation>Nalagam P2P naslove ...</translation>
+    </message>
+    <message>
+        <source>Error: Disk space is too low!</source>
+        <translation>Napaka: premalo prostora na disku!</translation>
     </message>
     <message>
         <source>Loading banlist...</source>
-        <translation>טוען רשימת חסומים...</translation>
+        <translation>Nalaganje liste blokiranih ...</translation>
     </message>
     <message>
         <source>Not enough file descriptors available.</source>
-        <translation>אין מספיק מידע על הקובץ</translation>
+        <translation>Na voljo ni dovolj deskriptorjev datotek.</translation>
     </message>
     <message>
         <source>Prune cannot be configured with a negative value.</source>
-        <translation>לא ניתן להגדיר גיזום כערך שלילי</translation>
+        <translation>Negativne vrednosti parametra funkcije obrezovanja niso sprejemljive.</translation>
     </message>
     <message>
         <source>Prune mode is incompatible with -txindex.</source>
-        <translation>שיטת הגיזום אינה תואמת את  -txindex.</translation>
+        <translation>Funkcija obrezovanja ni združljiva z opcijo -txindex.</translation>
     </message>
     <message>
         <source>Replaying blocks...</source>
-        <translation>הצגה מחודשת של הבלוקים...</translation>
+        <translation>Ponavljam bloke ...</translation>
     </message>
     <message>
         <source>Rewinding blocks...</source>
-        <translation>חזרה לאחור של הבלוקים...</translation>
+        <translation>Previjam bloke ...</translation>
     </message>
     <message>
         <source>The source code is available from %s.</source>
-        <translation>קוד המקור זמין ב %s.</translation>
+        <translation>Izvorna koda je dosegljiva na %s.</translation>
     </message>
     <message>
         <source>Transaction fee and change calculation failed</source>
-        <translation>החישוב עבור עמלת העיסקה והעודף נכשל</translation>
+        <translation>Izračun provizije za transakcijo in droviža ni uspel</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer. %s is probably already running.</source>
-        <translation>לא מצליח להתחבר אל %s על מחשב זה. %s  קרוב לודאי שכבר רץ.</translation>
+        <translation>Na tem računalniku ni bilo mogoče vezati naslova %s. %s je verjetno že zagnan.</translation>
     </message>
     <message>
         <source>Unable to generate keys</source>
-        <translation>כשל בהפקת מפתחות</translation>
+        <translation>Ne zmorem ustvariti ključev</translation>
     </message>
     <message>
         <source>Unsupported logging category %s=%s.</source>
-        <translation>קטגורית רישום בלוג שאינה נמתמכת %s=%s.</translation>
+        <translation>Nepodprta kategorija beleženja %s=%s.</translation>
     </message>
     <message>
         <source>Upgrading UTXO database</source>
-        <translation>שדרוג מאגר נתוני UTXO </translation>
+        <translation>Nadgrajujem UTXO podatkovno bazo</translation>
     </message>
     <message>
         <source>User Agent comment (%s) contains unsafe characters.</source>
-        <translation>הערת צד המשתמש (%s) כוללת תווים שאינם בטוחים.</translation>
+        <translation>Komentar uporabniškega agenta (%s) vsebuje nevarne znake.</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
-        <translation>המקטעים מאומתים…</translation>
+        <translation>Preverjam celovitost blokov ...</translation>
     </message>
     <message>
         <source>Wallet needed to be rewritten: restart %s to complete</source>
-        <translation>יש לכתוב את הארנק מחדש: יש להפעיל את %s כדי להמשיך</translation>
+        <translation>Denarnica mora biti prepisana: ponovno zaženite %s za dokončanje.</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
-        <translation>שגיאה: האזנה לתקשורת נכנ סת נכשלה (ההאזנה מחזירה שגיאה  %s)</translation>
+        <translation>Napaka: Ni mogoče sprejemati dohodnih povezav (vrnjena napaka: %s)</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
-        <translation>כמות שגויה של -maxtxfee=&lt;amount&gt;: '%s' (נדרש לפחות minrelay עמלה של %s כדי למנוע עסקאות מלהתקע</translation>
+        <translation>Neveljaven znesek za -maxtxfee=&lt;amount&gt;: '%s' (mora biti najmanj provizija za %s, da se prepreči zataknjene transakcije)</translation>
     </message>
     <message>
         <source>The transaction amount is too small to send after the fee has been deducted</source>
-        <translation>סכום העברה נמוך מדי לשליחה אחרי גביית העמלה</translation>
+        <translation>Znesek transakcije je premajhen za pošiljanje po odbitku provizije</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
-        <translation>יש צורך בבניה מחדש של מסד הנתונים ע"י שימוש ב -reindex כדי לחזור חזרה לצומת שאינה גזומה.  הפעולה תוריד מחדש את כל שרשרת הבלוקים.</translation>
+        <translation>Za vrnitev v nepredviden način morate obnoviti bazo z uporabo -reindex. To bo ponovno naložilo celoten blockchain</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
-        <translation>שגיאת קריאה ממסד הנתונים. סוגר את התהליך.</translation>
+        <translation>Napaka pri branju podarkovne baze, zapiram.</translation>
     </message>
     <message>
         <source>Error upgrading chainstate database</source>
-        <translation>שגיאת שידרוג מסד הנתונים של מצב השרשרת chainstate</translation>
+        <translation>Napaka pri nadgradnji chainstate baze podatkov</translation>
     </message>
     <message>
         <source>Error: Disk space is low for %s</source>
-        <translation>שגיאה: שטח הדיסק קטן מדי עובר %s</translation>
+        <translation>Opozorilo: premalo prostora na disku za %s</translation>
     </message>
     <message>
         <source>Invalid -onion address or hostname: '%s'</source>
-        <translation>אי תקינות כתובת  -onion או hostname: '%s'</translation>
+        <translation>Neveljaven -onion naslov ali ime gostitelja: '%s'</translation>
     </message>
     <message>
         <source>Invalid -proxy address or hostname: '%s'</source>
-        <translation>אי תקינות כתובת -proxy או hostname: '%s'</translation>
+        <translation>Neveljaven -proxy naslov ali ime gostitelja: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
-        <translation>כמות לא תקינה עבור ‎-paytxfee=&lt;amount&gt;‎:‏ '%s' (חייבת להיות לפחות %s)</translation>
+        <translation>Neveljaven znesek za -paytxfee=&lt;amount&gt;: '%s' (mora biti vsaj %s)</translation>
     </message>
     <message>
         <source>Invalid netmask specified in -whitelist: '%s'</source>
-        <translation>מסכת הרשת שצוינה עם ‎-whitelist שגויה: '%s'</translation>
+        <translation>Neveljavna omrežna maska je navedena v -whitelist: '%s'</translation>
     </message>
     <message>
         <source>Need to specify a port with -whitebind: '%s'</source>
-        <translation>עליך לציין פתחה עם ‎-whitebind:‏ '%s'</translation>
+        <translation>Pri opciji -whitebind morate navesti vrata: %s</translation>
+    </message>
+    <message>
+        <source>Prune mode is incompatible with -blockfilterindex.</source>
+        <translation>Obrezovanje ni kompatibilno z -blockfilterindex.</translation>
     </message>
     <message>
         <source>Reducing -maxconnections from %d to %d, because of system limitations.</source>
-        <translation>הורדת -maxconnections מ %d ל %d, עקב מגבלות מערכת.</translation>
+        <translation>Zmanjšujem maksimalno število povezav (-maxconnections) iz %d na %d, zaradi sistemskih omejitev.</translation>
     </message>
     <message>
         <source>Section [%s] is not recognized.</source>
-        <translation> הפסקה [%s] אינה מזוהה.</translation>
+        <translation>Sekcija [%s] niu prepoznana.</translation>
     </message>
     <message>
         <source>Signing transaction failed</source>
-        <translation>החתימה על ההעברה נכשלה</translation>
+        <translation>Transakcije ni bilo mogoče podpisati.</translation>
     </message>
     <message>
         <source>Specified -walletdir "%s" does not exist</source>
-        <translation>תיקיית הארנק שצויינה  -walletdir "%s" אינה קיימת</translation>
+        <translation>Določena -walletdir "%s" ne obstaja</translation>
     </message>
     <message>
         <source>Specified -walletdir "%s" is a relative path</source>
-        <translation>תיקיית הארנק שצויינה -walletdir "%s" הנה נתיב יחסי</translation>
+        <translation>Določena -walletdir "%s" je relativna</translation>
     </message>
     <message>
         <source>Specified -walletdir "%s" is not a directory</source>
-        <translation>תיקיית הארנק שצויינה -walletdir "%s" אינה תיקייה</translation>
+        <translation>Določena -walletdir "%s" ni podatkovna mapa</translation>
     </message>
     <message>
         <source>The specified config file %s does not exist
 </source>
-        <translation>קובץ הקונפיג שצויין  %s אינו קיים
+        <translation>Določena konfiguracijska datoteka %s ne obstaja
 </translation>
     </message>
     <message>
         <source>The transaction amount is too small to pay the fee</source>
-        <translation>סכום ההעברה נמוך מכדי לשלם את העמלה</translation>
+        <translation>Znesek transakcije je prenizek za plačilo provizije</translation>
     </message>
     <message>
         <source>This is experimental software.</source>
-        <translation>זוהי תכנית נסיונית.</translation>
+        <translation>Program je eksperimentalne narave.</translation>
     </message>
     <message>
         <source>Transaction amount too small</source>
-        <translation>סכום ההעברה קטן מדי</translation>
+        <translation>Znesek je pramajhen</translation>
     </message>
     <message>
         <source>Transaction too large</source>
-        <translation>סכום ההעברה גדול מדי</translation>
+        <translation>Transkacija je prevelika</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer (bind returned error %s)</source>
-        <translation>לא ניתן להתאגד עם הפתחה %s במחשב זה (פעולת האיגוד החזירה את השגיאה %s)</translation>
+        <translation>Na tem računalniku ni bilo mogoče vezati naslova %s (vrnjena napaka: %s)</translation>
     </message>
     <message>
         <source>Unable to create the PID file '%s': %s</source>
-        <translation>לא מצליח ליצור את קובץ  PID  '%s': %s</translation>
+        <translation>Ne morem ustvariti PID datoteke '%s': %s</translation>
     </message>
     <message>
         <source>Unable to generate initial keys</source>
-        <translation>לא מצליח ליצור מפתחות ראשוניים</translation>
+        <translation>Ne zmorem ustvariti začetnih ključev</translation>
     </message>
     <message>
         <source>Verifying wallet(s)...</source>
-        <translation>מאמת ארנק(ים)...</translation>
+        <translation>Preverjam denarnice ...</translation>
     </message>
     <message>
         <source>Warning: unknown new rules activated (versionbit %i)</source>
-        <translation>אזהרה: חוקים חדשים שאינם מוכרים שופעלו (versionbit %i)</translation>
+        <translation>Opozorilo: neznana nova pravila aktivirana (verzija %i)</translation>
     </message>
     <message>
         <source>Zapping all transactions from wallet...</source>
-        <translation>שולה את כל העסקאות מתוך הארנק...</translation>
+        <translation>Brišem vse transakcije iz denarnice ...</translation>
     </message>
     <message>
         <source>-maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
-        <translation>-maxtxfee נקבע לעמלות גבוהות מאד! עמלות גבוהות כאלו יכולות משולמות עבר עסקה בודדת.</translation>
+        <translation>-maxtxfee je nastavljen zelo visoko!</translation>
     </message>
     <message>
         <source>This is the transaction fee you may pay when fee estimates are not available.</source>
-        <translation>זוהי עמלת העסקה שתוכל לשלם כאשר אמדן גובה העמלה אינו זמין.</translation>
-    </message>
-    <message>
-        <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit %s and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
-        <translation>מוצר זה כולל תוכנה שפותחה בפרויקט OpenSSL לטובת השימוש ב OpenSSL Toolkit %s ותוכנת קריפטוגרפיה שנכתבה ע"י   Eric Young ותוכנת UPnP שנכתבה ע"יי Thomas Bernard.</translation>
+        <translation>To je transakcijska provizija, ki jo lahko plačate, kadar ocene provizij niso na voljo.</translation>
     </message>
     <message>
         <source>Total length of network version string (%i) exceeds maximum length (%i). Reduce the number or size of uacomments.</source>
-        <translation>האורך הכולל של רצף התווים של גירסת הרשת  (%i) גדול מהאורך המרבי המותר (%i). יש להקטין את המספר או האורך של uacomments.</translation>
+        <translation>Skupna dolžina niza različice omrežja (%i) presega največjo dolžino (%i). Zmanjšajte število ali velikost ur.</translation>
     </message>
     <message>
         <source>Warning: Wallet file corrupt, data salvaged! Original %s saved as %s in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation>אזהרה: הארנק משובש. הנתונים חולצו! המקור %s נשמר כ %s ב %s; אם היתרהאו העסקות אינן נכונות יש לבצע שיחזור מגיבוי.</translation>
+        <translation>Opozorilo: Datoteka denarnice je poškodovana, podatki so shranjeni! Izvirnik %s je bil shranjen kot %s v %s; če je stanje ali transakcije napačno, ga morate obnoviti iz varnostne kopije.</translation>
     </message>
     <message>
         <source>%s is set very high!</source>
-        <translation>%s הוגדר מאד גבוה!</translation>
+        <translation>%s je postavljen zelo visoko!</translation>
     </message>
     <message>
         <source>Error loading wallet %s. Duplicate -wallet filename specified.</source>
-        <translation>שגיאת טעינת ארנק %s. שם קובץ  -wallet  כפול הוגדר.</translation>
+        <translation>Napaka pri nalaganju denarnice %s. Ime denarnice je bilo že uporabljeno.</translation>
     </message>
     <message>
         <source>Starting network threads...</source>
-        <translation>תהליכי הרשת מופעלים…</translation>
+        <translation>Začenjam omrežne niti ...</translation>
     </message>
     <message>
         <source>The wallet will avoid paying less than the minimum relay fee.</source>
-        <translation>הארנק ימנע מלשלם פחות מאשר עמלת העברה מינימלית.</translation>
+        <translation>Denarnica se bo izognila plačilu proviziji, manjši od minimalne relay provizije (relay fee).</translation>
     </message>
     <message>
         <source>This is the minimum transaction fee you pay on every transaction.</source>
-        <translation>זו עמלת ההעברה המזערית שתיגבה מכל העברה שלך.</translation>
+        <translation>To je minimalna transakcijska provizija, ki jo plačate za vsako transakcijo.</translation>
     </message>
     <message>
         <source>This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>זו עמלת ההעברה שתיגבה ממך במידה של שליחת העברה.</translation>
+        <translation>To je provizija, ki jo boste plačali, če pošljete transakcijo.</translation>
     </message>
     <message>
         <source>Transaction amounts must not be negative</source>
-        <translation>סכומי ההעברה לא יכולים להיות שליליים</translation>
+        <translation>Znesek transkacije mora biti pozitiven</translation>
     </message>
     <message>
         <source>Transaction has too long of a mempool chain</source>
-        <translation>לעסקה יש שרשרת ארוכה מדי של mempool </translation>
+        <translation>Transakcija ima predolgo verigo spominov</translation>
     </message>
     <message>
         <source>Transaction must have at least one recipient</source>
-        <translation>להעברה חייב להיות לפחות נמען אחד</translation>
+        <translation>Transakcija mora imeti vsaj enega prejemnika.</translation>
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>רשת לא ידועה צוינה דרך ‎-onlynet:‏ '%s'</translation>
+        <translation>Neznano omrežje določeno v -onlynet: '%s'.</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>אין מספיק כספים</translation>
+        <translation>Premalo sredstev</translation>
     </message>
     <message>
         <source>Cannot upgrade a non HD split wallet without upgrading to support pre split keypool. Please use -upgradewallet=169900 or -upgradewallet with no version specified.</source>
-        <translation>אין אפשרות לבצע שדרוג של ארנק מפוצל שאינו HD  ללא שדרוג לתמיכה של טרום פיצול של keypool  .יש להשתמש ב -upgradewallet=169900 או -upgradewallet ללא ציון גירסה.</translation>
+        <translation>Ne morete nadgraditi denarnice, ki ni ločena z HD, brez nadgradnje na podporo pred razdeljenim ključem. Uporabite -upgradewallet=169900 ali -upgradewallet brez določene različice.</translation>
     </message>
     <message>
         <source>Fee estimation failed. Fallbackfee is disabled. Wait a few blocks or enable -fallbackfee.</source>
-        <translation>אמדן גובה עמלה נכשל. Fallbackfee  מנוטרל. יש להמתין מספר בלוקים או לשפעל את  -fallbackfee</translation>
+        <translation>Ocena provizije ni uspela. Fallbackfee je onemogočen. Počakajte nekaj blokov ali omogočite -fallbackfee.</translation>
     </message>
     <message>
         <source>Warning: Private keys detected in wallet {%s} with disabled private keys</source>
-        <translation>אזהרה: זוהו מפתחות פרטיים בארנק {%s} עם מפתחות פרטיים מושבתים</translation>
+        <translation>Opozorilo: zasebni ključi odkriti v denarnici %s z onemogočenimi zasebnimi ključi.</translation>
     </message>
     <message>
         <source>Cannot write to data directory '%s'; check permissions.</source>
-        <translation>לא ניתן לכתוב אל תיקיית הנתונים ‚%s’, נא לבדוק את ההרשאות.</translation>
+        <translation>Nimam dostopa za pisanje v podatkovni mapi '%s'; preveri dovoljenja.</translation>
     </message>
     <message>
         <source>Loading block index...</source>
-        <translation>מפתח המקטעים נטען…</translation>
+        <translation>Nalagam kazalo blokov ...</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
-        <translation>הארנק בטעינה…</translation>
+        <translation>Nalagam denarnico ...</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
-        <translation>לא ניתן להחזיר את גרסת הארנק</translation>
+        <translation>Ne morem </translation>
     </message>
     <message>
         <source>Rescanning...</source>
-        <translation>סריקה מחדש…</translation>
+        <translation>Ponovno pregledujem verigo ...</translation>
     </message>
     <message>
         <source>Done loading</source>
-        <translation>טעינה הושלמה</translation>
+        <translation>Nalaganje končano</translation>
     </message>
 </context>
 </TS>
