@@ -1,81 +1,81 @@
-<TS language="ar" version="2.1">
+<TS language="mr_IN" version="2.1">
 <context>
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>أنقر بزر الماوس الأيمن لتحرير العنوان أو التصنيف</translation>
+        <translation>पत्ता किंवा लेबल संपादित करण्यासाठी उजवे बटण क्लिक करा.</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>إنشاء عنوان جديد</translation>
+        <translation>एक नवीन पत्ता तयार करा</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>جديد</translation>
+        <translation>&amp;नवा</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>نسخ العنوان المحدد حاليًا إلى حافظة النظام</translation>
+        <translation>सध्याचा निवडलेला पत्ता सिस्टीम क्लिपबोर्डावर कॉपी करा</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>نسخ</translation>
+        <translation>&amp;कॉपी</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>غلق</translation>
+        <translation>&amp;बंद करा</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>احذف العنوان المحدد حاليًا من القائمة</translation>
-    </message>
-    <message>
-        <source>Enter address or label to search</source>
-        <translation>أدخل العنوان أو التصنيف للبحث</translation>
+        <translation>सध्याचा निवडलेला पत्ता यादीमधून काढून टाका</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>استخراج البيانات في علامة التبويب الحالية إلى ملف</translation>
+        <translation>सध्याच्या टॅबमधील डेटा एका फाईलमध्ये एक्स्पोर्ट करा</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>استخراج</translation>
+        <translation>&amp;एक्स्पोर्ट</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>حذف</translation>
+        <translation>&amp;काढून टाका</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>إختر العنوان الرقمي اللذي سترسل له العملات</translation>
+        <translation>ज्या पत्त्यावर नाणी पाठवायची आहेत तो निवडा</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>إختر العنوان الرقمي اللذي سيحصل على العملات</translation>
+        <translation>ज्या पत्त्यावर नाणी प्राप्त करायची आहेत तो </translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
-        <translation>اختر</translation>
+        <translation>&amp;निवडा</translation>
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>العنوان الرقمي المُرسِل</translation>
+        <translation>प्रेषक पत्ते</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
-        <translation>العنوان الرقمي المُرسَل إليه</translation>
+        <translation>स्वीकृती पत्ते</translation>
+    </message>
+    <message>
+        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>पैसे पाठविण्यासाठीचे हे तुमचे बिटकॉईन पत्त्ते आहेत. नाणी पाठविण्यापूर्वी नेहमी रक्कम आणि प्राप्त होणारा पत्ता तपासून पहा.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation>نسخ العنوان</translation>
+        <translation>&amp;पत्ता कॉपी करा</translation>
     </message>
     <message>
-        <source>Comma separated file (*.csv)</source>
-        <translation>ملف مفصول بفاصلة (*.csv)</translation>
+        <source>Copy &amp;Label</source>
+        <translation>&amp;लेबल कॉपी करा</translation>
     </message>
     <message>
-        <source>Exporting Failed</source>
-        <translation>لقد فشل التصدير</translation>
+        <source>&amp;Edit</source>
+        <translation>&amp;संपादित</translation>
     </message>
     </context>
 <context>
@@ -89,14 +89,6 @@
     </context>
 <context>
     <name>BitcoinGUI</name>
-    <message>
-        <source>No wallets available</source>
-        <translation>المحفظة الرقمية غير متوفرة</translation>
-    </message>
-    <message>
-        <source>Error: %1</source>
-        <translation>خطأ: %1</translation>
-    </message>
     </context>
 <context>
     <name>CoinControlDialog</name>
@@ -127,25 +119,9 @@
     </context>
 <context>
     <name>OpenWalletActivity</name>
-    <message>
-        <source>default wallet</source>
-        <translation>محفظة إفتراضية</translation>
-    </message>
-    <message>
-        <source>Opening Wallet &lt;b&gt;%1&lt;/b&gt;...</source>
-        <translation>يتم فتح المحفظة&lt;b&gt;%1&lt;/b&gt;</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>OptionsDialog</name>
-    <message>
-        <source>GB</source>
-        <translation>جب</translation>
-    </message>
-    <message>
-        <source>MiB</source>
-        <translation>ميجا بايت</translation>
-    </message>
     </context>
 <context>
     <name>OverviewPage</name>
@@ -158,25 +134,9 @@
     </context>
 <context>
     <name>QObject</name>
-    <message>
-        <source>Error: Specified data directory "%1" does not exist.</source>
-        <translation>خطأ: دليل البيانات المحدد "%1" غير موجود.</translation>
-    </message>
-    <message>
-        <source>Error: %1</source>
-        <translation>خطأ: %1</translation>
-    </message>
     </context>
 <context>
     <name>QRImageWidget</name>
-    <message>
-        <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation>العنوان المستخدم طويل جدًا، حاول أن تقوم بتقليل نص التسمية / الرسالة.</translation>
-    </message>
-    <message>
-        <source>Error encoding URI into QR Code.</source>
-        <translation>خطأ في ترميز العنوان إلى الرمز المربع.</translation>
-    </message>
     </context>
 <context>
     <name>RPCConsole</name>
@@ -219,18 +179,6 @@
     </context>
 <context>
     <name>TransactionView</name>
-    <message>
-        <source>Other</source>
-        <translation>أخرى</translation>
-    </message>
-    <message>
-        <source>Comma separated file (*.csv)</source>
-        <translation>ملف مفصول بفاصلة (*.csv)</translation>
-    </message>
-    <message>
-        <source>Exporting Failed</source>
-        <translation>لقد فشل التصدير</translation>
-    </message>
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -248,11 +196,11 @@
     <name>WalletView</name>
     <message>
         <source>&amp;Export</source>
-        <translation>استخراج</translation>
+        <translation>&amp;</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>استخراج البيانات في علامة التبويب الحالية إلى ملف</translation>
+        <translation>सध्याच्या टॅबमधील डेटा एका फाईलमध्ये एक्स्पोर्ट करा</translation>
     </message>
     </context>
 <context>
