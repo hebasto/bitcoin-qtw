@@ -6,7 +6,7 @@
 print-%: FORCE
 	@echo '$*'='$($*)'
 
-DIST_SUBDIRS = secp256k1
+DIST_SUBDIRS = bitcoin-core
 
 AM_LDFLAGS = $(LIBTOOL_LDFLAGS) $(HARDENED_LDFLAGS) $(GPROF_LDFLAGS) $(SANITIZER_LDFLAGS) $(LTO_LDFLAGS) $(CORE_LDFLAGS)
 AM_CXXFLAGS = $(DEBUG_CXXFLAGS) $(HARDENED_CXXFLAGS) $(WARN_CXXFLAGS) $(NOWARN_CXXFLAGS) $(ERROR_CXXFLAGS) $(GPROF_CXXFLAGS) $(SANITIZER_CXXFLAGS) $(LTO_CXXFLAGS) $(CORE_CXXFLAGS)
@@ -15,7 +15,7 @@ AM_LIBTOOLFLAGS = --preserve-dup-deps
 PTHREAD_FLAGS = $(PTHREAD_CFLAGS) $(PTHREAD_LIBS)
 EXTRA_LIBRARIES =
 
-BITCOIN_INCLUDES=-I$(builddir) -I$(srcdir)/$(MINISKETCH_INCLUDE_DIR_INT) -I$(srcdir)/secp256k1/include -I$(srcdir)/$(UNIVALUE_INCLUDE_DIR_INT) $(BDB_CPPFLAGS) $(BOOST_CPPFLAGS) $(LEVELDB_CPPFLAGS)
+BITCOIN_INCLUDES=-I$(builddir) -I$(srcdir)/bitcoin-core/src -I$(srcdir)/$(MINISKETCH_INCLUDE_DIR_INT) -I$(srcdir)/bitcoin-core/src/secp256k1/include -I$(srcdir)/$(UNIVALUE_INCLUDE_DIR_INT) $(BDB_CPPFLAGS) $(BOOST_CPPFLAGS) $(LEVELDB_CPPFLAGS)
 
 LIBBITCOIN_NODE=libbitcoin_node.a
 LIBBITCOIN_COMMON=libbitcoin_common.a
@@ -24,7 +24,7 @@ LIBBITCOIN_CLI=libbitcoin_cli.a
 LIBBITCOIN_UTIL=libbitcoin_util.a
 LIBBITCOIN_CRYPTO_BASE=crypto/libbitcoin_crypto_base.a
 LIBBITCOINQT=qt/libbitcoinqt.a
-LIBSECP256K1=secp256k1/libsecp256k1.la
+LIBSECP256K1=bitcoin-core/src/secp256k1/libsecp256k1.la
 
 if ENABLE_ZMQ
 LIBBITCOIN_ZMQ=libbitcoin_zmq.a
@@ -55,7 +55,7 @@ LIBBITCOIN_CRYPTO_ARM_SHANI = crypto/libbitcoin_crypto_arm_shani.a
 LIBBITCOIN_CRYPTO += $(LIBBITCOIN_CRYPTO_ARM_SHANI)
 endif
 
-$(LIBSECP256K1): $(wildcard secp256k1/src/*.h) $(wildcard secp256k1/src/*.c) $(wildcard secp256k1/include/*)
+$(LIBSECP256K1): $(wildcard bitcoin-core/src/secp256k1/src/*.h) $(wildcard bitcoin-core/src/secp256k1/src/*.c) $(wildcard bitcoin-core/src/secp256k1/include/*)
 	$(AM_V_at)$(MAKE) $(AM_MAKEFLAGS) -C $(@D) $(@F)
 
 # Make is not made aware of per-object dependencies to avoid limiting building parallelization
@@ -321,7 +321,7 @@ obj/build.h: FORCE
 	@$(MKDIR_P) $(builddir)/obj
 	@$(top_srcdir)/share/genbuild.sh "$(abs_top_builddir)/src/obj/build.h" \
 	  "$(abs_top_srcdir)"
-libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
+bitcoin-core/src/libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
 ipc/capnp/libbitcoin_ipc_a-ipc.$(OBJEXT): $(libbitcoin_ipc_mpgen_input:=.h)
 
@@ -332,85 +332,85 @@ ipc/capnp/libbitcoin_ipc_a-ipc.$(OBJEXT): $(libbitcoin_ipc_mpgen_input:=.h)
 libbitcoin_node_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(NATPMP_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
 libbitcoin_node_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_node_a_SOURCES = \
-  addrdb.cpp \
-  addrman.cpp \
-  banman.cpp \
-  blockencodings.cpp \
-  blockfilter.cpp \
-  chain.cpp \
-  consensus/tx_verify.cpp \
-  dbwrapper.cpp \
-  deploymentstatus.cpp \
-  flatfile.cpp \
-  httprpc.cpp \
-  httpserver.cpp \
-  i2p.cpp \
-  index/base.cpp \
-  index/blockfilterindex.cpp \
-  index/coinstatsindex.cpp \
-  index/txindex.cpp \
-  init.cpp \
-  mapport.cpp \
-  net.cpp \
-  net_processing.cpp \
-  node/blockstorage.cpp \
-  node/caches.cpp \
-  node/chainstate.cpp \
-  node/coin.cpp \
-  node/coinstats.cpp \
-  node/context.cpp \
-  node/interfaces.cpp \
-  node/miner.cpp \
-  node/minisketchwrapper.cpp \
-  node/psbt.cpp \
-  node/transaction.cpp \
-  node/ui_interface.cpp \
-  noui.cpp \
-  policy/fees.cpp \
-  policy/packages.cpp \
-  policy/rbf.cpp \
-  policy/settings.cpp \
-  pow.cpp \
-  rest.cpp \
-  rpc/blockchain.cpp \
-  rpc/mempool.cpp \
-  rpc/mining.cpp \
-  rpc/misc.cpp \
-  rpc/net.cpp \
-  rpc/rawtransaction.cpp \
-  rpc/server.cpp \
-  rpc/server_util.cpp \
-  rpc/txoutproof.cpp \
-  script/sigcache.cpp \
-  shutdown.cpp \
-  signet.cpp \
-  timedata.cpp \
-  torcontrol.cpp \
-  txdb.cpp \
-  txmempool.cpp \
-  txorphanage.cpp \
-  txrequest.cpp \
-  validation.cpp \
-  validationinterface.cpp \
-  versionbits.cpp \
+  bitcoin-core/src/addrdb.cpp \
+  bitcoin-core/src/addrman.cpp \
+  bitcoin-core/src/banman.cpp \
+  bitcoin-core/src/blockencodings.cpp \
+  bitcoin-core/src/blockfilter.cpp \
+  bitcoin-core/src/chain.cpp \
+  bitcoin-core/src/consensus/tx_verify.cpp \
+  bitcoin-core/src/dbwrapper.cpp \
+  bitcoin-core/src/deploymentstatus.cpp \
+  bitcoin-core/src/flatfile.cpp \
+  bitcoin-core/src/httprpc.cpp \
+  bitcoin-core/src/httpserver.cpp \
+  bitcoin-core/src/i2p.cpp \
+  bitcoin-core/src/index/base.cpp \
+  bitcoin-core/src/index/blockfilterindex.cpp \
+  bitcoin-core/src/index/coinstatsindex.cpp \
+  bitcoin-core/src/index/txindex.cpp \
+  bitcoin-core/src/init.cpp \
+  bitcoin-core/src/mapport.cpp \
+  bitcoin-core/src/net.cpp \
+  bitcoin-core/src/net_processing.cpp \
+  bitcoin-core/src/node/blockstorage.cpp \
+  bitcoin-core/src/node/caches.cpp \
+  bitcoin-core/src/node/chainstate.cpp \
+  bitcoin-core/src/node/coin.cpp \
+  bitcoin-core/src/node/coinstats.cpp \
+  bitcoin-core/src/node/context.cpp \
+  bitcoin-core/src/node/interfaces.cpp \
+  bitcoin-core/src/node/miner.cpp \
+  bitcoin-core/src/node/minisketchwrapper.cpp \
+  bitcoin-core/src/node/psbt.cpp \
+  bitcoin-core/src/node/transaction.cpp \
+  bitcoin-core/src/node/ui_interface.cpp \
+  bitcoin-core/src/noui.cpp \
+  bitcoin-core/src/policy/fees.cpp \
+  bitcoin-core/src/policy/packages.cpp \
+  bitcoin-core/src/policy/rbf.cpp \
+  bitcoin-core/src/policy/settings.cpp \
+  bitcoin-core/src/pow.cpp \
+  bitcoin-core/src/rest.cpp \
+  bitcoin-core/src/rpc/blockchain.cpp \
+  bitcoin-core/src/rpc/mempool.cpp \
+  bitcoin-core/src/rpc/mining.cpp \
+  bitcoin-core/src/rpc/misc.cpp \
+  bitcoin-core/src/rpc/net.cpp \
+  bitcoin-core/src/rpc/rawtransaction.cpp \
+  bitcoin-core/src/rpc/server.cpp \
+  bitcoin-core/src/rpc/server_util.cpp \
+  bitcoin-core/src/rpc/txoutproof.cpp \
+  bitcoin-core/src/script/sigcache.cpp \
+  bitcoin-core/src/shutdown.cpp \
+  bitcoin-core/src/signet.cpp \
+  bitcoin-core/src/timedata.cpp \
+  bitcoin-core/src/torcontrol.cpp \
+  bitcoin-core/src/txdb.cpp \
+  bitcoin-core/src/txmempool.cpp \
+  bitcoin-core/src/txorphanage.cpp \
+  bitcoin-core/src/txrequest.cpp \
+  bitcoin-core/src/validation.cpp \
+  bitcoin-core/src/validationinterface.cpp \
+  bitcoin-core/src/versionbits.cpp \
   $(BITCOIN_CORE_H)
 
 if ENABLE_WALLET
-libbitcoin_node_a_SOURCES += wallet/init.cpp
+libbitcoin_node_a_SOURCES += bitcoin-core/src/wallet/init.cpp
 endif
 if !ENABLE_WALLET
-libbitcoin_node_a_SOURCES += dummywallet.cpp
+libbitcoin_node_a_SOURCES += bitcoin-core/src/dummywallet.cpp
 endif
 
 if ENABLE_ZMQ
 libbitcoin_zmq_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(ZMQ_CFLAGS)
 libbitcoin_zmq_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_zmq_a_SOURCES = \
-  zmq/zmqabstractnotifier.cpp \
-  zmq/zmqnotificationinterface.cpp \
-  zmq/zmqpublishnotifier.cpp \
-  zmq/zmqrpc.cpp \
-  zmq/zmqutil.cpp
+  bitcoin-core/src/zmq/zmqabstractnotifier.cpp \
+  bitcoin-core/src/zmq/zmqnotificationinterface.cpp \
+  bitcoin-core/src/zmq/zmqpublishnotifier.cpp \
+  bitcoin-core/src/zmq/zmqrpc.cpp \
+  bitcoin-core/src/zmq/zmqutil.cpp
 endif
 
 
@@ -419,184 +419,184 @@ endif
 libbitcoin_wallet_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(SQLITE_CFLAGS)
 libbitcoin_wallet_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_wallet_a_SOURCES = \
-  wallet/coincontrol.cpp \
-  wallet/context.cpp \
-  wallet/crypter.cpp \
-  wallet/db.cpp \
-  wallet/dump.cpp \
-  wallet/external_signer_scriptpubkeyman.cpp \
-  wallet/feebumper.cpp \
-  wallet/fees.cpp \
-  wallet/interfaces.cpp \
-  wallet/load.cpp \
-  wallet/receive.cpp \
-  wallet/rpc/addresses.cpp \
-  wallet/rpc/backup.cpp \
-  wallet/rpc/coins.cpp \
-  wallet/rpc/encrypt.cpp \
-  wallet/rpc/spend.cpp \
-  wallet/rpc/signmessage.cpp \
-  wallet/rpc/transactions.cpp \
-  wallet/rpc/util.cpp \
-  wallet/rpc/wallet.cpp \
-  wallet/scriptpubkeyman.cpp \
-  wallet/spend.cpp \
-  wallet/transaction.cpp \
-  wallet/wallet.cpp \
-  wallet/walletdb.cpp \
-  wallet/walletutil.cpp \
-  wallet/coinselection.cpp \
+  bitcoin-core/src/wallet/coincontrol.cpp \
+  bitcoin-core/src/wallet/context.cpp \
+  bitcoin-core/src/wallet/crypter.cpp \
+  bitcoin-core/src/wallet/db.cpp \
+  bitcoin-core/src/wallet/dump.cpp \
+  bitcoin-core/src/wallet/external_signer_scriptpubkeyman.cpp \
+  bitcoin-core/src/wallet/feebumper.cpp \
+  bitcoin-core/src/wallet/fees.cpp \
+  bitcoin-core/src/wallet/interfaces.cpp \
+  bitcoin-core/src/wallet/load.cpp \
+  bitcoin-core/src/wallet/receive.cpp \
+  bitcoin-core/src/wallet/rpc/addresses.cpp \
+  bitcoin-core/src/wallet/rpc/backup.cpp \
+  bitcoin-core/src/wallet/rpc/coins.cpp \
+  bitcoin-core/src/wallet/rpc/encrypt.cpp \
+  bitcoin-core/src/wallet/rpc/spend.cpp \
+  bitcoin-core/src/wallet/rpc/signmessage.cpp \
+  bitcoin-core/src/wallet/rpc/transactions.cpp \
+  bitcoin-core/src/wallet/rpc/util.cpp \
+  bitcoin-core/src/wallet/rpc/wallet.cpp \
+  bitcoin-core/src/wallet/scriptpubkeyman.cpp \
+  bitcoin-core/src/wallet/spend.cpp \
+  bitcoin-core/src/wallet/transaction.cpp \
+  bitcoin-core/src/wallet/wallet.cpp \
+  bitcoin-core/src/wallet/walletdb.cpp \
+  bitcoin-core/src/wallet/walletutil.cpp \
+  bitcoin-core/src/wallet/coinselection.cpp \
   $(BITCOIN_CORE_H)
 
 if USE_SQLITE
-libbitcoin_wallet_a_SOURCES += wallet/sqlite.cpp
+libbitcoin_wallet_a_SOURCES += bitcoin-core/src/wallet/sqlite.cpp
 endif
 if USE_BDB
-libbitcoin_wallet_a_SOURCES += wallet/bdb.cpp wallet/salvage.cpp
+libbitcoin_wallet_a_SOURCES += bitcoin-core/src/wallet/bdb.cpp bitcoin-core/src/wallet/salvage.cpp
 endif
 
 libbitcoin_wallet_tool_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_wallet_tool_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_wallet_tool_a_SOURCES = \
-  wallet/wallettool.cpp \
+  bitcoin-core/src/wallet/wallettool.cpp \
   $(BITCOIN_CORE_H)
 
 # crypto primitives library
-crypto_libbitcoin_crypto_base_a_CPPFLAGS = $(AM_CPPFLAGS)
+crypto_libbitcoin_crypto_base_a_CPPFLAGS = $(AM_CPPFLAGS) -I$(srcdir)/bitcoin-core/src
 crypto_libbitcoin_crypto_base_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 crypto_libbitcoin_crypto_base_a_SOURCES = \
-  crypto/aes.cpp \
-  crypto/aes.h \
-  crypto/chacha_poly_aead.h \
-  crypto/chacha_poly_aead.cpp \
-  crypto/chacha20.h \
-  crypto/chacha20.cpp \
-  crypto/common.h \
-  crypto/hkdf_sha256_32.cpp \
-  crypto/hkdf_sha256_32.h \
-  crypto/hmac_sha256.cpp \
-  crypto/hmac_sha256.h \
-  crypto/hmac_sha512.cpp \
-  crypto/hmac_sha512.h \
-  crypto/poly1305.h \
-  crypto/poly1305.cpp \
-  crypto/muhash.h \
-  crypto/muhash.cpp \
-  crypto/ripemd160.cpp \
-  crypto/ripemd160.h \
-  crypto/sha1.cpp \
-  crypto/sha1.h \
-  crypto/sha256.cpp \
-  crypto/sha256.h \
-  crypto/sha3.cpp \
-  crypto/sha3.h \
-  crypto/sha512.cpp \
-  crypto/sha512.h \
-  crypto/siphash.cpp \
-  crypto/siphash.h
+  bitcoin-core/src/crypto/aes.cpp \
+  bitcoin-core/src/crypto/aes.h \
+  bitcoin-core/src/crypto/chacha_poly_aead.h \
+  bitcoin-core/src/crypto/chacha_poly_aead.cpp \
+  bitcoin-core/src/crypto/chacha20.h \
+  bitcoin-core/src/crypto/chacha20.cpp \
+  bitcoin-core/src/crypto/common.h \
+  bitcoin-core/src/crypto/hkdf_sha256_32.cpp \
+  bitcoin-core/src/crypto/hkdf_sha256_32.h \
+  bitcoin-core/src/crypto/hmac_sha256.cpp \
+  bitcoin-core/src/crypto/hmac_sha256.h \
+  bitcoin-core/src/crypto/hmac_sha512.cpp \
+  bitcoin-core/src/crypto/hmac_sha512.h \
+  bitcoin-core/src/crypto/poly1305.h \
+  bitcoin-core/src/crypto/poly1305.cpp \
+  bitcoin-core/src/crypto/muhash.h \
+  bitcoin-core/src/crypto/muhash.cpp \
+  bitcoin-core/src/crypto/ripemd160.cpp \
+  bitcoin-core/src/crypto/ripemd160.h \
+  bitcoin-core/src/crypto/sha1.cpp \
+  bitcoin-core/src/crypto/sha1.h \
+  bitcoin-core/src/crypto/sha256.cpp \
+  bitcoin-core/src/crypto/sha256.h \
+  bitcoin-core/src/crypto/sha3.cpp \
+  bitcoin-core/src/crypto/sha3.h \
+  bitcoin-core/src/crypto/sha512.cpp \
+  bitcoin-core/src/crypto/sha512.h \
+  bitcoin-core/src/crypto/siphash.cpp \
+  bitcoin-core/src/crypto/siphash.h
 
 if USE_ASM
-crypto_libbitcoin_crypto_base_a_SOURCES += crypto/sha256_sse4.cpp
+crypto_libbitcoin_crypto_base_a_SOURCES += bitcoin-core/src/crypto/sha256_sse4.cpp
 endif
 
 crypto_libbitcoin_crypto_sse41_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-crypto_libbitcoin_crypto_sse41_a_CPPFLAGS = $(AM_CPPFLAGS)
+crypto_libbitcoin_crypto_sse41_a_CPPFLAGS = $(AM_CPPFLAGS) -I$(srcdir)/bitcoin-core/src
 crypto_libbitcoin_crypto_sse41_a_CXXFLAGS += $(SSE41_CXXFLAGS)
 crypto_libbitcoin_crypto_sse41_a_CPPFLAGS += -DENABLE_SSE41
-crypto_libbitcoin_crypto_sse41_a_SOURCES = crypto/sha256_sse41.cpp
+crypto_libbitcoin_crypto_sse41_a_SOURCES = bitcoin-core/src/crypto/sha256_sse41.cpp
 
 crypto_libbitcoin_crypto_avx2_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-crypto_libbitcoin_crypto_avx2_a_CPPFLAGS = $(AM_CPPFLAGS)
+crypto_libbitcoin_crypto_avx2_a_CPPFLAGS = $(AM_CPPFLAGS) -I$(srcdir)/bitcoin-core/src
 crypto_libbitcoin_crypto_avx2_a_CXXFLAGS += $(AVX2_CXXFLAGS)
 crypto_libbitcoin_crypto_avx2_a_CPPFLAGS += -DENABLE_AVX2
-crypto_libbitcoin_crypto_avx2_a_SOURCES = crypto/sha256_avx2.cpp
+crypto_libbitcoin_crypto_avx2_a_SOURCES = bitcoin-core/src/crypto/sha256_avx2.cpp
 
 crypto_libbitcoin_crypto_x86_shani_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-crypto_libbitcoin_crypto_x86_shani_a_CPPFLAGS = $(AM_CPPFLAGS)
+crypto_libbitcoin_crypto_x86_shani_a_CPPFLAGS = $(AM_CPPFLAGS) -I$(srcdir)/bitcoin-core/src
 crypto_libbitcoin_crypto_x86_shani_a_CXXFLAGS += $(X86_SHANI_CXXFLAGS)
 crypto_libbitcoin_crypto_x86_shani_a_CPPFLAGS += -DENABLE_X86_SHANI
-crypto_libbitcoin_crypto_x86_shani_a_SOURCES = crypto/sha256_x86_shani.cpp
+crypto_libbitcoin_crypto_x86_shani_a_SOURCES = bitcoin-core/src/crypto/sha256_x86_shani.cpp
 
 crypto_libbitcoin_crypto_arm_shani_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-crypto_libbitcoin_crypto_arm_shani_a_CPPFLAGS = $(AM_CPPFLAGS)
+crypto_libbitcoin_crypto_arm_shani_a_CPPFLAGS = $(AM_CPPFLAGS) -I$(srcdir)/bitcoin-core/src
 crypto_libbitcoin_crypto_arm_shani_a_CXXFLAGS += $(ARM_SHANI_CXXFLAGS)
 crypto_libbitcoin_crypto_arm_shani_a_CPPFLAGS += -DENABLE_ARM_SHANI
-crypto_libbitcoin_crypto_arm_shani_a_SOURCES = crypto/sha256_arm_shani.cpp
+crypto_libbitcoin_crypto_arm_shani_a_SOURCES = bitcoin-core/src/crypto/sha256_arm_shani.cpp
 
 # consensus: shared between all executables that validate any consensus rules.
 libbitcoin_consensus_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_consensus_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_consensus_a_SOURCES = \
-  arith_uint256.cpp \
-  arith_uint256.h \
-  consensus/amount.h \
-  consensus/merkle.cpp \
-  consensus/merkle.h \
-  consensus/params.h \
-  consensus/tx_check.cpp \
-  consensus/validation.h \
-  hash.cpp \
-  hash.h \
-  prevector.h \
-  primitives/block.cpp \
-  primitives/block.h \
-  primitives/transaction.cpp \
-  primitives/transaction.h \
-  pubkey.cpp \
-  pubkey.h \
-  script/bitcoinconsensus.cpp \
-  script/interpreter.cpp \
-  script/interpreter.h \
-  script/script.cpp \
-  script/script.h \
-  script/script_error.cpp \
-  script/script_error.h \
-  serialize.h \
-  span.h \
-  tinyformat.h \
-  uint256.cpp \
-  uint256.h \
-  util/strencodings.cpp \
-  util/strencodings.h \
-  version.h
+  bitcoin-core/src/arith_uint256.cpp \
+  bitcoin-core/src/arith_uint256.h \
+  bitcoin-core/src/consensus/amount.h \
+  bitcoin-core/src/consensus/merkle.cpp \
+  bitcoin-core/src/consensus/merkle.h \
+  bitcoin-core/src/consensus/params.h \
+  bitcoin-core/src/consensus/tx_check.cpp \
+  bitcoin-core/src/consensus/validation.h \
+  bitcoin-core/src/hash.cpp \
+  bitcoin-core/src/hash.h \
+  bitcoin-core/src/prevector.h \
+  bitcoin-core/src/primitives/block.cpp \
+  bitcoin-core/src/primitives/block.h \
+  bitcoin-core/src/primitives/transaction.cpp \
+  bitcoin-core/src/primitives/transaction.h \
+  bitcoin-core/src/pubkey.cpp \
+  bitcoin-core/src/pubkey.h \
+  bitcoin-core/src/script/bitcoinconsensus.cpp \
+  bitcoin-core/src/script/interpreter.cpp \
+  bitcoin-core/src/script/interpreter.h \
+  bitcoin-core/src/script/script.cpp \
+  bitcoin-core/src/script/script.h \
+  bitcoin-core/src/script/script_error.cpp \
+  bitcoin-core/src/script/script_error.h \
+  bitcoin-core/src/serialize.h \
+  bitcoin-core/src/span.h \
+  bitcoin-core/src/tinyformat.h \
+  bitcoin-core/src/uint256.cpp \
+  bitcoin-core/src/uint256.h \
+  bitcoin-core/src/util/strencodings.cpp \
+  bitcoin-core/src/util/strencodings.h \
+  bitcoin-core/src/version.h
 
 # common: shared between bitcoind, and bitcoin-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_common_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_common_a_SOURCES = \
-  base58.cpp \
-  bech32.cpp \
-  chainparams.cpp \
-  coins.cpp \
-  common/bloom.cpp \
-  compressor.cpp \
-  core_read.cpp \
-  core_write.cpp \
-  deploymentinfo.cpp \
-  external_signer.cpp \
-  init/common.cpp \
-  key.cpp \
-  key_io.cpp \
-  merkleblock.cpp \
-  net_types.cpp \
-  netaddress.cpp \
-  netbase.cpp \
-  net_permissions.cpp \
-  outputtype.cpp \
-  policy/feerate.cpp \
-  policy/policy.cpp \
-  protocol.cpp \
-  psbt.cpp \
-  rpc/rawtransaction_util.cpp \
-  rpc/external_signer.cpp \
-  rpc/util.cpp \
-  scheduler.cpp \
-  script/descriptor.cpp \
-  script/miniscript.cpp \
-  script/sign.cpp \
-  script/signingprovider.cpp \
-  script/standard.cpp \
-  warnings.cpp \
+  bitcoin-core/src/base58.cpp \
+  bitcoin-core/src/bech32.cpp \
+  bitcoin-core/src/chainparams.cpp \
+  bitcoin-core/src/coins.cpp \
+  bitcoin-core/src/common/bloom.cpp \
+  bitcoin-core/src/compressor.cpp \
+  bitcoin-core/src/core_read.cpp \
+  bitcoin-core/src/core_write.cpp \
+  bitcoin-core/src/deploymentinfo.cpp \
+  bitcoin-core/src/external_signer.cpp \
+  bitcoin-core/src/init/common.cpp \
+  bitcoin-core/src/key.cpp \
+  bitcoin-core/src/key_io.cpp \
+  bitcoin-core/src/merkleblock.cpp \
+  bitcoin-core/src/net_types.cpp \
+  bitcoin-core/src/netaddress.cpp \
+  bitcoin-core/src/netbase.cpp \
+  bitcoin-core/src/net_permissions.cpp \
+  bitcoin-core/src/outputtype.cpp \
+  bitcoin-core/src/policy/feerate.cpp \
+  bitcoin-core/src/policy/policy.cpp \
+  bitcoin-core/src/protocol.cpp \
+  bitcoin-core/src/psbt.cpp \
+  bitcoin-core/src/rpc/rawtransaction_util.cpp \
+  bitcoin-core/src/rpc/external_signer.cpp \
+  bitcoin-core/src/rpc/util.cpp \
+  bitcoin-core/src/scheduler.cpp \
+  bitcoin-core/src/script/descriptor.cpp \
+  bitcoin-core/src/script/miniscript.cpp \
+  bitcoin-core/src/script/sign.cpp \
+  bitcoin-core/src/script/signingprovider.cpp \
+  bitcoin-core/src/script/standard.cpp \
+  bitcoin-core/src/warnings.cpp \
   $(BITCOIN_CORE_H)
 
 # util: shared between all executables.
@@ -605,58 +605,58 @@ libbitcoin_common_a_SOURCES = \
 libbitcoin_util_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_util_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_util_a_SOURCES = \
-  support/lockedpool.cpp \
-  chainparamsbase.cpp \
-  clientversion.cpp \
-  compat/glibcxx_sanity.cpp \
-  fs.cpp \
-  interfaces/echo.cpp \
-  interfaces/handler.cpp \
-  interfaces/init.cpp \
-  logging.cpp \
-  random.cpp \
-  randomenv.cpp \
-  rpc/request.cpp \
-  support/cleanse.cpp \
-  sync.cpp \
-  threadinterrupt.cpp \
-  util/asmap.cpp \
-  util/bip32.cpp \
-  util/bytevectorhash.cpp \
-  util/check.cpp \
-  util/error.cpp \
-  util/fees.cpp \
-  util/getuniquepath.cpp \
-  util/hasher.cpp \
-  util/sock.cpp \
-  util/system.cpp \
-  util/message.cpp \
-  util/moneystr.cpp \
-  util/rbf.cpp \
-  util/readwritefile.cpp \
-  util/settings.cpp \
-  util/thread.cpp \
-  util/threadnames.cpp \
-  util/serfloat.cpp \
-  util/spanparsing.cpp \
-  util/strencodings.cpp \
-  util/string.cpp \
-  util/syscall_sandbox.cpp \
-  util/time.cpp \
-  util/tokenpipe.cpp \
+  bitcoin-core/src/support/lockedpool.cpp \
+  bitcoin-core/src/chainparamsbase.cpp \
+  bitcoin-core/src/clientversion.cpp \
+  bitcoin-core/src/compat/glibcxx_sanity.cpp \
+  bitcoin-core/src/fs.cpp \
+  bitcoin-core/src/interfaces/echo.cpp \
+  bitcoin-core/src/interfaces/handler.cpp \
+  bitcoin-core/src/interfaces/init.cpp \
+  bitcoin-core/src/logging.cpp \
+  bitcoin-core/src/random.cpp \
+  bitcoin-core/src/randomenv.cpp \
+  bitcoin-core/src/rpc/request.cpp \
+  bitcoin-core/src/support/cleanse.cpp \
+  bitcoin-core/src/sync.cpp \
+  bitcoin-core/src/threadinterrupt.cpp \
+  bitcoin-core/src/util/asmap.cpp \
+  bitcoin-core/src/util/bip32.cpp \
+  bitcoin-core/src/util/bytevectorhash.cpp \
+  bitcoin-core/src/util/check.cpp \
+  bitcoin-core/src/util/error.cpp \
+  bitcoin-core/src/util/fees.cpp \
+  bitcoin-core/src/util/getuniquepath.cpp \
+  bitcoin-core/src/util/hasher.cpp \
+  bitcoin-core/src/util/sock.cpp \
+  bitcoin-core/src/util/system.cpp \
+  bitcoin-core/src/util/message.cpp \
+  bitcoin-core/src/util/moneystr.cpp \
+  bitcoin-core/src/util/rbf.cpp \
+  bitcoin-core/src/util/readwritefile.cpp \
+  bitcoin-core/src/util/settings.cpp \
+  bitcoin-core/src/util/thread.cpp \
+  bitcoin-core/src/util/threadnames.cpp \
+  bitcoin-core/src/util/serfloat.cpp \
+  bitcoin-core/src/util/spanparsing.cpp \
+  bitcoin-core/src/util/strencodings.cpp \
+  bitcoin-core/src/util/string.cpp \
+  bitcoin-core/src/util/syscall_sandbox.cpp \
+  bitcoin-core/src/util/time.cpp \
+  bitcoin-core/src/util/tokenpipe.cpp \
   $(BITCOIN_CORE_H)
 
 if USE_LIBEVENT
-libbitcoin_util_a_SOURCES += util/url.cpp
+libbitcoin_util_a_SOURCES += bitcoin-core/src/util/url.cpp
 endif
 
 # cli: shared between bitcoin-cli and bitcoin-qt
 libbitcoin_cli_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_cli_a_SOURCES = \
-  compat/stdin.h \
-  compat/stdin.cpp \
-  rpc/client.cpp \
+  bitcoin-core/src/compat/stdin.h \
+  bitcoin-core/src/compat/stdin.cpp \
+  bitcoin-core/src/rpc/client.cpp \
   $(BITCOIN_CORE_H)
 
 nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h

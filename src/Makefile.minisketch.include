@@ -1,4 +1,4 @@
-include minisketch/sources.mk
+include bitcoin-core/src/minisketch/sources.mk
 
 LIBMINISKETCH_CPPFLAGS=
 LIBMINISKETCH_CPPFLAGS += -DDISABLE_DEFAULT_FIELDS -DENABLE_FIELD_32

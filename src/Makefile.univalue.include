@@ -1,4 +1,4 @@
-include univalue/sources.mk
+include bitcoin-core/src/univalue/sources.mk
 
 LIBUNIVALUE = libunivalue.la
 noinst_LTLIBRARIES += $(LIBUNIVALUE)
